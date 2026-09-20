@@ -1,0 +1,862 @@
+{
+  "clearly_better_than_run3": false,
+  "configuration": {
+    "batch_size": 64,
+    "device": "auto",
+    "embedding_limit": 31,
+    "evaluation_characters": 16384,
+    "evaluation_interval": 250,
+    "exact_evaluation_characters": 1024,
+    "float_learning_rate": 0.002,
+    "float_steps": 6000,
+    "generation_length": 128,
+    "gradient_clip": 1.0,
+    "qat_distillation_weight": 0.0,
+    "qat_learning_rate": 0.006,
+    "qat_logit_temperature": 64.0,
+    "qat_steps": 10000,
+    "relative_bias_limit": 6,
+    "seed": 4104,
+    "sequence_length": 64,
+    "target_sparsity": 0.51,
+    "ternary_threshold": 0.55,
+    "train_characters": 24000000,
+    "validation_characters": 2000000,
+    "warmup_steps": 300,
+    "weight_decay": 0.01
+  },
+  "data": {
+    "alphabet": "\n abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+    "dataset": "roneneldan/TinyStories TinyStoriesV2-GPT4",
+    "punctuation_constraint": "The fixed 64-symbol hardware ABI has no punctuation tokens; sentence punctuation maps to newline, other punctuation to space, and quotes/apostrophes are removed.",
+    "selection": "deterministic normalized prefix of the official train and validation files",
+    "source_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+    "splits": {
+      "train": {
+        "ascii_typography_after_translation": 262006,
+        "normalized_characters": 33413576,
+        "punctuation_or_symbols_mapped_to_boundaries": 1327908,
+        "selected_characters": 24000000,
+        "source": "/private/tmp/TinyStoriesV2-GPT4-train-prefix.txt",
+        "source_characters": 34985738,
+        "text": "generated/run4/tinystories-v2-gpt4-train.txt",
+        "text_sha256": "07231ee7df9ccca9ead28ea81333ef8a7fc93714e98c3fab658cf814fd8bb947",
+        "token_sha256": "21859f36283344bc9ddc95e606eab25612d2ecf65a6474ead9e358b5e83006e6",
+        "tokens": "generated/run4/tinystories-v2-gpt4-train.bin",
+        "unsupported_removed": 259136
+      },
+      "validation": {
+        "ascii_typography_after_translation": 37115,
+        "normalized_characters": 4773671,
+        "punctuation_or_symbols_mapped_to_boundaries": 189734,
+        "selected_characters": 2000000,
+        "source": "/private/tmp/TinyStoriesV2-GPT4-valid-prefix.txt",
+        "source_characters": 4997980,
+        "text": "generated/run4/tinystories-v2-gpt4-validation.txt",
+        "text_sha256": "fa0b82bcffb12e03856e056517b56cc24bfd9a347611d2a94a0d9287a47c29ad",
+        "token_sha256": "1912c5f736711de260ce8d78ed55817428826e85b5eaa4dec94f31ff993734fd",
+        "tokens": "generated/run4/tinystories-v2-gpt4-validation.bin",
+        "unsupported_removed": 36675
+      }
+    }
+  },
+  "device": "cpu",
+  "evaluation_protocol": {
+    "exact_and_run3": "1,024 targets from the same held-out prefix and window/reset protocol; limited because the authoritative Python int32 emulator is trace-oriented",
+    "float_and_qat": "16,384 targets from deterministic non-overlapping 64-character windows in the held-out official validation prefix",
+    "perplexity": "exp(mean next-character cross entropy); no clipping or calibration temperature"
+  },
+  "exact_candidate_checkpoint": "generated/run4/factorio-lm-quality-exact.json",
+  "metrics": {
+    "exact": {
+      "accuracy": 0.185546875,
+      "characters": 1024,
+      "cross_entropy": 476.81410592035314,
+      "perplexity": 1.1960107820570667e+207
+    },
+    "float": {
+      "accuracy": 0.63775634765625,
+      "characters": 16384,
+      "cross_entropy": 1.1530216932296753,
+      "optimization_cross_entropy": 1.1530216932296753,
+      "optimization_temperature": 1.0,
+      "perplexity": 3.16775043250179
+    },
+    "qat": {
+      "accuracy": 0.17437744140625,
+      "characters": 16384,
+      "cross_entropy": 492.4177703857422,
+      "optimization_cross_entropy": 8.19223141670227,
+      "optimization_temperature": 64.0,
+      "perplexity": 7.150237536273076e+213
+    },
+    "run3_exact_same_validation_slice": {
+      "accuracy": 0.1318359375,
+      "characters": 1024,
+      "cross_entropy": 677.7084271454154,
+      "perplexity": 2.1136362493540756e+294
+    }
+  },
+  "quality_gate": {
+    "minimum_exact_accuracy": 0.3,
+    "numerically_better_than_run3": true,
+    "reason": "Exact output contains repeated character fragments but not consistently real words, sensible spacing, or locally grammatical phrases.",
+    "recognizably_english": false
+  },
+  "run3_samples": {
+    "Factorio ": "b be hebne iry ireneaneaneaneaelele aneaneleele ane                      eeeeeeeeGr                                             ",
+    "He was ": "RRRRRRRRxpeeeepeeeeeeepeeeeeeeeeeeeeeeeeeeeeeeeeer                                                 eReReReReverprrrrrrrrrrrrrrrr",
+    "Once upon a time": " e                                                            eeeeeeeeeeeeeReReRenerrrrrrrrrrpurp nerer nererpu neees res neGreG",
+    "One day ": " efefWhlnefr                    repbp         rehehehehelel     p    pbebehrenenenenenenenenenenenenee nee    e eeeeeeeeeeeeeeee",
+    "She was ": " lbelne                           elelelene                        eeeeeeeeeeeeeeeeeeeeeeees r r r r rp rpurrrrpurpeGrpurpurpu h",
+    "The boy ": "hrf           hfrrrrrrrrrrrrrrr  line           p   prrrrrrene                    eeeeeeeee                                  eRe",
+    "The girl ": "hne                    frrrrrrrre                                                       eeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrhurpu",
+    "The little ": "hnrelelelelebr hn leb                                                     frekreeinenerrrerrrrrrrererererpurererererere         ",
+    "There was ": "                                                       peeeeeneeeeeeeeeeeeeeeeeees rpV rrrrrrrrr rr r r r r r r hu r r r  hu pu ",
+    "Today ": "hrh l l l                                                     pne      nenenerrrrrrrrrrrrrrrrrrrrp         eeeeeeeeeeeeeeeeeeeee"
+  },
+  "samples": {
+    "Factorio ": "ylylylllllellleed letetle late l latle etetetl Te l le a e a e a e e e e e e e e e e e e le  e e e ae lan e ean ean ean e ean e ",
+    "He was ": "eamwany mayaitacaitle atl twatltlan babantle ba ban bba bbbba tbbbbbcle twe tle bbbbatbbabbatbe etleotle eabatbatle etle etle e ",
+    "Once upon a time": "titin tin tin tin binen linen lin linininenininineneninenenenen bin bin n bin bintn bin bin ctlen len len le letna twle btntbbtl",
+    "One day ": "aititititin in inen in ineninininenenininininininen neninenenenenenennnnnnnnnnnnnn n ntn wnnn tn tent le tetntetnt le a a a lete",
+    "She was ": "a\naaa aa\nay\nbacmwabababaimbabay\nIy\nI twlt twltyltltlbcbbabactyltwbbbbtbwbbbbbbtbbbbtlee tcle tle tle ale alalale ale aaatlealaea",
+    "The boy ": "aeletle letletbe lwle betletbetle atbe tbetle la be betbeore be e e eor e beor ee e e e e e\ne e a eee ae be eoor a ela ebelle be",
+    "The girl ": "l\nbibb\nb\nbwb\nb\nb\nbbb\nbb\nbbbb\nbbbbb\nbocbbbbbbby\nbobbocbobybylby\nwbylbylw\nbylwbylwo\nllllllllllllllllllllllllllllllllllllllllllllll",
+    "The little ": "lellleelleltletletletletletletletletle latle atle la l e a ee a e a a a e\ne aeeea ea a le\nea a balanlaeeeeananananacanananletwet",
+    "There was ": "mitle latititle bitle lwl batle l bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbeeoabbe\nee\ne tlee acleebeolle aclle abeoatle tle atletl tlore ",
+    "Today ": "lllllllllle letlee lad lwlelllle latleletle l le l bal le bca leee lor a e e le bbe eoreooreore belooa ee aa e etwawloawawltwwww"
+  },
+  "sparsity": {
+    "matrices": {
+      "layer0.ffn_down": {
+        "negative": 524,
+        "positive": 480,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer0.ffn_up": {
+        "negative": 438,
+        "positive": 566,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer0.key": {
+        "negative": 264,
+        "positive": 238,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer0.output": {
+        "negative": 260,
+        "positive": 242,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer0.query": {
+        "negative": 249,
+        "positive": 253,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer0.value": {
+        "negative": 258,
+        "positive": 244,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer1.ffn_down": {
+        "negative": 472,
+        "positive": 532,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer1.ffn_up": {
+        "negative": 450,
+        "positive": 554,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer1.key": {
+        "negative": 259,
+        "positive": 243,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer1.output": {
+        "negative": 266,
+        "positive": 236,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer1.query": {
+        "negative": 233,
+        "positive": 269,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer1.value": {
+        "negative": 252,
+        "positive": 250,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer2.ffn_down": {
+        "negative": 484,
+        "positive": 520,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer2.ffn_up": {
+        "negative": 480,
+        "positive": 524,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer2.key": {
+        "negative": 248,
+        "positive": 254,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer2.output": {
+        "negative": 260,
+        "positive": 242,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer2.query": {
+        "negative": 262,
+        "positive": 240,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer2.value": {
+        "negative": 241,
+        "positive": 261,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer3.ffn_down": {
+        "negative": 512,
+        "positive": 492,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer3.ffn_up": {
+        "negative": 531,
+        "positive": 473,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer3.key": {
+        "negative": 248,
+        "positive": 254,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer3.output": {
+        "negative": 244,
+        "positive": 258,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer3.query": {
+        "negative": 251,
+        "positive": 251,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer3.value": {
+        "negative": 246,
+        "positive": 256,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer4.ffn_down": {
+        "negative": 523,
+        "positive": 481,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer4.ffn_up": {
+        "negative": 485,
+        "positive": 519,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer4.key": {
+        "negative": 253,
+        "positive": 249,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer4.output": {
+        "negative": 237,
+        "positive": 265,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer4.query": {
+        "negative": 268,
+        "positive": 234,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer4.value": {
+        "negative": 261,
+        "positive": 241,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer5.ffn_down": {
+        "negative": 513,
+        "positive": 491,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer5.ffn_up": {
+        "negative": 478,
+        "positive": 526,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer5.key": {
+        "negative": 251,
+        "positive": 251,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer5.output": {
+        "negative": 262,
+        "positive": 240,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer5.query": {
+        "negative": 241,
+        "positive": 261,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer5.value": {
+        "negative": 261,
+        "positive": 241,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "lm_head": {
+        "negative": 478,
+        "positive": 526,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      }
+    },
+    "nonzero": 25100,
+    "sparsity_percentage": 50.9765625,
+    "total": 51200,
+    "zero": 26100
+  },
+  "training": {
+    "float": {
+      "best_step": 6000,
+      "best_validation": {
+        "accuracy": 0.63775634765625,
+        "characters": 16384,
+        "cross_entropy": 1.1530216932296753,
+        "optimization_cross_entropy": 1.1530216932296753,
+        "optimization_temperature": 1.0,
+        "perplexity": 3.16775043250179
+      },
+      "checkpoint": "generated/run4/factorio-lm-quality-float.pt",
+      "configured_steps": 6000,
+      "elapsed_seconds": 0.15441324998391792,
+      "log": [],
+      "stage": "float"
+    },
+    "qat": {
+      "best_step": 10000,
+      "best_validation": {
+        "accuracy": 0.17437744140625,
+        "characters": 16384,
+        "cross_entropy": 492.4177703857422,
+        "optimization_cross_entropy": 8.19223141670227,
+        "optimization_temperature": 64.0,
+        "perplexity": 5.184705528587072e+21
+      },
+      "checkpoint": "generated/run4/factorio-lm-quality-qat.pt",
+      "configured_steps": 10000,
+      "elapsed_seconds": 2040.5797843750042,
+      "log": [
+        {
+          "elapsed_seconds": 0.2740660419804044,
+          "gradient_norm_before_clip": 19.180124282836914,
+          "learning_rate": 0.00428223260192915,
+          "step": 4001,
+          "train_cross_entropy": 11.457315444946289,
+          "validation": {
+            "accuracy": 0.15130615234375,
+            "characters": 16384,
+            "cross_entropy": 704.8273620605469,
+            "optimization_cross_entropy": 11.30270791053772,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 51.381941250001546,
+          "gradient_norm_before_clip": 13.098014831542969,
+          "learning_rate": 0.004076416474299599,
+          "step": 4250,
+          "train_cross_entropy": 10.753944396972656,
+          "validation": {
+            "accuracy": 0.15472412109375,
+            "characters": 16384,
+            "cross_entropy": 650.9221649169922,
+            "optimization_cross_entropy": 10.550211429595947,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 109.28187362500466,
+          "gradient_norm_before_clip": 11.771976470947266,
+          "learning_rate": 0.0038646973440727306,
+          "step": 4500,
+          "train_cross_entropy": 9.679040908813477,
+          "validation": {
+            "accuracy": 0.153564453125,
+            "characters": 16384,
+            "cross_entropy": 629.1379547119141,
+            "optimization_cross_entropy": 10.216181755065918,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 168.83995608298574,
+          "gradient_norm_before_clip": 22.73858070373535,
+          "learning_rate": 0.0036492773401879917,
+          "step": 4750,
+          "train_cross_entropy": 10.528599739074707,
+          "validation": {
+            "accuracy": 0.16009521484375,
+            "characters": 16384,
+            "cross_entropy": 622.6460723876953,
+            "optimization_cross_entropy": 10.104068994522095,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 222.29043295799056,
+          "gradient_norm_before_clip": 18.69462013244629,
+          "learning_rate": 0.0034315682670856278,
+          "step": 5000,
+          "train_cross_entropy": 9.898215293884277,
+          "validation": {
+            "accuracy": 0.17327880859375,
+            "characters": 16384,
+            "cross_entropy": 598.0020294189453,
+            "optimization_cross_entropy": 9.733929872512817,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 294.55446395798936,
+          "gradient_norm_before_clip": 19.96000862121582,
+          "learning_rate": 0.0032129969311464014,
+          "step": 5250,
+          "train_cross_entropy": 9.897283554077148,
+          "validation": {
+            "accuracy": 0.1466064453125,
+            "characters": 16384,
+            "cross_entropy": 583.9850463867188,
+            "optimization_cross_entropy": 9.555802822113037,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 359.02433345798636,
+          "gradient_norm_before_clip": 20.195268630981445,
+          "learning_rate": 0.002994995789788491,
+          "step": 5500,
+          "train_cross_entropy": 10.007299423217773,
+          "validation": {
+            "accuracy": 0.1763916015625,
+            "characters": 16384,
+            "cross_entropy": 577.3754272460938,
+            "optimization_cross_entropy": 9.454242706298828,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 424.6015680419805,
+          "gradient_norm_before_clip": 23.287067413330078,
+          "learning_rate": 0.002778993563529012,
+          "step": 5750,
+          "train_cross_entropy": 9.527104377746582,
+          "validation": {
+            "accuracy": 0.1641845703125,
+            "characters": 16384,
+            "cross_entropy": 561.3676910400391,
+            "optimization_cross_entropy": 9.226389408111572,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 491.21233233300154,
+          "gradient_norm_before_clip": 13.698953628540039,
+          "learning_rate": 0.002566405872536176,
+          "step": 6000,
+          "train_cross_entropy": 9.303716659545898,
+          "validation": {
+            "accuracy": 0.16912841796875,
+            "characters": 16384,
+            "cross_entropy": 553.1791076660156,
+            "optimization_cross_entropy": 9.091346263885498,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 561.7473497079918,
+          "gradient_norm_before_clip": 22.4074764251709,
+          "learning_rate": 0.0023586259590375937,
+          "step": 6250,
+          "train_cross_entropy": 9.017237663269043,
+          "validation": {
+            "accuracy": 0.14508056640625,
+            "characters": 16384,
+            "cross_entropy": 553.6565856933594,
+            "optimization_cross_entropy": 9.114856004714966,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 640.939179457986,
+          "gradient_norm_before_clip": 14.8670015335083,
+          "learning_rate": 0.002157015556387553,
+          "step": 6500,
+          "train_cross_entropy": 9.371405601501465,
+          "validation": {
+            "accuracy": 0.16253662109375,
+            "characters": 16384,
+            "cross_entropy": 544.8024597167969,
+            "optimization_cross_entropy": 8.961432695388794,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 739.7120214999886,
+          "gradient_norm_before_clip": 10.928055763244629,
+          "learning_rate": 0.0019628959646349245,
+          "step": 6750,
+          "train_cross_entropy": 9.272488594055176,
+          "validation": {
+            "accuracy": 0.150634765625,
+            "characters": 16384,
+            "cross_entropy": 535.9738006591797,
+            "optimization_cross_entropy": 8.865919589996338,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 886.1741186250001,
+          "gradient_norm_before_clip": 20.77120590209961,
+          "learning_rate": 0.0017775393910800152,
+          "step": 7000,
+          "train_cross_entropy": 9.422203063964844,
+          "validation": {
+            "accuracy": 0.1517333984375,
+            "characters": 16384,
+            "cross_entropy": 530.8873291015625,
+            "optimization_cross_entropy": 8.795376062393188,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 979.3860674579919,
+          "gradient_norm_before_clip": 11.001900672912598,
+          "learning_rate": 0.0016021606125720216,
+          "step": 7250,
+          "train_cross_entropy": 8.654088973999023,
+          "validation": {
+            "accuracy": 0.183349609375,
+            "characters": 16384,
+            "cross_entropy": 546.9040832519531,
+            "optimization_cross_entropy": 8.98430871963501,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 1099.737985707994,
+          "gradient_norm_before_clip": 24.553489685058594,
+          "learning_rate": 0.0014379090141901226,
+          "step": 7500,
+          "train_cross_entropy": 9.09325122833252,
+          "validation": {
+            "accuracy": 0.14874267578125,
+            "characters": 16384,
+            "cross_entropy": 532.4539642333984,
+            "optimization_cross_entropy": 8.80705451965332,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 1248.546145875007,
+          "gradient_norm_before_clip": 33.2681770324707,
+          "learning_rate": 0.001285861056484549,
+          "step": 7750,
+          "train_cross_entropy": 9.54308032989502,
+          "validation": {
+            "accuracy": 0.16326904296875,
+            "characters": 16384,
+            "cross_entropy": 592.2331085205078,
+            "optimization_cross_entropy": 9.618690729141235,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 1321.341757874994,
+          "gradient_norm_before_clip": 23.76165771484375,
+          "learning_rate": 0.0011470132206452908,
+          "step": 8000,
+          "train_cross_entropy": 9.108769416809082,
+          "validation": {
+            "accuracy": 0.1737060546875,
+            "characters": 16384,
+            "cross_entropy": 524.7569732666016,
+            "optimization_cross_entropy": 8.648091793060303,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 1383.2927198329999,
+          "gradient_norm_before_clip": 17.835493087768555,
+          "learning_rate": 0.001022275477833897,
+          "step": 8250,
+          "train_cross_entropy": 8.794759750366211,
+          "validation": {
+            "accuracy": 0.184326171875,
+            "characters": 16384,
+            "cross_entropy": 527.7321472167969,
+            "optimization_cross_entropy": 8.69518518447876,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 1477.9206102919998,
+          "gradient_norm_before_clip": 26.83406639099121,
+          "learning_rate": 0.0009124653254786064,
+          "step": 8500,
+          "train_cross_entropy": 9.189778327941895,
+          "validation": {
+            "accuracy": 0.15045166015625,
+            "characters": 16384,
+            "cross_entropy": 589.7894592285156,
+            "optimization_cross_entropy": 9.586995601654053,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 1575.8072837079817,
+          "gradient_norm_before_clip": 18.650876998901367,
+          "learning_rate": 0.0008183024296173128,
+          "step": 8750,
+          "train_cross_entropy": 9.164263725280762,
+          "validation": {
+            "accuracy": 0.1282958984375,
+            "characters": 16384,
+            "cross_entropy": 521.3827362060547,
+            "optimization_cross_entropy": 8.671433448791504,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 1650.7033016250061,
+          "gradient_norm_before_clip": 20.742616653442383,
+          "learning_rate": 0.0007404039084010038,
+          "step": 9000,
+          "train_cross_entropy": 8.630205154418945,
+          "validation": {
+            "accuracy": 0.18292236328125,
+            "characters": 16384,
+            "cross_entropy": 513.164192199707,
+            "optimization_cross_entropy": 8.512181758880615,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 1747.6112969999958,
+          "gradient_norm_before_clip": 18.264657974243164,
+          "learning_rate": 0.0006792802876683127,
+          "step": 9250,
+          "train_cross_entropy": 8.910065650939941,
+          "validation": {
+            "accuracy": 0.16314697265625,
+            "characters": 16384,
+            "cross_entropy": 503.0340347290039,
+            "optimization_cross_entropy": 8.344623565673828,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 1838.7995926669973,
+          "gradient_norm_before_clip": 21.882349014282227,
+          "learning_rate": 0.0006353321550972539,
+          "step": 9500,
+          "train_cross_entropy": 9.286506652832031,
+          "validation": {
+            "accuracy": 0.19342041015625,
+            "characters": 16384,
+            "cross_entropy": 546.6985778808594,
+            "optimization_cross_entropy": 8.941604137420654,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 1949.5036294579913,
+          "gradient_norm_before_clip": 15.788783073425293,
+          "learning_rate": 0.0006088475348619308,
+          "step": 9750,
+          "train_cross_entropy": 8.903241157531738,
+          "validation": {
+            "accuracy": 0.159423828125,
+            "characters": 16384,
+            "cross_entropy": 526.5874862670898,
+            "optimization_cross_entropy": 8.648345470428467,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        },
+        {
+          "elapsed_seconds": 2039.2668324169936,
+          "gradient_norm_before_clip": 23.194957733154297,
+          "learning_rate": 0.0006000000000000001,
+          "step": 10000,
+          "train_cross_entropy": 8.965536117553711,
+          "validation": {
+            "accuracy": 0.17437744140625,
+            "characters": 16384,
+            "cross_entropy": 492.4177703857422,
+            "optimization_cross_entropy": 8.19223141670227,
+            "optimization_temperature": 64.0,
+            "perplexity": 5.184705528587072e+21
+          }
+        }
+      ],
+      "stage": "qat"
+    }
+  },
+  "training_attempts": {
+    "float": {
+      "elapsed_seconds_approximate": 1203,
+      "optimizer_steps": 6000,
+      "selected_validation": {
+        "accuracy": 0.63775634765625,
+        "characters": 16384,
+        "cross_entropy": 1.1530216932296753,
+        "optimization_cross_entropy": 1.1530216932296753,
+        "optimization_temperature": 1.0,
+        "perplexity": 3.16775043250179
+      }
+    },
+    "qat_attempt_1": {
+      "distillation_weight": 0.25,
+      "elapsed_seconds": 1559,
+      "exact_validation": {
+        "accuracy": 0.1953125,
+        "cross_entropy": 641.8744026646078,
+        "perplexity": 5.787768504852169e+278
+      },
+      "logit_temperature": 256.0,
+      "optimizer_steps": 4000,
+      "qat_validation": {
+        "accuracy": 0.18701171875,
+        "cross_entropy": 687.1000823974609,
+        "perplexity": 2.5338114858668757e+298
+      }
+    },
+    "qat_attempt_2": {
+      "additional_optimizer_steps": 6000,
+      "distillation_weight": 0.0,
+      "elapsed_seconds": 2042,
+      "exact_validation": {
+        "accuracy": 0.185546875,
+        "characters": 1024,
+        "cross_entropy": 476.81410592035314,
+        "perplexity": 1.1960107820570667e+207
+      },
+      "logit_temperature": 64.0,
+      "selected_validation": {
+        "accuracy": 0.17437744140625,
+        "characters": 16384,
+        "cross_entropy": 492.4177703857422,
+        "optimization_cross_entropy": 8.19223141670227,
+        "optimization_temperature": 64.0,
+        "perplexity": 7.150237536273076e+213
+      },
+      "total_optimizer_steps": 10000
+    },
+    "timing_basis": "Artifact modification times; excludes exact-emulator evaluation and sample generation.",
+    "total_optimizer_steps": 16000,
+    "total_training_seconds_approximate": 4804
+  },
+  "winning_checkpoint": null
+}

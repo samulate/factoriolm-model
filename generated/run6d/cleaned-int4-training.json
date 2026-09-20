@@ -1,0 +1,180 @@
+{
+  "configuration": {
+    "batch_size": 64,
+    "device": "cpu",
+    "distillation_weight": 0.25,
+    "evaluation_characters": 16384,
+    "evaluation_interval": 250,
+    "generation_length": 256,
+    "gradient_clip": 1.0,
+    "integer_logit_temperature": 1.25,
+    "integer_qat_learning_rate": 0.002,
+    "integer_qat_steps": 2000,
+    "mask_refresh_interval": 100000,
+    "maximum_scale_denominator": 256,
+    "nonzero_weights": 25100,
+    "seed": 4104,
+    "sequence_length": 64,
+    "sparse_float_learning_rate": 0.001,
+    "sparse_float_steps": 750,
+    "warmup_steps": 250,
+    "weight_decay": 0.01,
+    "weight_limit": 7
+  },
+  "fixed_run6_mask": true,
+  "initialization": "generated/run6/factorio-lm-int4-run5-mask.pt",
+  "stage": "cleaned-data scaled-int4 recovery",
+  "teacher": "generated/run6d/factorio-lm-cleaned-float.pt",
+  "training": {
+    "best_step": 1750,
+    "checkpoint": "generated/run6d/factorio-lm-cleaned-int4.pt",
+    "elapsed_seconds": 1209.3418330830173,
+    "log": [
+      {
+        "elapsed_seconds": 1.3510532920190599,
+        "gradient_norm": 1.6233619451522827,
+        "learning_rate": 8e-06,
+        "objective": 1.1940521001815796,
+        "step": 1,
+        "validation": {
+          "accuracy": 0.5408935546875,
+          "characters": 16384,
+          "cross_entropy": 1.4954462945461273,
+          "optimization_cross_entropy": 1.4878016710281372,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.461327174599482
+        }
+      },
+      {
+        "elapsed_seconds": 150.1540796670015,
+        "gradient_norm": 1.84165620803833,
+        "learning_rate": 0.002,
+        "objective": 1.2191678285598755,
+        "step": 250,
+        "validation": {
+          "accuracy": 0.530029296875,
+          "characters": 16384,
+          "cross_entropy": 1.5197619795799255,
+          "optimization_cross_entropy": 1.5098636448383331,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.571137041687045
+        }
+      },
+      {
+        "elapsed_seconds": 285.2716002500092,
+        "gradient_norm": 1.7095240354537964,
+        "learning_rate": 0.0019114722339182856,
+        "objective": 1.1945061683654785,
+        "step": 500,
+        "validation": {
+          "accuracy": 0.5491943359375,
+          "characters": 16384,
+          "cross_entropy": 1.493922472000122,
+          "optimization_cross_entropy": 1.483384609222412,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.454534080715015
+        }
+      },
+      {
+        "elapsed_seconds": 431.65834470800473,
+        "gradient_norm": 1.55641508102417,
+        "learning_rate": 0.0016620431515480163,
+        "objective": 1.1988047361373901,
+        "step": 750,
+        "validation": {
+          "accuracy": 0.5311279296875,
+          "characters": 16384,
+          "cross_entropy": 1.509414166212082,
+          "optimization_cross_entropy": 1.4996528327465057,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.524079659104247
+        }
+      },
+      {
+        "elapsed_seconds": 602.3700723329966,
+        "gradient_norm": 1.8158645629882812,
+        "learning_rate": 0.0013011693454550814,
+        "objective": 1.1918842792510986,
+        "step": 1000,
+        "validation": {
+          "accuracy": 0.55377197265625,
+          "characters": 16384,
+          "cross_entropy": 1.4889647960662842,
+          "optimization_cross_entropy": 1.4873015582561493,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.432504596948392
+        }
+      },
+      {
+        "elapsed_seconds": 751.3320317920006,
+        "gradient_norm": 1.971828579902649,
+        "learning_rate": 0.0009004066766227601,
+        "objective": 1.1792585849761963,
+        "step": 1250,
+        "validation": {
+          "accuracy": 0.5438232421875,
+          "characters": 16384,
+          "cross_entropy": 1.4770349860191345,
+          "optimization_cross_entropy": 1.4792132079601288,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.37993982635616
+        }
+      },
+      {
+        "elapsed_seconds": 918.3143256670155,
+        "gradient_norm": 1.7482843399047852,
+        "learning_rate": 0.0005392203689993608,
+        "objective": 1.2176612615585327,
+        "step": 1500,
+        "validation": {
+          "accuracy": 0.551513671875,
+          "characters": 16384,
+          "cross_entropy": 1.4720384776592255,
+          "optimization_cross_entropy": 1.4665141105651855,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.358110002262448
+        }
+      },
+      {
+        "elapsed_seconds": 1071.1871258330066,
+        "gradient_norm": 1.700562834739685,
+        "learning_rate": 0.00028922824793269503,
+        "objective": 1.0943607091903687,
+        "step": 1750,
+        "validation": {
+          "accuracy": 0.54998779296875,
+          "characters": 16384,
+          "cross_entropy": 1.4659931063652039,
+          "optimization_cross_entropy": 1.4619034826755524,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.331843085786974
+        }
+      },
+      {
+        "elapsed_seconds": 1208.5614539170056,
+        "gradient_norm": 1.4580140113830566,
+        "learning_rate": 0.0002,
+        "objective": 1.14900541305542,
+        "step": 2000,
+        "validation": {
+          "accuracy": 0.5494384765625,
+          "characters": 16384,
+          "cross_entropy": 1.4699857234954834,
+          "optimization_cross_entropy": 1.462265521287918,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.349173049630831
+        }
+      }
+    ],
+    "metrics": {
+      "accuracy": 0.54998779296875,
+      "characters": 16384,
+      "cross_entropy": 1.4659931063652039,
+      "optimization_cross_entropy": 1.4619034826755524,
+      "optimization_temperature": 1.25,
+      "perplexity": 4.331843085786974
+    },
+    "stage": "integer",
+    "steps": 2000
+  }
+}

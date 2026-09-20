@@ -1,0 +1,25 @@
+{
+  "mood_exclusion": "\\b(?:happy|feel|feeling|sad|thank|lovely day)\\b",
+  "source_run": "7P",
+  "splits": {
+    "train": {
+      "ordinary_records": 18822,
+      "records": "generated/run7q/cosmic-mystery/tinychat-diverse-train.jsonl",
+      "sha256": "a9145e46375cec71c0e0487cf216575d7f31d4c8f7a065a3b67852c89eb45aa6",
+      "source": "generated/run7p/tinychat-punctuation-train.jsonl",
+      "source_sha256": "7c62c6dd7b8e39d5d485dfd6da92531d12393b3f5885a4cd14da4eb07ee2f7a5",
+      "thematic_records": 146
+    },
+    "validation": {
+      "ordinary_records": 1629,
+      "records": "generated/run7q/cosmic-mystery/tinychat-diverse-validation.jsonl",
+      "sha256": "b6e9e062356c3ac38a3dd26987def511392729c955152df05e2cacf82da29456",
+      "source": "generated/run7p/tinychat-punctuation-validation.jsonl",
+      "source_sha256": "73dae5adcf0004f5df778ce973c11b3cd1515de4d410773222a159eaf46ca1ad",
+      "thematic_records": 18
+    }
+  },
+  "themes": null,
+  "topic_name": "cosmic-mystery",
+  "topic_regex": "\\b(?:ghost|alien|monster|space|planet|galaxy|rocket|universe|astronaut|spaceship|moon|stars?|strange (?:sound|sounds|noise|noises)|attic|secret|mystery)\\b"
+}

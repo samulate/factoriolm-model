@@ -1,0 +1,626 @@
+{
+  "ablations": {
+    "protocol": "Zero-shot post-training diagnostics on the cached TinyStories validation prefix; scaled integer rows use the literal truncating deployment forward.",
+    "rows": [
+      {
+        "accuracy": 0.6377563477,
+        "cross_entropy": 1.1530216932,
+        "representation": "float"
+      },
+      {
+        "accuracy": 0.276123,
+        "cross_entropy": 2.4045,
+        "representation": "target-mask sparse float before recovery"
+      },
+      {
+        "accuracy": 0.053955,
+        "cross_entropy": 3.5678,
+        "representation": "ternary"
+      },
+      {
+        "accuracy": 0.173828,
+        "cross_entropy": 2.8868,
+        "representation": "ternary + per-matrix scale"
+      },
+      {
+        "accuracy": 0.047119,
+        "cross_entropy": 3.657,
+        "representation": "int3"
+      },
+      {
+        "accuracy": 0.1846,
+        "cross_entropy": 2.8549,
+        "representation": "int3 + per-matrix scale before recovery"
+      },
+      {
+        "accuracy": 0.216797,
+        "cross_entropy": 2.6925,
+        "representation": "int4 + per-matrix scale (zero-shot only)"
+      },
+      {
+        "accuracy": 0.6239013671875,
+        "cross_entropy": 1.220276653766632,
+        "representation": "trained target-mask sparse float"
+      },
+      {
+        "accuracy": 0.49609375,
+        "cross_entropy": 1.7158876657485962,
+        "representation": "trained scaled int3 exact forward"
+      }
+    ]
+  },
+  "clearly_better_than_run4": true,
+  "data": {
+    "alphabet": "\n abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+    "dataset": "roneneldan/TinyStories TinyStoriesV2-GPT4",
+    "punctuation_constraint": "The fixed 64-symbol hardware ABI has no punctuation tokens; sentence punctuation maps to newline, other punctuation to space, and quotes/apostrophes are removed.",
+    "selection": "deterministic normalized prefix of the official train and validation files",
+    "source_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+    "splits": {
+      "train": {
+        "ascii_typography_after_translation": 262006,
+        "normalized_characters": 33413576,
+        "punctuation_or_symbols_mapped_to_boundaries": 1327908,
+        "selected_characters": 24000000,
+        "source": "/private/tmp/TinyStoriesV2-GPT4-train-prefix.txt",
+        "source_characters": 34985738,
+        "text": "generated/run4/tinystories-v2-gpt4-train.txt",
+        "text_sha256": "07231ee7df9ccca9ead28ea81333ef8a7fc93714e98c3fab658cf814fd8bb947",
+        "token_sha256": "21859f36283344bc9ddc95e606eab25612d2ecf65a6474ead9e358b5e83006e6",
+        "tokens": "generated/run4/tinystories-v2-gpt4-train.bin",
+        "unsupported_removed": 259136
+      },
+      "validation": {
+        "ascii_typography_after_translation": 37115,
+        "normalized_characters": 4773671,
+        "punctuation_or_symbols_mapped_to_boundaries": 189734,
+        "selected_characters": 2000000,
+        "source": "/private/tmp/TinyStoriesV2-GPT4-valid-prefix.txt",
+        "source_characters": 4997980,
+        "text": "generated/run4/tinystories-v2-gpt4-validation.txt",
+        "text_sha256": "fa0b82bcffb12e03856e056517b56cc24bfd9a347611d2a94a0d9287a47c29ad",
+        "token_sha256": "1912c5f736711de260ce8d78ed55817428826e85b5eaa4dec94f31ff993734fd",
+        "tokens": "generated/run4/tinystories-v2-gpt4-validation.bin",
+        "unsupported_removed": 36675
+      }
+    }
+  },
+  "evaluation": {
+    "best_calibrated_cross_entropy": 1.6658258140087128,
+    "best_calibration_temperature": 1.25,
+    "calibration_cross_entropy": {
+      "0.5": 2.4392670392990112,
+      "0.75": 1.9020724296569824,
+      "1.0": 1.7158876657485962,
+      "1.25": 1.6658258140087128,
+      "1.5": 1.6802214980125427,
+      "2.0": 1.7948627173900604,
+      "3.0": 2.113581955432892,
+      "4.0": 2.4070759415626526
+    },
+    "configuration": {
+      "batch_size": 64,
+      "device": "cpu",
+      "distillation_weight": 0.25,
+      "evaluation_characters": 16384,
+      "evaluation_interval": 250,
+      "generation_length": 256,
+      "gradient_clip": 1.0,
+      "integer_logit_temperature": 2.0,
+      "integer_qat_learning_rate": 0.003,
+      "integer_qat_steps": 1500,
+      "mask_refresh_interval": 100000,
+      "maximum_scale_denominator": 128,
+      "nonzero_weights": 25100,
+      "seed": 4104,
+      "sequence_length": 64,
+      "sparse_float_learning_rate": 0.001,
+      "sparse_float_steps": 1500,
+      "warmup_steps": 300,
+      "weight_decay": 0.01,
+      "weight_limit": 3
+    },
+    "exact_forward_matches_independent_int32_for_full_context": true,
+    "metrics": {
+      "float": {
+        "accuracy": 0.63775634765625,
+        "characters": 16384,
+        "cross_entropy": 1.1530216932296753,
+        "optimization_cross_entropy": 1.1530216932296753,
+        "optimization_temperature": 1.0,
+        "perplexity": 3.16775043250179
+      },
+      "independent_exact_int32_1024": {
+        "accuracy": 0.517578125,
+        "characters": 1024,
+        "cross_entropy": 1.5580528045258153,
+        "perplexity": 4.74956390579649
+      },
+      "scaled_int3_exact_forward": {
+        "accuracy": 0.49609375,
+        "characters": 16384,
+        "cross_entropy": 1.7158876657485962,
+        "optimization_cross_entropy": 1.7158876657485962,
+        "optimization_temperature": 1.0,
+        "perplexity": 5.561610172730279
+      },
+      "sparse_float": {
+        "accuracy": 0.6239013671875,
+        "characters": 16384,
+        "cross_entropy": 1.220276653766632,
+        "optimization_cross_entropy": 1.220276653766632,
+        "optimization_temperature": 1.0,
+        "perplexity": 3.3881249415011983
+      }
+    },
+    "quality_gate": {
+      "int4_attempted": false,
+      "int4_reason": "Int3 was retained after reviewing generated samples.",
+      "passable_english": true,
+      "reason": "Exact generations contain recognizable words, normal spacing, sentence boundaries, and locally plausible TinyStories clauses without a dominant repeated-character loop."
+    },
+    "range_report": "generated/run5/range-report.json",
+    "samples": {
+      "Factorio ": "a said\nLud and the ball and a babig and the big and she was said a ball she said and she can was a ling and shanked to and a ball and and was sad\nIt was a ball and the she sad\nShe said the box was a ball and the bark\nLucy and she she grone was a ball and s",
+      "He was ": "a little cat was said\nLily and and was said the bird said the ball she shanked to she shank was a ball and shanked to and she shan and she shane was shaing and and she shanked to and and she she shank was scared and said the box was a ball and and shanked ",
+      "Once upon a time": " bug the box was a little said the boys and a bagain\nIt was a little smiled and shanked to she wast and she was a like to see was so she shane was a ling and said to can and and she she grane wast and shanke and she saw a live bug and shanked to and she sh",
+      "One day ": "a big box was a ball back\nIt was a little shan a ball said the bark\nIt said the bany and she she said a said\nShe said a said\nBus shany and saw a big back and had a babore was a little ball and she bany sad\nThe saw a ball and the said a said to said\nShe lov",
+      "She was ": "a little gurd and she box was shanked to and shan a ball was sad\nIt was a live loved to shan and shany and and and she shan\nShe saw a babore and said the bad\nThe said the bark and she she shane was said a big and saw a said the bark\nIt she big bug and and ",
+      "The boy ": "she box was a big buttere in the she said\nLucy and she she said\nShe said the grone and she shan and saw a said\nShe said\nThey dog and she shanked to she lived to se was a live said\nThey leane a bag and she she she was said\nBut was a ball and and she said\nSh",
+      "The girl ": "and shank and shanked to she said\nBut and the said\nShe said\nBus said\nShe saw a said\nI like the she inst she bark the grand\nHe shous was said the ball and a babore and and she said\nBut the bird and she grong and and shan and she saw a big and a bag the she ",
+      "The little ": "bird she good and she gad\nIts and the said the bird she saw a big babig box said\nShe said\nShe said\nShe said the said a big and she said\nBus and the shan and she shan and was a ball and she she she big and and and she she shanked to and said a saw\nIts and t",
+      "There was ": "a little shan a big and shan\nThe shanked to lits the said the bark the shank was sad\nBut and the she she lived and said the bark\nLucy and the she shank and shanked and she gad and and the box was a ball said a ball and she dog and said\nBut was a ball and a",
+      "Today ": "and she she shan\nShe said\nBut and she saw a liked to she big boys and she shan and said\nBus saw a big and said the gan\nThe grane she saw a said a bagad\nThe said\nBut and she she saw and she she said\nShe said\nShe said the ball and they and said\nBus said\nShe "
+    },
+    "scaling": {
+      "denominators": {
+        "layers.0.ffn_down": 22,
+        "layers.0.ffn_up": 15,
+        "layers.0.key": 13,
+        "layers.0.output": 20,
+        "layers.0.query": 13,
+        "layers.0.value": 17,
+        "layers.1.ffn_down": 20,
+        "layers.1.ffn_up": 14,
+        "layers.1.key": 11,
+        "layers.1.output": 18,
+        "layers.1.query": 11,
+        "layers.1.value": 15,
+        "layers.2.ffn_down": 18,
+        "layers.2.ffn_up": 13,
+        "layers.2.key": 9,
+        "layers.2.output": 17,
+        "layers.2.query": 9,
+        "layers.2.value": 13,
+        "layers.3.ffn_down": 15,
+        "layers.3.ffn_up": 12,
+        "layers.3.key": 7,
+        "layers.3.output": 17,
+        "layers.3.query": 8,
+        "layers.3.value": 14,
+        "layers.4.ffn_down": 14,
+        "layers.4.ffn_up": 11,
+        "layers.4.key": 8,
+        "layers.4.output": 16,
+        "layers.4.query": 8,
+        "layers.4.value": 12,
+        "layers.5.ffn_down": 13,
+        "layers.5.ffn_up": 10,
+        "layers.5.key": 6,
+        "layers.5.output": 16,
+        "layers.5.query": 7,
+        "layers.5.value": 13,
+        "lm_head": 16
+      },
+      "representation": "per-matrix exact reciprocal Each / q -> Each"
+    },
+    "sparsity": {
+      "matrices": {
+        "layer0.ffn_down": {
+          "negative": 521,
+          "positive": 483,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        },
+        "layer0.ffn_up": {
+          "negative": 449,
+          "positive": 555,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        },
+        "layer0.key": {
+          "negative": 273,
+          "positive": 229,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer0.output": {
+          "negative": 250,
+          "positive": 252,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer0.query": {
+          "negative": 244,
+          "positive": 258,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer0.value": {
+          "negative": 264,
+          "positive": 238,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer1.ffn_down": {
+          "negative": 477,
+          "positive": 527,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        },
+        "layer1.ffn_up": {
+          "negative": 437,
+          "positive": 567,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        },
+        "layer1.key": {
+          "negative": 234,
+          "positive": 268,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer1.output": {
+          "negative": 268,
+          "positive": 234,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer1.query": {
+          "negative": 248,
+          "positive": 254,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer1.value": {
+          "negative": 244,
+          "positive": 258,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer2.ffn_down": {
+          "negative": 490,
+          "positive": 514,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        },
+        "layer2.ffn_up": {
+          "negative": 484,
+          "positive": 520,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        },
+        "layer2.key": {
+          "negative": 250,
+          "positive": 252,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer2.output": {
+          "negative": 268,
+          "positive": 234,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer2.query": {
+          "negative": 258,
+          "positive": 244,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer2.value": {
+          "negative": 248,
+          "positive": 254,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer3.ffn_down": {
+          "negative": 506,
+          "positive": 498,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        },
+        "layer3.ffn_up": {
+          "negative": 540,
+          "positive": 464,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        },
+        "layer3.key": {
+          "negative": 256,
+          "positive": 246,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer3.output": {
+          "negative": 250,
+          "positive": 252,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer3.query": {
+          "negative": 250,
+          "positive": 252,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer3.value": {
+          "negative": 251,
+          "positive": 251,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer4.ffn_down": {
+          "negative": 524,
+          "positive": 480,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        },
+        "layer4.ffn_up": {
+          "negative": 490,
+          "positive": 514,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        },
+        "layer4.key": {
+          "negative": 252,
+          "positive": 250,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer4.output": {
+          "negative": 241,
+          "positive": 261,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer4.query": {
+          "negative": 248,
+          "positive": 254,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer4.value": {
+          "negative": 260,
+          "positive": 242,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer5.ffn_down": {
+          "negative": 518,
+          "positive": 486,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        },
+        "layer5.ffn_up": {
+          "negative": 462,
+          "positive": 542,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        },
+        "layer5.key": {
+          "negative": 250,
+          "positive": 252,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer5.output": {
+          "negative": 259,
+          "positive": 243,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer5.query": {
+          "negative": 256,
+          "positive": 246,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "layer5.value": {
+          "negative": 260,
+          "positive": 242,
+          "sparsity_percentage": 50.9765625,
+          "total": 1024,
+          "zero": 522
+        },
+        "lm_head": {
+          "negative": 484,
+          "positive": 520,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048,
+          "zero": 1044
+        }
+      },
+      "nonzero": 25100,
+      "sparsity_percentage": 50.9765625,
+      "total": 51200,
+      "zero": 26100
+    },
+    "weight_alphabet": [
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "layer_output_approximation": {
+    "characters": 512,
+    "scaled_int3_vs_float": {
+      "layer0": {
+        "mean_cosine": 0.9333999752998352,
+        "rmse": 2.0621697902679443
+      },
+      "layer1": {
+        "mean_cosine": 0.9000608325004578,
+        "rmse": 2.855795383453369
+      },
+      "layer2": {
+        "mean_cosine": 0.8628345727920532,
+        "rmse": 3.4513111114501953
+      },
+      "layer3": {
+        "mean_cosine": 0.8293657302856445,
+        "rmse": 3.8840713500976562
+      },
+      "layer4": {
+        "mean_cosine": 0.7938216328620911,
+        "rmse": 4.394659519195557
+      },
+      "layer5": {
+        "mean_cosine": 0.7302530407905579,
+        "rmse": 5.526108264923096
+      }
+    },
+    "sparse_float_vs_float": {
+      "layer0": {
+        "mean_cosine": 0.9862077832221985,
+        "rmse": 0.7918195724487305
+      },
+      "layer1": {
+        "mean_cosine": 0.9761863350868225,
+        "rmse": 1.0903007984161377
+      },
+      "layer2": {
+        "mean_cosine": 0.962840735912323,
+        "rmse": 1.4512786865234375
+      },
+      "layer3": {
+        "mean_cosine": 0.9485062956809998,
+        "rmse": 1.821502447128296
+      },
+      "layer4": {
+        "mean_cosine": 0.9347702264785767,
+        "rmse": 2.29111647605896
+      },
+      "layer5": {
+        "mean_cosine": 0.908663272857666,
+        "rmse": 3.4566187858581543
+      }
+    },
+    "windows": 8
+  },
+  "objective": "passable English in real Factorio with the smallest weight relaxation",
+  "run": 5,
+  "selection_reason": "Exact int3 generations contain words, spaces, sentence boundaries, and local clauses; Run 4 produced character loops and fragments.",
+  "training": {
+    "integer_qat": {
+      "distillation_temperature": 2.0,
+      "distillation_weight": 0.25,
+      "elapsed_seconds_approximate": 420,
+      "hard_loss_temperature": 1.0,
+      "learning_rate": 0.003,
+      "per_matrix_denominators": {
+        "layers.0.ffn_down": 22,
+        "layers.0.ffn_up": 15,
+        "layers.0.key": 13,
+        "layers.0.output": 20,
+        "layers.0.query": 13,
+        "layers.0.value": 17,
+        "layers.1.ffn_down": 20,
+        "layers.1.ffn_up": 14,
+        "layers.1.key": 11,
+        "layers.1.output": 18,
+        "layers.1.query": 11,
+        "layers.1.value": 15,
+        "layers.2.ffn_down": 18,
+        "layers.2.ffn_up": 13,
+        "layers.2.key": 9,
+        "layers.2.output": 17,
+        "layers.2.query": 9,
+        "layers.2.value": 13,
+        "layers.3.ffn_down": 15,
+        "layers.3.ffn_up": 12,
+        "layers.3.key": 7,
+        "layers.3.output": 17,
+        "layers.3.query": 8,
+        "layers.3.value": 14,
+        "layers.4.ffn_down": 14,
+        "layers.4.ffn_up": 11,
+        "layers.4.key": 8,
+        "layers.4.output": 16,
+        "layers.4.query": 8,
+        "layers.4.value": 12,
+        "layers.5.ffn_down": 13,
+        "layers.5.ffn_up": 10,
+        "layers.5.key": 6,
+        "layers.5.output": 16,
+        "layers.5.query": 7,
+        "layers.5.value": 13,
+        "lm_head": 16
+      },
+      "selected_step": 1500,
+      "weight_alphabet": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "integer_qat_checkpoint": "generated/run5/factorio-lm-int3-qat.pt",
+    "optimizer": "AdamW",
+    "source_float_checkpoint": "generated/run4/factorio-lm-quality-float.pt",
+    "sparse_float_checkpoint": "generated/run5/factorio-lm-sparse-float.pt",
+    "sparse_recovery": {
+      "elapsed_seconds_approximate": 840,
+      "fixed_nonzeros": 25100,
+      "learning_rate": 0.001,
+      "note": "An exploratory dynamic-mask run was stopped after refresh instability; the best recovered mask was frozen and converged at step 1500.",
+      "selected_step": 1500
+    },
+    "timing_note": "Wall time is reconstructed from artifact/task timestamps.",
+    "total_optimizer_steps_retained": 3000,
+    "total_training_seconds_approximate": 1260,
+    "winning_exact_checkpoint": "generated/run5/factorio-lm-quality-exact.json"
+  }
+}

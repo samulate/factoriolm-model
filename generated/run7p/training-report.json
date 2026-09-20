@@ -1,0 +1,1634 @@
+{
+  "alphabet": "\n abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,?!;'\"-()",
+  "candidates": {
+    "refined": null,
+    "selected_stage": "standard-aligned-QAT",
+    "selected_state": "generated/run7p/factorio-lm-tinychat-punctuation-aligned-int4.pt",
+    "standard": {
+      "exact": {
+        "all_characters": {
+          "accuracy": 0.56787109375,
+          "characters": 2048,
+          "cross_entropy": 1.4654736640605333,
+          "perplexity": 4.329593527539464
+        },
+        "answer_characters": {
+          "accuracy": 0.5525114155251142,
+          "characters": 1095,
+          "cross_entropy": 1.527041465520573,
+          "perplexity": 4.604533978302331
+        },
+        "symbol_classes": {
+          "characters": {
+            "!": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            "\"": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            "'": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            "(": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            ")": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            ",": {
+              "correct": 3,
+              "precision": 0.42857142857142855,
+              "predictions": 7,
+              "recall": 0.25,
+              "targets": 12
+            },
+            "-": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 1
+            },
+            ".": {
+              "correct": 2,
+              "precision": 0.5,
+              "predictions": 4,
+              "recall": 0.13333333333333333,
+              "targets": 15
+            },
+            ";": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            "?": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            }
+          },
+          "letter_space": {
+            "accuracy": 0.5623242736644799,
+            "targets": 1067
+          },
+          "micro": {
+            "correct": 5,
+            "precision": 0.45454545454545453,
+            "predictions": 11,
+            "recall": 0.17857142857142858,
+            "targets": 28
+          }
+        }
+      },
+      "float": {
+        "all_characters": {
+          "accuracy": 0.67828369140625,
+          "characters": 16384,
+          "cross_entropy": 1.0301152467727661,
+          "perplexity": 2.8013886670991726
+        },
+        "answer_characters": {
+          "accuracy": 0.6671458586752184,
+          "characters": 9043,
+          "cross_entropy": 1.0774458986750801,
+          "perplexity": 2.9371681376614966
+        },
+        "symbol_classes": {
+          "characters": {
+            "!": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            "\"": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            "'": {
+              "correct": 2,
+              "precision": 1.0,
+              "predictions": 2,
+              "recall": 0.4,
+              "targets": 5
+            },
+            "(": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            ")": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            ",": {
+              "correct": 40,
+              "precision": 0.851063829787234,
+              "predictions": 47,
+              "recall": 0.46511627906976744,
+              "targets": 86
+            },
+            "-": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 1
+            },
+            ".": {
+              "correct": 20,
+              "precision": 0.5555555555555556,
+              "predictions": 36,
+              "recall": 0.1652892561983471,
+              "targets": 121
+            },
+            ";": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 4
+            },
+            "?": {
+              "correct": 2,
+              "precision": 0.4,
+              "predictions": 5,
+              "recall": 0.5,
+              "targets": 4
+            }
+          },
+          "letter_space": {
+            "accuracy": 0.6766039446837452,
+            "targets": 8822
+          },
+          "micro": {
+            "correct": 64,
+            "precision": 0.7111111111111111,
+            "predictions": 90,
+            "recall": 0.2895927601809955,
+            "targets": 221
+          }
+        },
+        "temperature": 1.0
+      },
+      "qat": {
+        "all_characters": {
+          "accuracy": 0.5762939453125,
+          "characters": 16384,
+          "cross_entropy": 1.4233940541744232,
+          "perplexity": 4.151185907127622
+        },
+        "answer_characters": {
+          "accuracy": 0.5624239743447971,
+          "characters": 9043,
+          "cross_entropy": 1.470294757080753,
+          "perplexity": 4.350517297869544
+        },
+        "symbol_classes": {
+          "characters": {
+            "!": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            "\"": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            "'": {
+              "correct": 1,
+              "precision": 1.0,
+              "predictions": 1,
+              "recall": 0.2,
+              "targets": 5
+            },
+            "(": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            ")": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 0
+            },
+            ",": {
+              "correct": 37,
+              "precision": 0.6981132075471698,
+              "predictions": 53,
+              "recall": 0.43023255813953487,
+              "targets": 86
+            },
+            "-": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 1
+            },
+            ".": {
+              "correct": 8,
+              "precision": 0.2962962962962963,
+              "predictions": 27,
+              "recall": 0.06611570247933884,
+              "targets": 121
+            },
+            ";": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 4
+            },
+            "?": {
+              "correct": 0,
+              "precision": 0.0,
+              "predictions": 0,
+              "recall": 0.0,
+              "targets": 4
+            }
+          },
+          "letter_space": {
+            "accuracy": 0.5712990251643618,
+            "targets": 8822
+          },
+          "micro": {
+            "correct": 46,
+            "precision": 0.5679012345679012,
+            "predictions": 81,
+            "recall": 0.2081447963800905,
+            "targets": 221
+          }
+        },
+        "temperature": 1.125
+      }
+    }
+  },
+  "configuration": {
+    "aligned_float_learning_rate": 0.00025,
+    "aligned_float_steps": 0,
+    "aligned_integer_learning_rate": 0.00025,
+    "aligned_integer_steps": 2500,
+    "aligned_maximum_answer_characters": 64,
+    "answer_weight": 1.0,
+    "batch_size": 64,
+    "device": "cpu",
+    "distillation_weight": 0.35,
+    "evaluation_characters": 16384,
+    "evaluation_interval": 250,
+    "exact_evaluation_characters": 2048,
+    "float_learning_rate": 0.00075,
+    "float_steps": 2500,
+    "generation_length": 128,
+    "gradient_clip": 1.0,
+    "heldout_questions": 600,
+    "integer_logit_temperature": 1.125,
+    "integer_qat_learning_rate": 0.00075,
+    "integer_qat_steps": 2500,
+    "maximum_answer_characters": 120,
+    "maximum_question_characters": 59,
+    "maximum_scale_denominator": 256,
+    "minimum_answer_characters": 4,
+    "minimum_question_characters": 8,
+    "nonzero_weights": 25100,
+    "punctuation_refinement_steps": 750,
+    "punctuation_target_weight": 1.5,
+    "requested_source_rows": 200000,
+    "seed": 4170,
+    "sequence_length": 64,
+    "source_page_size": 100,
+    "validation_fraction": 0.08,
+    "warmup_steps": 150,
+    "weight_decay": 0.01,
+    "weight_limit": 7
+  },
+  "data": {
+    "accepted_examples": 20451,
+    "alphabet": "\n abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,?!;'\"-()",
+    "digit_policy": "reject the complete question/answer example before normalization",
+    "digit_rejected_examples": 0,
+    "format": "Q question-with-punctuation\\nA answer-with-punctuation\\n",
+    "run": "7P",
+    "source": {
+      "path": "generated/run7/tinychat-source-rows.jsonl",
+      "rows": 200000,
+      "selection": "deterministic 200000-row Run 7 TinyChat sample",
+      "sha256": "87e2ea324630a2974bf06a9c4efe6601719106f3a116f6d985dde02817427c76"
+    },
+    "source_conversation_pairs": 870762,
+    "splits": {
+      "train": {
+        "answer_characters": 1356585,
+        "answer_mask": "generated/run7p/tinychat-punctuation-train.mask.bin",
+        "characters": 2413445,
+        "examples": 18822,
+        "mask_sha256": "3846c9777d28108292a8acc4b5179b63159c92a26740a819e0652e07369536d9",
+        "punctuation_counts": {
+          "!": 35,
+          "\"": 6,
+          "'": 1950,
+          "(": 0,
+          ")": 0,
+          ",": 20417,
+          "-": 135,
+          ".": 18104,
+          ";": 998,
+          "?": 19505
+        },
+        "records": "generated/run7p/tinychat-punctuation-train.jsonl",
+        "text": "generated/run7p/tinychat-punctuation-train.txt",
+        "token_sha256": "d3db2381595c5a7179776de23c0ec8d006d56e4b818d3d8cc32a40b7cc175f77",
+        "tokens": "generated/run7p/tinychat-punctuation-train.bin"
+      },
+      "validation": {
+        "answer_characters": 117352,
+        "answer_mask": "generated/run7p/tinychat-punctuation-validation.mask.bin",
+        "characters": 209601,
+        "examples": 1629,
+        "mask_sha256": "fa7fa0c3d5043b439947063537111bcda664cee61c60ef42ee83965adc83b0e8",
+        "punctuation_counts": {
+          "!": 3,
+          "\"": 0,
+          "'": 163,
+          "(": 0,
+          ")": 0,
+          ",": 1731,
+          "-": 13,
+          ".": 1574,
+          ";": 81,
+          "?": 1681
+        },
+        "records": "generated/run7p/tinychat-punctuation-validation.jsonl",
+        "text": "generated/run7p/tinychat-punctuation-validation.txt",
+        "token_sha256": "7c5038409e9ac9a3022643e21d73d47d1029e6cbb4b51247f5c1529248d2019e",
+        "tokens": "generated/run7p/tinychat-punctuation-validation.bin"
+      }
+    }
+  },
+  "exact_checkpoint": "generated/run7p/factorio-lm-tinychat-punctuation-exact.json",
+  "generations": {
+    "Can dogs be good friends": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feeling that a lovely day, thank you for asking.",
+      "characters": 53,
+      "generated": "I am feeling that a lovely day, thank you for asking.\nQ I am feeling that a lovely to hear is a bit coluch a bit can be a befeep",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Can dogs be good friends?\nA ",
+      "punctuation_count": 2,
+      "terminal_punctuation": true,
+      "unique_word_ratio": 1.0,
+      "words": 11
+    },
+    "How are you today": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I also feel a bit to feel a bit that and happy too, thank you for asking to calm and be a beautiful to can feel a bit can be can",
+      "characters": 128,
+      "generated": "I also feel a bit to feel a bit that and happy too, thank you for asking to calm and be a beautiful to can feel a bit can be can",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How are you today?\nA ",
+      "punctuation_count": 1,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.5806451612903226,
+      "words": 31
+    },
+    "How can I help a friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "Yes, I also feel happy too, it is a lovely day and happy today, thank you for asking a bit and beautiful day to seem the seem th",
+      "characters": 128,
+      "generated": "Yes, I also feel happy too, it is a lovely day and happy today, thank you for asking a bit and beautiful day to seem the seem th",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How can I help a friend?\nA ",
+      "punctuation_count": 3,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.8214285714285714,
+      "words": 28
+    },
+    "How do I make a new friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feeling happy too, it is a little and a befer and a bit feel a bit to calm and be some happy too, it is a lovely day, thank",
+      "characters": 128,
+      "generated": "I am feeling happy too, it is a little and a befer and a bit feel a bit to calm and be some happy too, it is a lovely day, thank",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How do I make a new friend?\nA ",
+      "punctuation_count": 3,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.6451612903225806,
+      "words": 31
+    },
+    "Should I share my toys": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy today, thank you for a love a bit that is a lovely day to feel happy today, thank you for asking.",
+      "characters": 110,
+      "generated": "I feel happy today, thank you for a love a bit that is a lovely day to feel happy today, thank you for asking.\nQ What it is a li",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Should I share my toys?\nA ",
+      "punctuation_count": 3,
+      "terminal_punctuation": true,
+      "unique_word_ratio": 0.6666666666666666,
+      "words": 24
+    },
+    "What do plants need to grow": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy today, thank you for asking.",
+      "characters": 41,
+      "generated": "I feel happy today, thank you for asking.\nQ Hello see that is a beautiful day it can be a litten that the seem that thank you fo",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What do plants need to grow?\nA ",
+      "punctuation_count": 2,
+      "terminal_punctuation": true,
+      "unique_word_ratio": 1.0,
+      "words": 8
+    },
+    "What happens when it rains": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy too, it is a lovely day, thank you feel a bit did not feeling a little and feel a bit thank you for asking.",
+      "characters": 120,
+      "generated": "I feel happy too, it is a lovely day, thank you feel a bit did not feeling a little and feel a bit thank you for asking.\nQ I am ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What happens when it rains?\nA ",
+      "punctuation_count": 3,
+      "terminal_punctuation": true,
+      "unique_word_ratio": 0.7037037037037037,
+      "words": 27
+    },
+    "What makes people happy": {
+      "adjacent_duplicate_words": 1,
+      "answer": "I am feeling a beautiful beautiful coll and a face a bit to can feel a bit can be happy today, thank you for asking that a lovel",
+      "characters": 128,
+      "generated": "I am feeling a beautiful beautiful coll and a face a bit to can feel a bit can be happy today, thank you for asking that a lovel",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What makes people happy?\nA ",
+      "punctuation_count": 1,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.75,
+      "words": 28
+    },
+    "What should I do when I feel sad": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I also feel happy today, it is a love that a little a bit to feel a lite a bit and like a bit can be a beautiful day, thank you",
+      "characters": 127,
+      "generated": "I also feel happy today, it is a love that a little a bit to feel a lite a bit and like a bit can be a beautiful day, thank you ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What should I do when I feel sad?\nA ",
+      "punctuation_count": 2,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.7096774193548387,
+      "words": 31
+    },
+    "Where do birds live": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feeling happy today, thank you for asking.",
+      "characters": 47,
+      "generated": "I am feeling happy today, thank you for asking.\nQ Hear that that the seem that is a lovely day, thank you for asking.\nQ I am all",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Where do birds live?\nA ",
+      "punctuation_count": 2,
+      "terminal_punctuation": true,
+      "unique_word_ratio": 1.0,
+      "words": 9
+    },
+    "Why do we need to sleep": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy today, thank you for a lovely day in the seems can feel a bit that a bit do feel a bit be calm and asking a litte f",
+      "characters": 128,
+      "generated": "I feel happy today, thank you for a lovely day in the seems can feel a bit that a bit do feel a bit be calm and asking a litte f",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why do we need to sleep?\nA ",
+      "punctuation_count": 1,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.7419354838709677,
+      "words": 31
+    },
+    "Why is the sky blue": {
+      "adjacent_duplicate_words": 1,
+      "answer": "I am all feeling that and and feel happiness to hear that a love and happy too, it is a bit do feel happy today, thank you for a",
+      "characters": 128,
+      "generated": "I am all feeling that and and feel happiness to hear that a love and happy too, it is a bit do feel happy today, thank you for a",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why is the sky blue?\nA ",
+      "punctuation_count": 2,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.7586206896551724,
+      "words": 29
+    }
+  },
+  "initialization": {
+    "architecture_changed": false,
+    "float": "generated/run7/factorio-lm-tinychat-float.pt",
+    "integer": "generated/run7/factorio-lm-tinychat-aligned-int4.pt",
+    "mask_changed": false
+  },
+  "legacy_run7_letter_space_comparison": {
+    "letter_space_answer_accuracy": {
+      "run7": 0.5340442986054142,
+      "run7p": 0.5578342904019689
+    },
+    "run7": {
+      "all_characters": {
+        "accuracy": 0.5361328125,
+        "characters": 2048,
+        "cross_entropy": 1.4823363953219852,
+        "perplexity": 4.40322133798159
+      },
+      "answer_characters": {
+        "accuracy": 0.5340442986054142,
+        "characters": 1219,
+        "cross_entropy": 1.5024058265494042,
+        "perplexity": 4.492484217308392
+      }
+    },
+    "run7p": {
+      "all_characters": {
+        "accuracy": 0.55810546875,
+        "characters": 2048,
+        "cross_entropy": 1.5887970316052753,
+        "perplexity": 4.89785342011617
+      },
+      "answer_characters": {
+        "accuracy": 0.5578342904019689,
+        "characters": 1219,
+        "cross_entropy": 1.5378652914196973,
+        "perplexity": 4.654643350778337
+      }
+    },
+    "source": "Run 7 punctuation-free validation tokens 0..53"
+  },
+  "metrics": {
+    "exact": {
+      "all_characters": {
+        "accuracy": 0.56787109375,
+        "characters": 2048,
+        "cross_entropy": 1.4654736640605333,
+        "perplexity": 4.329593527539464
+      },
+      "answer_characters": {
+        "accuracy": 0.5525114155251142,
+        "characters": 1095,
+        "cross_entropy": 1.527041465520573,
+        "perplexity": 4.604533978302331
+      },
+      "symbol_classes": {
+        "characters": {
+          "!": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "\"": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "'": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "(": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          ")": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          ",": {
+            "correct": 3,
+            "precision": 0.42857142857142855,
+            "predictions": 7,
+            "recall": 0.25,
+            "targets": 12
+          },
+          "-": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 1
+          },
+          ".": {
+            "correct": 2,
+            "precision": 0.5,
+            "predictions": 4,
+            "recall": 0.13333333333333333,
+            "targets": 15
+          },
+          ";": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "?": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          }
+        },
+        "letter_space": {
+          "accuracy": 0.5623242736644799,
+          "targets": 1067
+        },
+        "micro": {
+          "correct": 5,
+          "precision": 0.45454545454545453,
+          "predictions": 11,
+          "recall": 0.17857142857142858,
+          "targets": 28
+        }
+      }
+    },
+    "float": {
+      "all_characters": {
+        "accuracy": 0.67828369140625,
+        "characters": 16384,
+        "cross_entropy": 1.0301152467727661,
+        "perplexity": 2.8013886670991726
+      },
+      "answer_characters": {
+        "accuracy": 0.6671458586752184,
+        "characters": 9043,
+        "cross_entropy": 1.0774458986750801,
+        "perplexity": 2.9371681376614966
+      },
+      "symbol_classes": {
+        "characters": {
+          "!": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "\"": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "'": {
+            "correct": 2,
+            "precision": 1.0,
+            "predictions": 2,
+            "recall": 0.4,
+            "targets": 5
+          },
+          "(": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          ")": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          ",": {
+            "correct": 40,
+            "precision": 0.851063829787234,
+            "predictions": 47,
+            "recall": 0.46511627906976744,
+            "targets": 86
+          },
+          "-": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 1
+          },
+          ".": {
+            "correct": 20,
+            "precision": 0.5555555555555556,
+            "predictions": 36,
+            "recall": 0.1652892561983471,
+            "targets": 121
+          },
+          ";": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 4
+          },
+          "?": {
+            "correct": 2,
+            "precision": 0.4,
+            "predictions": 5,
+            "recall": 0.5,
+            "targets": 4
+          }
+        },
+        "letter_space": {
+          "accuracy": 0.6766039446837452,
+          "targets": 8822
+        },
+        "micro": {
+          "correct": 64,
+          "precision": 0.7111111111111111,
+          "predictions": 90,
+          "recall": 0.2895927601809955,
+          "targets": 221
+        }
+      },
+      "temperature": 1.0
+    },
+    "qat": {
+      "all_characters": {
+        "accuracy": 0.5762939453125,
+        "characters": 16384,
+        "cross_entropy": 1.4233940541744232,
+        "perplexity": 4.151185907127622
+      },
+      "answer_characters": {
+        "accuracy": 0.5624239743447971,
+        "characters": 9043,
+        "cross_entropy": 1.470294757080753,
+        "perplexity": 4.350517297869544
+      },
+      "symbol_classes": {
+        "characters": {
+          "!": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "\"": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "'": {
+            "correct": 1,
+            "precision": 1.0,
+            "predictions": 1,
+            "recall": 0.2,
+            "targets": 5
+          },
+          "(": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          ")": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          ",": {
+            "correct": 37,
+            "precision": 0.6981132075471698,
+            "predictions": 53,
+            "recall": 0.43023255813953487,
+            "targets": 86
+          },
+          "-": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 1
+          },
+          ".": {
+            "correct": 8,
+            "precision": 0.2962962962962963,
+            "predictions": 27,
+            "recall": 0.06611570247933884,
+            "targets": 121
+          },
+          ";": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 4
+          },
+          "?": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 4
+          }
+        },
+        "letter_space": {
+          "accuracy": 0.5712990251643618,
+          "targets": 8822
+        },
+        "micro": {
+          "correct": 46,
+          "precision": 0.5679012345679012,
+          "predictions": 81,
+          "recall": 0.2081447963800905,
+          "targets": 221
+        }
+      },
+      "temperature": 1.125
+    }
+  },
+  "quality_gate": {
+    "exact_accuracy_within_two_points_of_run7": true,
+    "heldout_punctuation_demo_selected": true,
+    "minimum_exact_answer_accuracy": 0.5140442986054142
+  },
+  "range_report": "generated/run7p/range-report.json",
+  "run": "7P",
+  "sparsity": {
+    "mask_sha256": "1931291c69fe1103ffe7df725ba2b2ed5cbbdadbf13565dbc2e7a658f9474708",
+    "per_matrix": {
+      "layers.0.ffn_down": 1004,
+      "layers.0.ffn_up": 1004,
+      "layers.0.key": 502,
+      "layers.0.output": 502,
+      "layers.0.query": 502,
+      "layers.0.value": 502,
+      "layers.1.ffn_down": 1004,
+      "layers.1.ffn_up": 1004,
+      "layers.1.key": 502,
+      "layers.1.output": 502,
+      "layers.1.query": 502,
+      "layers.1.value": 502,
+      "layers.2.ffn_down": 1004,
+      "layers.2.ffn_up": 1004,
+      "layers.2.key": 502,
+      "layers.2.output": 502,
+      "layers.2.query": 502,
+      "layers.2.value": 502,
+      "layers.3.ffn_down": 1004,
+      "layers.3.ffn_up": 1004,
+      "layers.3.key": 502,
+      "layers.3.output": 502,
+      "layers.3.query": 502,
+      "layers.3.value": 502,
+      "layers.4.ffn_down": 1004,
+      "layers.4.ffn_up": 1004,
+      "layers.4.key": 502,
+      "layers.4.output": 502,
+      "layers.4.query": 502,
+      "layers.4.value": 502,
+      "layers.5.ffn_down": 1004,
+      "layers.5.ffn_up": 1004,
+      "layers.5.key": 502,
+      "layers.5.output": 502,
+      "layers.5.query": 502,
+      "layers.5.value": 502,
+      "lm_head": 1004
+    },
+    "per_module": {
+      "ffn_down": 6024,
+      "ffn_up": 6024,
+      "key": 3012,
+      "lm_head": 1004,
+      "output": 3012,
+      "query": 3012,
+      "value": 3012
+    },
+    "total_nonzeros": 25100
+  },
+  "training": {
+    "aligned_integer_qat": {
+      "best_step": 1750,
+      "checkpoint": "generated/run7p/factorio-lm-tinychat-punctuation-aligned-int4.pt",
+      "elapsed_seconds": 1258.0421924170078,
+      "log": [
+        {
+          "elapsed_seconds": 36.06698000000324,
+          "gradient_norm": 7.496770858764648,
+          "learning_rate": 1.6666666666666667e-06,
+          "objective": 1.0691006183624268,
+          "step": 1,
+          "validation": {
+            "accuracy": 0.644287109375,
+            "characters": 16384,
+            "cross_entropy": 1.166398064178793,
+            "perplexity": 3.210408103728307,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 180.23408616700908,
+          "gradient_norm": 8.084256172180176,
+          "learning_rate": 0.00024901532690654025,
+          "objective": 0.9229073524475098,
+          "step": 250,
+          "validation": {
+            "accuracy": 0.63482666015625,
+            "characters": 16384,
+            "cross_entropy": 1.1852687032769609,
+            "perplexity": 3.271565783817536,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 305.85897683299845,
+          "gradient_norm": 6.8280839920043945,
+          "learning_rate": 0.00023796605608144845,
+          "objective": 1.0634334087371826,
+          "step": 500,
+          "validation": {
+            "accuracy": 0.655517578125,
+            "characters": 16384,
+            "cross_entropy": 1.1522042794713343,
+            "perplexity": 3.165162127717361,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 417.2760964170011,
+          "gradient_norm": 6.372073650360107,
+          "learning_rate": 0.00021578964937055988,
+          "objective": 0.8297750353813171,
+          "step": 750,
+          "validation": {
+            "accuracy": 0.6492919921875,
+            "characters": 16384,
+            "cross_entropy": 1.1669328685111395,
+            "perplexity": 3.212125503086156,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 531.6605977080035,
+          "gradient_norm": 6.701056003570557,
+          "learning_rate": 0.0001849422586380495,
+          "objective": 0.9004781246185303,
+          "step": 1000,
+          "validation": {
+            "accuracy": 0.6539306640625,
+            "characters": 16384,
+            "cross_entropy": 1.1410212877435697,
+            "perplexity": 3.1299633266042677,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 654.1948657500034,
+          "gradient_norm": 6.133711338043213,
+          "learning_rate": 0.0001488403921235225,
+          "objective": 0.7672041058540344,
+          "step": 1250,
+          "validation": {
+            "accuracy": 0.66015625,
+            "characters": 16384,
+            "cross_entropy": 1.122175335069187,
+            "perplexity": 3.071528544956151,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 763.3127589170035,
+          "gradient_norm": 6.363589763641357,
+          "learning_rate": 0.00011148251846510651,
+          "objective": 1.0595004558563232,
+          "step": 1500,
+          "validation": {
+            "accuracy": 0.65435791015625,
+            "characters": 16384,
+            "cross_entropy": 1.124463659061803,
+            "perplexity": 3.078565245474294,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 897.8585562920052,
+          "gradient_norm": 7.099276542663574,
+          "learning_rate": 7.700621559523889e-05,
+          "objective": 1.0406348705291748,
+          "step": 1750,
+          "validation": {
+            "accuracy": 0.6678466796875,
+            "characters": 16384,
+            "cross_entropy": 1.0944382575034979,
+            "perplexity": 2.9875040039872163,
+            "temperature": 1.125
+          }
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.6678466796875,
+        "characters": 16384,
+        "cross_entropy": 1.0944382575034979,
+        "perplexity": 2.9875040039872163,
+        "temperature": 1.125
+      },
+      "stage": "aligned-integer",
+      "steps": 2500
+    },
+    "conditional_punctuation_refinement": null,
+    "conditional_refinement_triggered": false,
+    "float": {
+      "best_step": 2500,
+      "checkpoint": "generated/run7p/factorio-lm-tinychat-punctuation-float.pt",
+      "elapsed_seconds": 378.782578207989,
+      "log": [
+        {
+          "elapsed_seconds": 0.29879149999760557,
+          "gradient_norm": 2.8236889839172363,
+          "learning_rate": 5e-06,
+          "objective": 1.7369087934494019,
+          "step": 1,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.6370849609375,
+              "characters": 16384,
+              "cross_entropy": 1.7767426073551178,
+              "perplexity": 5.9105719734645135
+            },
+            "answer_characters": {
+              "accuracy": 0.6425964834678757,
+              "characters": 9043,
+              "cross_entropy": 1.7520048526830145,
+              "perplexity": 5.766151379476701
+            },
+            "temperature": 1.0
+          }
+        },
+        {
+          "elapsed_seconds": 17.537585332989693,
+          "gradient_norm": 1.8701423406600952,
+          "learning_rate": 0.0007470459807196209,
+          "objective": 1.2499818801879883,
+          "step": 250,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.65484619140625,
+              "characters": 16384,
+              "cross_entropy": 1.1251559555530548,
+              "perplexity": 3.080697263300905
+            },
+            "answer_characters": {
+              "accuracy": 0.643149397323897,
+              "characters": 9043,
+              "cross_entropy": 1.1780677431784252,
+              "perplexity": 3.248091987517549
+            },
+            "temperature": 1.0
+          }
+        },
+        {
+          "elapsed_seconds": 55.91441654099617,
+          "gradient_norm": 1.5458775758743286,
+          "learning_rate": 0.0007138981682443454,
+          "objective": 1.136438012123108,
+          "step": 500,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.65802001953125,
+              "characters": 16384,
+              "cross_entropy": 1.107233464717865,
+              "perplexity": 3.02597533623876
+            },
+            "answer_characters": {
+              "accuracy": 0.6466880460024328,
+              "characters": 9043,
+              "cross_entropy": 1.1617817573416593,
+              "perplexity": 3.1956220296344933
+            },
+            "temperature": 1.0
+          }
+        },
+        {
+          "elapsed_seconds": 94.21656354099105,
+          "gradient_norm": 1.5592678785324097,
+          "learning_rate": 0.0006473689481116796,
+          "objective": 1.0882949829101562,
+          "step": 750,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.66595458984375,
+              "characters": 16384,
+              "cross_entropy": 1.0878432393074036,
+              "perplexity": 2.9678661877752877
+            },
+            "answer_characters": {
+              "accuracy": 0.6547605883003428,
+              "characters": 9043,
+              "cross_entropy": 1.1433455089572044,
+              "perplexity": 3.1372465143569483
+            },
+            "temperature": 1.0
+          }
+        },
+        {
+          "elapsed_seconds": 132.23129233300278,
+          "gradient_norm": 1.702951431274414,
+          "learning_rate": 0.0005548267759141484,
+          "objective": 1.0837539434432983,
+          "step": 1000,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.6673583984375,
+              "characters": 16384,
+              "cross_entropy": 1.0707474052906036,
+              "perplexity": 2.9175592845291787
+            },
+            "answer_characters": {
+              "accuracy": 0.6542076744443216,
+              "characters": 9043,
+              "cross_entropy": 1.1236169864207812,
+              "perplexity": 3.0759598116377678
+            },
+            "temperature": 1.0
+          }
+        },
+        {
+          "elapsed_seconds": 170.12406416599697,
+          "gradient_norm": 1.4442588090896606,
+          "learning_rate": 0.00044652117637056747,
+          "objective": 1.0638422966003418,
+          "step": 1250,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.6663818359375,
+              "characters": 16384,
+              "cross_entropy": 1.069162130355835,
+              "perplexity": 2.912937815042432
+            },
+            "answer_characters": {
+              "accuracy": 0.6573039920380405,
+              "characters": 9043,
+              "cross_entropy": 1.113786755812507,
+              "perplexity": 3.045870551830936
+            },
+            "temperature": 1.0
+          }
+        },
+        {
+          "elapsed_seconds": 208.16253204099485,
+          "gradient_norm": 1.5296605825424194,
+          "learning_rate": 0.00033444755539531956,
+          "objective": 1.066721796989441,
+          "step": 1500,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.6719970703125,
+              "characters": 16384,
+              "cross_entropy": 1.0549242496490479,
+              "perplexity": 2.871757609015167
+            },
+            "answer_characters": {
+              "accuracy": 0.6619484684286189,
+              "characters": 9043,
+              "cross_entropy": 1.100428513637966,
+              "perplexity": 3.005453625916207
+            },
+            "temperature": 1.0
+          }
+        },
+        {
+          "elapsed_seconds": 246.201532416002,
+          "gradient_norm": 1.6349111795425415,
+          "learning_rate": 0.00023101864678571666,
+          "objective": 1.1232049465179443,
+          "step": 1750,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.6766357421875,
+              "characters": 16384,
+              "cross_entropy": 1.0415222942829132,
+              "perplexity": 2.8335271950870133
+            },
+            "answer_characters": {
+              "accuracy": 0.6655976998783589,
+              "characters": 9043,
+              "cross_entropy": 1.0910481734836337,
+              "perplexity": 2.97739326221935
+            },
+            "temperature": 1.0
+          }
+        },
+        {
+          "elapsed_seconds": 284.21321508300025,
+          "gradient_norm": 1.4118540287017822,
+          "learning_rate": 0.0001476897376855651,
+          "objective": 1.0502564907073975,
+          "step": 2000,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.6768798828125,
+              "characters": 16384,
+              "cross_entropy": 1.0373321771621704,
+              "perplexity": 2.8216792238030948
+            },
+            "answer_characters": {
+              "accuracy": 0.6680305208448524,
+              "characters": 9043,
+              "cross_entropy": 1.0857563181207148,
+              "perplexity": 2.961678943340089
+            },
+            "temperature": 1.0
+          }
+        },
+        {
+          "elapsed_seconds": 322.2332394159894,
+          "gradient_norm": 1.422026515007019,
+          "learning_rate": 9.368993622289636e-05,
+          "objective": 1.0401349067687988,
+          "step": 2250,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.67938232421875,
+              "characters": 16384,
+              "cross_entropy": 1.0324877500534058,
+              "perplexity": 2.8080428613297883
+            },
+            "answer_characters": {
+              "accuracy": 0.6700210107265288,
+              "characters": 9043,
+              "cross_entropy": 1.0796583640315713,
+              "perplexity": 2.9436737144401515
+            },
+            "temperature": 1.0
+          }
+        },
+        {
+          "elapsed_seconds": 378.2983895829966,
+          "gradient_norm": 1.5604203939437866,
+          "learning_rate": 7.500000000000001e-05,
+          "objective": 1.1039056777954102,
+          "step": 2500,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.67828369140625,
+              "characters": 16384,
+              "cross_entropy": 1.0301152467727661,
+              "perplexity": 2.8013886670991726
+            },
+            "answer_characters": {
+              "accuracy": 0.6671458586752184,
+              "characters": 9043,
+              "cross_entropy": 1.0774458986750801,
+              "perplexity": 2.9371681376614966
+            },
+            "temperature": 1.0
+          }
+        }
+      ],
+      "metrics": {
+        "all_characters": {
+          "accuracy": 0.67828369140625,
+          "characters": 16384,
+          "cross_entropy": 1.0301152467727661,
+          "perplexity": 2.8013886670991726
+        },
+        "answer_characters": {
+          "accuracy": 0.6671458586752184,
+          "characters": 9043,
+          "cross_entropy": 1.0774458986750801,
+          "perplexity": 2.9371681376614966
+        },
+        "temperature": 1.0
+      },
+      "stage": "float",
+      "steps": 2500
+    },
+    "integer_qat": {
+      "best_step": 2250,
+      "checkpoint": "generated/run7p/factorio-lm-tinychat-punctuation-int4.pt",
+      "elapsed_seconds": 878.688434249998,
+      "log": [
+        {
+          "elapsed_seconds": 1.305391417001374,
+          "gradient_norm": 2.5906624794006348,
+          "learning_rate": 5e-06,
+          "objective": 1.6540203094482422,
+          "step": 1,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.5281982421875,
+              "characters": 16384,
+              "cross_entropy": 1.922439455986023,
+              "perplexity": 6.837618209348614
+            },
+            "answer_characters": {
+              "accuracy": 0.532787791662059,
+              "characters": 9043,
+              "cross_entropy": 1.9103275237061816,
+              "perplexity": 6.755300957450224
+            },
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 141.17469233401062,
+          "gradient_norm": 1.6726316213607788,
+          "learning_rate": 0.0007470459807196209,
+          "objective": 1.1278260946273804,
+          "step": 250,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.57037353515625,
+              "characters": 16384,
+              "cross_entropy": 1.437034159898758,
+              "perplexity": 4.2081964528073845
+            },
+            "answer_characters": {
+              "accuracy": 0.554793763131704,
+              "characters": 9043,
+              "cross_entropy": 1.4939952691308194,
+              "perplexity": 4.454858369818199
+            },
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 214.67965537500277,
+          "gradient_norm": 1.7049000263214111,
+          "learning_rate": 0.0007138981682443454,
+          "objective": 1.1151981353759766,
+          "step": 500,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.56732177734375,
+              "characters": 16384,
+              "cross_entropy": 1.435028076171875,
+              "perplexity": 4.19976292039825
+            },
+            "answer_characters": {
+              "accuracy": 0.5463894725201813,
+              "characters": 9043,
+              "cross_entropy": 1.5057868050563972,
+              "perplexity": 4.507698915680925
+            },
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 290.8008956670092,
+          "gradient_norm": 2.199024200439453,
+          "learning_rate": 0.0006473689481116796,
+          "objective": 1.1505805253982544,
+          "step": 750,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.57489013671875,
+              "characters": 16384,
+              "cross_entropy": 1.4125819206237793,
+              "perplexity": 4.106544500023121
+            },
+            "answer_characters": {
+              "accuracy": 0.5557890080725423,
+              "characters": 9043,
+              "cross_entropy": 1.4784797719921485,
+              "perplexity": 4.386272475539713
+            },
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 357.6923012920015,
+          "gradient_norm": 1.5459381341934204,
+          "learning_rate": 0.0005548267759141484,
+          "objective": 1.1242115497589111,
+          "step": 1000,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.58184814453125,
+              "characters": 16384,
+              "cross_entropy": 1.3855397701263428,
+              "perplexity": 3.996982774554551
+            },
+            "answer_characters": {
+              "accuracy": 0.5633086365144311,
+              "characters": 9043,
+              "cross_entropy": 1.457615103273941,
+              "perplexity": 4.295702495407254
+            },
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 433.00786199999857,
+          "gradient_norm": 1.431547999382019,
+          "learning_rate": 0.00044652117637056747,
+          "objective": 1.0400888919830322,
+          "step": 1250,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.5806884765625,
+              "characters": 16384,
+              "cross_entropy": 1.395477443933487,
+              "perplexity": 4.036901506728573
+            },
+            "answer_characters": {
+              "accuracy": 0.5614287294039588,
+              "characters": 9043,
+              "cross_entropy": 1.45814236927043,
+              "perplexity": 4.29796807049198
+            },
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 521.9048615420033,
+          "gradient_norm": 1.8103759288787842,
+          "learning_rate": 0.00033444755539531956,
+          "objective": 1.0713837146759033,
+          "step": 1500,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.58489990234375,
+              "characters": 16384,
+              "cross_entropy": 1.3845261335372925,
+              "perplexity": 3.9929333392430766
+            },
+            "answer_characters": {
+              "accuracy": 0.5654097091673117,
+              "characters": 9043,
+              "cross_entropy": 1.4575105679980371,
+              "perplexity": 4.295253466431788
+            },
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 605.6804707500123,
+          "gradient_norm": 1.7689542770385742,
+          "learning_rate": 0.00023101864678571666,
+          "objective": 1.0748883485794067,
+          "step": 1750,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.58624267578125,
+              "characters": 16384,
+              "cross_entropy": 1.3725738227367401,
+              "perplexity": 3.9454926367482215
+            },
+            "answer_characters": {
+              "accuracy": 0.5677319473626009,
+              "characters": 9043,
+              "cross_entropy": 1.443075601682586,
+              "perplexity": 4.233696979102499
+            },
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 687.2823153750069,
+          "gradient_norm": 1.4966806173324585,
+          "learning_rate": 0.0001476897376855651,
+          "objective": 1.0545740127563477,
+          "step": 2000,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.58160400390625,
+              "characters": 16384,
+              "cross_entropy": 1.388296902179718,
+              "perplexity": 4.008018189937071
+            },
+            "answer_characters": {
+              "accuracy": 0.5617604777175716,
+              "characters": 9043,
+              "cross_entropy": 1.456167700068423,
+              "perplexity": 4.289489379372177
+            },
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 763.544924959002,
+          "gradient_norm": 1.4548088312149048,
+          "learning_rate": 9.368993622289636e-05,
+          "objective": 1.050147533416748,
+          "step": 2250,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.5836181640625,
+              "characters": 16384,
+              "cross_entropy": 1.3628782033920288,
+              "perplexity": 3.9074234922058833
+            },
+            "answer_characters": {
+              "accuracy": 0.5645250469976778,
+              "characters": 9043,
+              "cross_entropy": 1.4304474325790666,
+              "perplexity": 4.1805692964214725
+            },
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 878.2465251250105,
+          "gradient_norm": 1.5457253456115723,
+          "learning_rate": 7.500000000000001e-05,
+          "objective": 1.04629647731781,
+          "step": 2500,
+          "validation": {
+            "all_characters": {
+              "accuracy": 0.58624267578125,
+              "characters": 16384,
+              "cross_entropy": 1.3662996590137482,
+              "perplexity": 3.920815465236167
+            },
+            "answer_characters": {
+              "accuracy": 0.565077960853699,
+              "characters": 9043,
+              "cross_entropy": 1.4360942273201647,
+              "perplexity": 4.204242890196492
+            },
+            "temperature": 1.125
+          }
+        }
+      ],
+      "metrics": {
+        "all_characters": {
+          "accuracy": 0.5836181640625,
+          "characters": 16384,
+          "cross_entropy": 1.3628782033920288,
+          "perplexity": 3.9074234922058833
+        },
+        "answer_characters": {
+          "accuracy": 0.5645250469976778,
+          "characters": 9043,
+          "cross_entropy": 1.4304474325790666,
+          "perplexity": 4.1805692964214725
+        },
+        "temperature": 1.125
+      },
+      "stage": "integer",
+      "steps": 2500
+    }
+  }
+}

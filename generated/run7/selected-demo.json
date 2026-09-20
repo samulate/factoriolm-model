@@ -1,0 +1,14 @@
+{
+  "candidate": "attempt2_prompt_aligned_int4",
+  "checkpoint": "generated/run7/factorio-lm-tinychat-exact.json",
+  "exact_128": "I also feel happy today it is a lovely day\nA I am feel a bit is a big asking a walk and feel a bit in a bit and a bit feel happy",
+  "exact_answer": "I also feel happy today it is a lovely day",
+  "exact_coherent_heldout_answer": true,
+  "first_32": "I also feel happy today it is a ",
+  "first_64": "I also feel happy today it is a lovely day\nA I am feel a bit is ",
+  "prompt": "Q Hello I feel really happy today how about you\nA ",
+  "prompt_length": 50,
+  "selection": "Highest manually reviewed coherent natural held-out conversational answer among 600 validation questions and three exact candidates.",
+  "source_row": 40,
+  "turn": 0
+}

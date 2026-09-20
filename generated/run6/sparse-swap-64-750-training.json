@@ -1,0 +1,201 @@
+{
+  "candidate": "limited-saliency-swap-64",
+  "checkpoint": "generated/run6/factorio-lm-sparse-swap-64-750.pt",
+  "configuration": {
+    "batch_size": 64,
+    "device": "cpu",
+    "distillation_weight": 0.25,
+    "evaluation_characters": 16384,
+    "evaluation_interval": 125,
+    "generation_length": 256,
+    "gradient_clip": 1.0,
+    "integer_logit_temperature": 1.25,
+    "integer_qat_learning_rate": 0.002,
+    "integer_qat_steps": 2000,
+    "mask_refresh_interval": 100000,
+    "maximum_scale_denominator": 256,
+    "nonzero_weights": 25100,
+    "seed": 4104,
+    "sequence_length": 64,
+    "sparse_float_learning_rate": 0.001,
+    "sparse_float_steps": 750,
+    "warmup_steps": 100,
+    "weight_decay": 0.01,
+    "weight_limit": 7
+  },
+  "mask": {
+    "mask_sha256": "36b3641c25736e6d963e00f8803e2ba74cea0d4465abb6e45235111049c5e5ef",
+    "per_matrix": {
+      "layers.0.ffn_down": 1004,
+      "layers.0.ffn_up": 1004,
+      "layers.0.key": 502,
+      "layers.0.output": 502,
+      "layers.0.query": 502,
+      "layers.0.value": 502,
+      "layers.1.ffn_down": 1004,
+      "layers.1.ffn_up": 1004,
+      "layers.1.key": 502,
+      "layers.1.output": 502,
+      "layers.1.query": 502,
+      "layers.1.value": 502,
+      "layers.2.ffn_down": 1004,
+      "layers.2.ffn_up": 1004,
+      "layers.2.key": 502,
+      "layers.2.output": 502,
+      "layers.2.query": 502,
+      "layers.2.value": 502,
+      "layers.3.ffn_down": 1004,
+      "layers.3.ffn_up": 1004,
+      "layers.3.key": 502,
+      "layers.3.output": 502,
+      "layers.3.query": 502,
+      "layers.3.value": 502,
+      "layers.4.ffn_down": 1004,
+      "layers.4.ffn_up": 1004,
+      "layers.4.key": 502,
+      "layers.4.output": 502,
+      "layers.4.query": 502,
+      "layers.4.value": 502,
+      "layers.5.ffn_down": 1004,
+      "layers.5.ffn_up": 1004,
+      "layers.5.key": 502,
+      "layers.5.output": 502,
+      "layers.5.query": 502,
+      "layers.5.value": 502,
+      "lm_head": 1004
+    },
+    "per_module": {
+      "ffn_down": 6024,
+      "ffn_up": 6024,
+      "key": 3012,
+      "lm_head": 1004,
+      "output": 3012,
+      "query": 3012,
+      "value": 3012
+    },
+    "total_nonzeros": 25100
+  },
+  "swaps": 64,
+  "training": {
+    "best_step": 750,
+    "checkpoint": "generated/run6/factorio-lm-sparse-swap-64-750.pt",
+    "elapsed_seconds": 193.61741208299645,
+    "log": [
+      {
+        "elapsed_seconds": 0.29656479199184105,
+        "gradient_norm": 3.2231156826019287,
+        "learning_rate": 1e-05,
+        "objective": 1.0451983213424683,
+        "step": 1,
+        "validation": {
+          "accuracy": 0.5751953125,
+          "characters": 16384,
+          "cross_entropy": 1.3550348579883575,
+          "optimization_cross_entropy": 1.3550348579883575,
+          "optimization_temperature": 1.0,
+          "perplexity": 3.876896095076784
+        }
+      },
+      {
+        "elapsed_seconds": 30.98588708299212,
+        "gradient_norm": 1.067496418952942,
+        "learning_rate": 0.0009969666199188983,
+        "objective": 0.8867005109786987,
+        "step": 125,
+        "validation": {
+          "accuracy": 0.6229248046875,
+          "characters": 16384,
+          "cross_entropy": 1.2152988016605377,
+          "optimization_cross_entropy": 1.2152988016605377,
+          "optimization_temperature": 1.0,
+          "perplexity": 3.371301264253539
+        }
+      },
+      {
+        "elapsed_seconds": 62.92526866699336,
+        "gradient_norm": 1.0031663179397583,
+        "learning_rate": 0.0008879386375422967,
+        "objective": 0.8845852613449097,
+        "step": 250,
+        "validation": {
+          "accuracy": 0.6236572265625,
+          "characters": 16384,
+          "cross_entropy": 1.2104849815368652,
+          "optimization_cross_entropy": 1.2104849815368652,
+          "optimization_temperature": 1.0,
+          "perplexity": 3.3551114251351195
+        }
+      },
+      {
+        "elapsed_seconds": 92.55195399999502,
+        "gradient_norm": 0.9741947054862976,
+        "learning_rate": 0.0006589118211714957,
+        "objective": 0.8817517757415771,
+        "step": 375,
+        "validation": {
+          "accuracy": 0.62725830078125,
+          "characters": 16384,
+          "cross_entropy": 1.2084375023841858,
+          "optimization_cross_entropy": 1.2084375023841858,
+          "optimization_temperature": 1.0,
+          "perplexity": 3.3482489322402027
+        }
+      },
+      {
+        "elapsed_seconds": 122.15425412499462,
+        "gradient_norm": 0.8878878355026245,
+        "learning_rate": 0.00039121144073648364,
+        "objective": 0.8895291686058044,
+        "step": 500,
+        "validation": {
+          "accuracy": 0.6273193359375,
+          "characters": 16384,
+          "cross_entropy": 1.199751228094101,
+          "optimization_cross_entropy": 1.199751228094101,
+          "optimization_temperature": 1.0,
+          "perplexity": 3.3192910736501555
+        }
+      },
+      {
+        "elapsed_seconds": 155.71445920798578,
+        "gradient_norm": 0.8336977958679199,
+        "learning_rate": 0.00017989538528371318,
+        "objective": 0.811806857585907,
+        "step": 625,
+        "validation": {
+          "accuracy": 0.6280517578125,
+          "characters": 16384,
+          "cross_entropy": 1.1954191625118256,
+          "optimization_cross_entropy": 1.1954191625118256,
+          "optimization_temperature": 1.0,
+          "perplexity": 3.3049427883282125
+        }
+      },
+      {
+        "elapsed_seconds": 193.23096712498227,
+        "gradient_norm": 0.8380793333053589,
+        "learning_rate": 0.0001,
+        "objective": 0.8764378428459167,
+        "step": 750,
+        "validation": {
+          "accuracy": 0.63092041015625,
+          "characters": 16384,
+          "cross_entropy": 1.1936993896961212,
+          "optimization_cross_entropy": 1.1936993896961212,
+          "optimization_temperature": 1.0,
+          "perplexity": 3.2992639221428925
+        }
+      }
+    ],
+    "metrics": {
+      "accuracy": 0.63092041015625,
+      "characters": 16384,
+      "cross_entropy": 1.1936993896961212,
+      "optimization_cross_entropy": 1.1936993896961212,
+      "optimization_temperature": 1.0,
+      "perplexity": 3.2992639221428925
+    },
+    "stage": "sparse",
+    "steps": 750
+  }
+}

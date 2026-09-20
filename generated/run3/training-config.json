@@ -1,0 +1,16 @@
+{
+  "batch_size": 4,
+  "candidate_steps": 16,
+  "device": "auto",
+  "embedding_limit": 31,
+  "final_steps": 96,
+  "gradient_clip": 1.0,
+  "learning_rate": 0.012,
+  "relative_bias_limit": 6,
+  "sample_length": 24,
+  "sample_prompt": "Factorio ",
+  "seed": 7321,
+  "sequence_length": 24,
+  "ternary_threshold": 0.55,
+  "validation_fraction": 0.15
+}

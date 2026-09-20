@@ -1,0 +1,3032 @@
+{
+  "general_quality_gate": {
+    "clearly_better_than_run5": true,
+    "evidence": {
+      "adjacent_word_repetition_reduction": 0.04966529777737765,
+      "dictionary_word_rate_gain": 0.09044837069213485,
+      "exact_accuracy_absolute_gain": 0.0501708984375,
+      "raw_cross_entropy_reduction": 0.22492238879203796
+    },
+    "run5_generation_quality": {
+      "A little ": {
+        "adjacent_repeated_word_fraction": 0.06451612903225806,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8888888888888888,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7686274509803921,
+        "repeated_fourgram_fraction": 0.5612648221343873,
+        "repeated_trigram_fraction": 0.6535433070866141,
+        "sentence_boundaries": 4,
+        "space_fraction": 0.2265625,
+        "unique_word_fraction": 0.3492063492063492,
+        "words": 63
+      },
+      "He wanted ": {
+        "adjacent_repeated_word_fraction": 0.04838709677419355,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8888888888888888,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7803921568627451,
+        "repeated_fourgram_fraction": 0.5849802371541502,
+        "repeated_trigram_fraction": 0.6732283464566929,
+        "sentence_boundaries": 3,
+        "space_fraction": 0.23046875,
+        "unique_word_fraction": 0.3492063492063492,
+        "words": 63
+      },
+      "He was ": {
+        "adjacent_repeated_word_fraction": 0.09090909090909091,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8392857142857143,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7647058823529411,
+        "repeated_fourgram_fraction": 0.5889328063241106,
+        "repeated_trigram_fraction": 0.6653543307086613,
+        "sentence_boundaries": 1,
+        "space_fraction": 0.21484375,
+        "unique_word_fraction": 0.3392857142857143,
+        "words": 56
+      },
+      "Mom said ": {
+        "adjacent_repeated_word_fraction": 0.017543859649122806,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8103448275862069,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7176470588235294,
+        "repeated_fourgram_fraction": 0.49011857707509876,
+        "repeated_trigram_fraction": 0.594488188976378,
+        "sentence_boundaries": 4,
+        "space_fraction": 0.20703125,
+        "unique_word_fraction": 0.43103448275862066,
+        "words": 58
+      },
+      "Once upon a time": {
+        "adjacent_repeated_word_fraction": 0.03389830508474576,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8333333333333334,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7372549019607844,
+        "repeated_fourgram_fraction": 0.4861660079051383,
+        "repeated_trigram_fraction": 0.5984251968503937,
+        "sentence_boundaries": 1,
+        "space_fraction": 0.23046875,
+        "unique_word_fraction": 0.45,
+        "words": 60
+      },
+      "One day ": {
+        "adjacent_repeated_word_fraction": 0.016129032258064516,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9047619047619048,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7372549019607844,
+        "repeated_fourgram_fraction": 0.4940711462450593,
+        "repeated_trigram_fraction": 0.6023622047244095,
+        "sentence_boundaries": 6,
+        "space_fraction": 0.21875,
+        "unique_word_fraction": 0.36507936507936506,
+        "words": 63
+      },
+      "She said ": {
+        "adjacent_repeated_word_fraction": 0.11666666666666667,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8852459016393442,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7333333333333334,
+        "repeated_fourgram_fraction": 0.5296442687747036,
+        "repeated_trigram_fraction": 0.6220472440944882,
+        "sentence_boundaries": 3,
+        "space_fraction": 0.22265625,
+        "unique_word_fraction": 0.39344262295081966,
+        "words": 61
+      },
+      "She was ": {
+        "adjacent_repeated_word_fraction": 0.06666666666666667,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8688524590163934,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7098039215686274,
+        "repeated_fourgram_fraction": 0.4426877470355731,
+        "repeated_trigram_fraction": 0.5669291338582677,
+        "sentence_boundaries": 4,
+        "space_fraction": 0.22265625,
+        "unique_word_fraction": 0.4098360655737705,
+        "words": 61
+      },
+      "The boy ": {
+        "adjacent_repeated_word_fraction": 0.06666666666666667,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8852459016393442,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7019607843137254,
+        "repeated_fourgram_fraction": 0.4624505928853755,
+        "repeated_trigram_fraction": 0.5590551181102362,
+        "sentence_boundaries": 7,
+        "space_fraction": 0.20703125,
+        "unique_word_fraction": 0.4262295081967213,
+        "words": 61
+      },
+      "The cat ": {
+        "adjacent_repeated_word_fraction": 0.034482758620689655,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8813559322033898,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7254901960784313,
+        "repeated_fourgram_fraction": 0.4980237154150198,
+        "repeated_trigram_fraction": 0.610236220472441,
+        "sentence_boundaries": 10,
+        "space_fraction": 0.19140625,
+        "unique_word_fraction": 0.4406779661016949,
+        "words": 59
+      },
+      "The dog ": {
+        "adjacent_repeated_word_fraction": 0.0,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8214285714285714,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7725490196078432,
+        "repeated_fourgram_fraction": 0.5968379446640316,
+        "repeated_trigram_fraction": 0.6692913385826771,
+        "sentence_boundaries": 5,
+        "space_fraction": 0.1953125,
+        "unique_word_fraction": 0.375,
+        "words": 56
+      },
+      "The girl ": {
+        "adjacent_repeated_word_fraction": 0.03389830508474576,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8666666666666667,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7176470588235294,
+        "repeated_fourgram_fraction": 0.46640316205533594,
+        "repeated_trigram_fraction": 0.578740157480315,
+        "sentence_boundaries": 7,
+        "space_fraction": 0.20703125,
+        "unique_word_fraction": 0.43333333333333335,
+        "words": 60
+      },
+      "The house ": {
+        "adjacent_repeated_word_fraction": 0.13793103448275862,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8305084745762712,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7607843137254902,
+        "repeated_fourgram_fraction": 0.5375494071146245,
+        "repeated_trigram_fraction": 0.6377952755905512,
+        "sentence_boundaries": 5,
+        "space_fraction": 0.20703125,
+        "unique_word_fraction": 0.4067796610169492,
+        "words": 59
+      },
+      "The little ": {
+        "adjacent_repeated_word_fraction": 0.08196721311475409,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9032258064516129,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7764705882352941,
+        "repeated_fourgram_fraction": 0.5889328063241106,
+        "repeated_trigram_fraction": 0.6850393700787402,
+        "sentence_boundaries": 6,
+        "space_fraction": 0.21484375,
+        "unique_word_fraction": 0.3225806451612903,
+        "words": 62
+      },
+      "There was ": {
+        "adjacent_repeated_word_fraction": 0.03389830508474576,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.8666666666666667,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7333333333333334,
+        "repeated_fourgram_fraction": 0.5019762845849802,
+        "repeated_trigram_fraction": 0.6141732283464567,
+        "sentence_boundaries": 4,
+        "space_fraction": 0.21484375,
+        "unique_word_fraction": 0.36666666666666664,
+        "words": 60
+      },
+      "Today ": {
+        "adjacent_repeated_word_fraction": 0.05,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9180327868852459,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7764705882352941,
+        "repeated_fourgram_fraction": 0.5770750988142292,
+        "repeated_trigram_fraction": 0.6692913385826771,
+        "sentence_boundaries": 10,
+        "space_fraction": 0.19921875,
+        "unique_word_fraction": 0.29508196721311475,
+        "words": 61
+      }
+    },
+    "run6_generation_quality": {
+      "A little ": {
+        "adjacent_repeated_word_fraction": 0.01639344262295082,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.967741935483871,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6627450980392157,
+        "repeated_fourgram_fraction": 0.4189723320158103,
+        "repeated_trigram_fraction": 0.515748031496063,
+        "sentence_boundaries": 4,
+        "space_fraction": 0.2265625,
+        "unique_word_fraction": 0.45161290322580644,
+        "words": 62
+      },
+      "He wanted ": {
+        "adjacent_repeated_word_fraction": 0.01639344262295082,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9516129032258065,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6705882352941177,
+        "repeated_fourgram_fraction": 0.43083003952569165,
+        "repeated_trigram_fraction": 0.515748031496063,
+        "sentence_boundaries": 5,
+        "space_fraction": 0.21875,
+        "unique_word_fraction": 0.45161290322580644,
+        "words": 62
+      },
+      "He was ": {
+        "adjacent_repeated_word_fraction": 0.0,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.95,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6431372549019607,
+        "repeated_fourgram_fraction": 0.4110671936758893,
+        "repeated_trigram_fraction": 0.48425196850393704,
+        "sentence_boundaries": 7,
+        "space_fraction": 0.20703125,
+        "unique_word_fraction": 0.4666666666666667,
+        "words": 60
+      },
+      "Mom said ": {
+        "adjacent_repeated_word_fraction": 0.01639344262295082,
+        "characters": 256,
+        "dictionary_like_word_fraction": 1.0,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6784313725490196,
+        "repeated_fourgram_fraction": 0.4268774703557312,
+        "repeated_trigram_fraction": 0.5275590551181102,
+        "sentence_boundaries": 2,
+        "space_fraction": 0.23046875,
+        "unique_word_fraction": 0.45161290322580644,
+        "words": 62
+      },
+      "Once upon a time": {
+        "adjacent_repeated_word_fraction": 0.0,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9354838709677419,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6901960784313725,
+        "repeated_fourgram_fraction": 0.41501976284584985,
+        "repeated_trigram_fraction": 0.5314960629921259,
+        "sentence_boundaries": 4,
+        "space_fraction": 0.2265625,
+        "unique_word_fraction": 0.46774193548387094,
+        "words": 62
+      },
+      "One day ": {
+        "adjacent_repeated_word_fraction": 0.0,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9841269841269841,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6745098039215687,
+        "repeated_fourgram_fraction": 0.4031620553359684,
+        "repeated_trigram_fraction": 0.5118110236220472,
+        "sentence_boundaries": 4,
+        "space_fraction": 0.2265625,
+        "unique_word_fraction": 0.4603174603174603,
+        "words": 63
+      },
+      "She said ": {
+        "adjacent_repeated_word_fraction": 0.0,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9137931034482759,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6509803921568628,
+        "repeated_fourgram_fraction": 0.3754940711462451,
+        "repeated_trigram_fraction": 0.46850393700787396,
+        "sentence_boundaries": 5,
+        "space_fraction": 0.20703125,
+        "unique_word_fraction": 0.5344827586206896,
+        "words": 58
+      },
+      "She was ": {
+        "adjacent_repeated_word_fraction": 0.0,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9473684210526315,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6,
+        "repeated_fourgram_fraction": 0.2924901185770751,
+        "repeated_trigram_fraction": 0.4133858267716536,
+        "sentence_boundaries": 4,
+        "space_fraction": 0.20703125,
+        "unique_word_fraction": 0.5614035087719298,
+        "words": 57
+      },
+      "The boy ": {
+        "adjacent_repeated_word_fraction": 0.0,
+        "characters": 256,
+        "dictionary_like_word_fraction": 1.0,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6862745098039216,
+        "repeated_fourgram_fraction": 0.4545454545454546,
+        "repeated_trigram_fraction": 0.5511811023622047,
+        "sentence_boundaries": 5,
+        "space_fraction": 0.234375,
+        "unique_word_fraction": 0.4307692307692308,
+        "words": 65
+      },
+      "The cat ": {
+        "adjacent_repeated_word_fraction": 0.0,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9344262295081968,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7137254901960784,
+        "repeated_fourgram_fraction": 0.5256916996047432,
+        "repeated_trigram_fraction": 0.594488188976378,
+        "sentence_boundaries": 1,
+        "space_fraction": 0.23046875,
+        "unique_word_fraction": 0.3770491803278688,
+        "words": 61
+      },
+      "The dog ": {
+        "adjacent_repeated_word_fraction": 0.0,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9344262295081968,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6941176470588235,
+        "repeated_fourgram_fraction": 0.42292490118577075,
+        "repeated_trigram_fraction": 0.5354330708661417,
+        "sentence_boundaries": 6,
+        "space_fraction": 0.2109375,
+        "unique_word_fraction": 0.45901639344262296,
+        "words": 61
+      },
+      "The girl ": {
+        "adjacent_repeated_word_fraction": 0.0,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9344262295081968,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6470588235294117,
+        "repeated_fourgram_fraction": 0.39920948616600793,
+        "repeated_trigram_fraction": 0.4881889763779528,
+        "sentence_boundaries": 3,
+        "space_fraction": 0.2265625,
+        "unique_word_fraction": 0.47540983606557374,
+        "words": 61
+      },
+      "The house ": {
+        "adjacent_repeated_word_fraction": 0.03278688524590164,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9838709677419355,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6352941176470588,
+        "repeated_fourgram_fraction": 0.37154150197628455,
+        "repeated_trigram_fraction": 0.47637795275590555,
+        "sentence_boundaries": 6,
+        "space_fraction": 0.21875,
+        "unique_word_fraction": 0.46774193548387094,
+        "words": 62
+      },
+      "The little ": {
+        "adjacent_repeated_word_fraction": 0.01694915254237288,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9666666666666667,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.6941176470588235,
+        "repeated_fourgram_fraction": 0.4545454545454546,
+        "repeated_trigram_fraction": 0.547244094488189,
+        "sentence_boundaries": 5,
+        "space_fraction": 0.21484375,
+        "unique_word_fraction": 0.45,
+        "words": 60
+      },
+      "There was ": {
+        "adjacent_repeated_word_fraction": 0.0,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.96875,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.7098039215686274,
+        "repeated_fourgram_fraction": 0.45849802371541504,
+        "repeated_trigram_fraction": 0.5551181102362205,
+        "sentence_boundaries": 2,
+        "space_fraction": 0.23828125,
+        "unique_word_fraction": 0.453125,
+        "words": 64
+      },
+      "Today ": {
+        "adjacent_repeated_word_fraction": 0.0,
+        "characters": 256,
+        "dictionary_like_word_fraction": 0.9672131147540983,
+        "maximum_repeated_character_run": 2,
+        "repeated_bigram_fraction": 0.607843137254902,
+        "repeated_fourgram_fraction": 0.3003952569169961,
+        "repeated_trigram_fraction": 0.40157480314960625,
+        "sentence_boundaries": 5,
+        "space_fraction": 0.21484375,
+        "unique_word_fraction": 0.5573770491803278,
+        "words": 61
+      }
+    }
+  },
+  "prompt_mining": "generated/run6/prompt-mining.json",
+  "range_report": "generated/run6/range-report.json",
+  "representation": {
+    "per_matrix_denominators": {
+      "layers.0.ffn_down": 41,
+      "layers.0.ffn_up": 29,
+      "layers.0.key": 23,
+      "layers.0.output": 37,
+      "layers.0.query": 22,
+      "layers.0.value": 30,
+      "layers.1.ffn_down": 37,
+      "layers.1.ffn_up": 27,
+      "layers.1.key": 19,
+      "layers.1.output": 30,
+      "layers.1.query": 19,
+      "layers.1.value": 27,
+      "layers.2.ffn_down": 33,
+      "layers.2.ffn_up": 24,
+      "layers.2.key": 16,
+      "layers.2.output": 31,
+      "layers.2.query": 15,
+      "layers.2.value": 24,
+      "layers.3.ffn_down": 27,
+      "layers.3.ffn_up": 23,
+      "layers.3.key": 13,
+      "layers.3.output": 33,
+      "layers.3.query": 15,
+      "layers.3.value": 25,
+      "layers.4.ffn_down": 25,
+      "layers.4.ffn_up": 18,
+      "layers.4.key": 15,
+      "layers.4.output": 29,
+      "layers.4.query": 14,
+      "layers.4.value": 23,
+      "layers.5.ffn_down": 23,
+      "layers.5.ffn_up": 17,
+      "layers.5.key": 10,
+      "layers.5.output": 29,
+      "layers.5.query": 12,
+      "layers.5.value": 23,
+      "lm_head": 28
+    },
+    "per_module_sparsity": {
+      "ffn_down": {
+        "nonzeros": 6024,
+        "sparsity_percentage": 50.9765625,
+        "total": 12288
+      },
+      "ffn_up": {
+        "nonzeros": 6024,
+        "sparsity_percentage": 50.9765625,
+        "total": 12288
+      },
+      "key": {
+        "nonzeros": 3012,
+        "sparsity_percentage": 50.9765625,
+        "total": 6144
+      },
+      "lm_head": {
+        "nonzeros": 1004,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048
+      },
+      "output": {
+        "nonzeros": 3012,
+        "sparsity_percentage": 50.9765625,
+        "total": 6144
+      },
+      "query": {
+        "nonzeros": 3012,
+        "sparsity_percentage": 50.9765625,
+        "total": 6144
+      },
+      "value": {
+        "nonzeros": 3012,
+        "sparsity_percentage": 50.9765625,
+        "total": 6144
+      }
+    },
+    "scaling": "per-matrix exact reciprocal with truncating Each / denominator",
+    "selected_mask_changed_from_run5": false,
+    "sparsity_percentage": 50.9765625,
+    "total_nonzeros": 25100,
+    "weight_alphabet": [
+      -7,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "selected_best_calibrated_cross_entropy": 1.4749764502048492,
+  "selected_best_temperature": 1.125,
+  "selected_candidate": "B_scaled_int4_run5_mask",
+  "selected_independent_exact_int32_1024": {
+    "accuracy": 0.576171875,
+    "characters": 1024,
+    "cross_entropy": 1.319170457851324,
+    "perplexity": 3.740317339091417
+  },
+  "selected_mask": {
+    "mask_sha256": "1931291c69fe1103ffe7df725ba2b2ed5cbbdadbf13565dbc2e7a658f9474708",
+    "per_matrix": {
+      "layers.0.ffn_down": 1004,
+      "layers.0.ffn_up": 1004,
+      "layers.0.key": 502,
+      "layers.0.output": 502,
+      "layers.0.query": 502,
+      "layers.0.value": 502,
+      "layers.1.ffn_down": 1004,
+      "layers.1.ffn_up": 1004,
+      "layers.1.key": 502,
+      "layers.1.output": 502,
+      "layers.1.query": 502,
+      "layers.1.value": 502,
+      "layers.2.ffn_down": 1004,
+      "layers.2.ffn_up": 1004,
+      "layers.2.key": 502,
+      "layers.2.output": 502,
+      "layers.2.query": 502,
+      "layers.2.value": 502,
+      "layers.3.ffn_down": 1004,
+      "layers.3.ffn_up": 1004,
+      "layers.3.key": 502,
+      "layers.3.output": 502,
+      "layers.3.query": 502,
+      "layers.3.value": 502,
+      "layers.4.ffn_down": 1004,
+      "layers.4.ffn_up": 1004,
+      "layers.4.key": 502,
+      "layers.4.output": 502,
+      "layers.4.query": 502,
+      "layers.4.value": 502,
+      "layers.5.ffn_down": 1004,
+      "layers.5.ffn_up": 1004,
+      "layers.5.key": 502,
+      "layers.5.output": 502,
+      "layers.5.query": 502,
+      "layers.5.value": 502,
+      "lm_head": 1004
+    },
+    "per_module": {
+      "ffn_down": 6024,
+      "ffn_up": 6024,
+      "key": 3012,
+      "lm_head": 1004,
+      "output": 3012,
+      "query": 3012,
+      "value": 3012
+    },
+    "total_nonzeros": 25100
+  },
+  "selected_metrics": {
+    "accuracy": 0.5462646484375,
+    "characters": 16384,
+    "cross_entropy": 1.4909652769565582,
+    "optimization_cross_entropy": 1.4909652769565582,
+    "optimization_temperature": 1.0,
+    "perplexity": 4.441380612880671
+  },
+  "selected_sparsity": {
+    "matrices": {
+      "layer0.ffn_down": {
+        "negative": 512,
+        "positive": 492,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer0.ffn_up": {
+        "negative": 449,
+        "positive": 555,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer0.key": {
+        "negative": 268,
+        "positive": 234,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer0.output": {
+        "negative": 254,
+        "positive": 248,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer0.query": {
+        "negative": 247,
+        "positive": 255,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer0.value": {
+        "negative": 263,
+        "positive": 239,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer1.ffn_down": {
+        "negative": 490,
+        "positive": 514,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer1.ffn_up": {
+        "negative": 445,
+        "positive": 559,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer1.key": {
+        "negative": 252,
+        "positive": 250,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer1.output": {
+        "negative": 278,
+        "positive": 224,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer1.query": {
+        "negative": 235,
+        "positive": 267,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer1.value": {
+        "negative": 255,
+        "positive": 247,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer2.ffn_down": {
+        "negative": 477,
+        "positive": 527,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer2.ffn_up": {
+        "negative": 475,
+        "positive": 529,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer2.key": {
+        "negative": 245,
+        "positive": 257,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer2.output": {
+        "negative": 265,
+        "positive": 237,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer2.query": {
+        "negative": 267,
+        "positive": 235,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer2.value": {
+        "negative": 252,
+        "positive": 250,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer3.ffn_down": {
+        "negative": 504,
+        "positive": 500,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer3.ffn_up": {
+        "negative": 534,
+        "positive": 470,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer3.key": {
+        "negative": 247,
+        "positive": 255,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer3.output": {
+        "negative": 232,
+        "positive": 270,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer3.query": {
+        "negative": 248,
+        "positive": 254,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer3.value": {
+        "negative": 239,
+        "positive": 263,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer4.ffn_down": {
+        "negative": 517,
+        "positive": 487,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer4.ffn_up": {
+        "negative": 489,
+        "positive": 515,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer4.key": {
+        "negative": 262,
+        "positive": 240,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer4.output": {
+        "negative": 245,
+        "positive": 257,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer4.query": {
+        "negative": 258,
+        "positive": 244,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer4.value": {
+        "negative": 261,
+        "positive": 241,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer5.ffn_down": {
+        "negative": 519,
+        "positive": 485,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer5.ffn_up": {
+        "negative": 480,
+        "positive": 524,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      },
+      "layer5.key": {
+        "negative": 254,
+        "positive": 248,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer5.output": {
+        "negative": 256,
+        "positive": 246,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer5.query": {
+        "negative": 243,
+        "positive": 259,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "layer5.value": {
+        "negative": 264,
+        "positive": 238,
+        "sparsity_percentage": 50.9765625,
+        "total": 1024,
+        "zero": 522
+      },
+      "lm_head": {
+        "negative": 476,
+        "positive": 528,
+        "sparsity_percentage": 50.9765625,
+        "total": 2048,
+        "zero": 1044
+      }
+    },
+    "nonzero": 25100,
+    "sparsity_percentage": 50.9765625,
+    "total": 51200,
+    "zero": 26100
+  },
+  "selection_reason": "Run 5 mask with int4 weights; exact accuracy change from Run 5: +5.02 percentage points.",
+  "serious_candidates": {
+    "A_run5_scaled_int3": {
+      "best_calibrated_cross_entropy": 1.6658258140087128,
+      "mask_changed_from_run5": false,
+      "metrics": {
+        "accuracy": 0.49609375,
+        "characters": 16384,
+        "cross_entropy": 1.7158876657485962,
+        "optimization_cross_entropy": 1.7158876657485962,
+        "optimization_temperature": 1.0,
+        "perplexity": 5.561610172730279
+      },
+      "nonzeros": 25100,
+      "per_module_sparsity": {
+        "ffn_down": {
+          "nonzeros": 6024,
+          "sparsity_percentage": 50.9765625,
+          "total": 12288
+        },
+        "ffn_up": {
+          "nonzeros": 6024,
+          "sparsity_percentage": 50.9765625,
+          "total": 12288
+        },
+        "key": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        },
+        "lm_head": {
+          "nonzeros": 1004,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048
+        },
+        "output": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        },
+        "query": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        },
+        "value": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        }
+      },
+      "range": {
+        "attention_clamp_rates": {
+          "layer0": {
+            "active_scores": 532480,
+            "clamped_scores": 3516,
+            "percentage": 0.6603064903846154
+          },
+          "layer1": {
+            "active_scores": 532480,
+            "clamped_scores": 4788,
+            "percentage": 0.8991887019230769
+          },
+          "layer2": {
+            "active_scores": 532480,
+            "clamped_scores": 20198,
+            "percentage": 3.793194110576923
+          },
+          "layer3": {
+            "active_scores": 532480,
+            "clamped_scores": 29234,
+            "percentage": 5.4901592548076925
+          },
+          "layer4": {
+            "active_scores": 532480,
+            "clamped_scores": 12537,
+            "percentage": 2.3544546274038463
+          },
+          "layer5": {
+            "active_scores": 532480,
+            "clamped_scores": 42298,
+            "percentage": 7.943584735576923
+          }
+        },
+        "int32_safety_margin": 2147219173,
+        "maximum_intermediate_magnitude": 264474
+      }
+    },
+    "B_scaled_int4_run5_mask": {
+      "best_calibrated_cross_entropy": 1.4749764502048492,
+      "best_temperature": 1.125,
+      "calibration_cross_entropy": {
+        "0.75": 1.6185595095157623,
+        "1.0": 1.4909652769565582,
+        "1.125": 1.4749764502048492,
+        "1.25": 1.4777335822582245,
+        "1.375": 1.4938152134418488,
+        "1.5": 1.5195439755916595,
+        "1.75": 1.5901934206485748,
+        "2.0": 1.6758303940296173
+      },
+      "checkpoint": "generated/run6/candidate-run5-mask-exact.json",
+      "exact_forward_matches_independent_int32": true,
+      "incremental_forward_matches_independent_int32_96_characters": true,
+      "independent_exact_int32_128": {
+        "accuracy": 0.53125,
+        "characters": 128,
+        "cross_entropy": 1.3726112308927163,
+        "perplexity": 3.945640233112816
+      },
+      "mask": {
+        "mask_sha256": "1931291c69fe1103ffe7df725ba2b2ed5cbbdadbf13565dbc2e7a658f9474708",
+        "per_matrix": {
+          "layers.0.ffn_down": 1004,
+          "layers.0.ffn_up": 1004,
+          "layers.0.key": 502,
+          "layers.0.output": 502,
+          "layers.0.query": 502,
+          "layers.0.value": 502,
+          "layers.1.ffn_down": 1004,
+          "layers.1.ffn_up": 1004,
+          "layers.1.key": 502,
+          "layers.1.output": 502,
+          "layers.1.query": 502,
+          "layers.1.value": 502,
+          "layers.2.ffn_down": 1004,
+          "layers.2.ffn_up": 1004,
+          "layers.2.key": 502,
+          "layers.2.output": 502,
+          "layers.2.query": 502,
+          "layers.2.value": 502,
+          "layers.3.ffn_down": 1004,
+          "layers.3.ffn_up": 1004,
+          "layers.3.key": 502,
+          "layers.3.output": 502,
+          "layers.3.query": 502,
+          "layers.3.value": 502,
+          "layers.4.ffn_down": 1004,
+          "layers.4.ffn_up": 1004,
+          "layers.4.key": 502,
+          "layers.4.output": 502,
+          "layers.4.query": 502,
+          "layers.4.value": 502,
+          "layers.5.ffn_down": 1004,
+          "layers.5.ffn_up": 1004,
+          "layers.5.key": 502,
+          "layers.5.output": 502,
+          "layers.5.query": 502,
+          "layers.5.value": 502,
+          "lm_head": 1004
+        },
+        "per_module": {
+          "ffn_down": 6024,
+          "ffn_up": 6024,
+          "key": 3012,
+          "lm_head": 1004,
+          "output": 3012,
+          "query": 3012,
+          "value": 3012
+        },
+        "total_nonzeros": 25100
+      },
+      "mask_changed_from_run5": false,
+      "metrics": {
+        "accuracy": 0.5462646484375,
+        "characters": 16384,
+        "cross_entropy": 1.4909652769565582,
+        "optimization_cross_entropy": 1.4909652769565582,
+        "optimization_temperature": 1.0,
+        "perplexity": 4.441380612880671
+      },
+      "per_module_nonzeros": {
+        "ffn_down": 6024,
+        "ffn_up": 6024,
+        "key": 3012,
+        "lm_head": 1004,
+        "output": 3012,
+        "query": 3012,
+        "value": 3012
+      },
+      "per_module_sparsity": {
+        "ffn_down": {
+          "nonzeros": 6024,
+          "sparsity_percentage": 50.9765625,
+          "total": 12288
+        },
+        "ffn_up": {
+          "nonzeros": 6024,
+          "sparsity_percentage": 50.9765625,
+          "total": 12288
+        },
+        "key": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        },
+        "lm_head": {
+          "nonzeros": 1004,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048
+        },
+        "output": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        },
+        "query": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        },
+        "value": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        }
+      },
+      "range": {
+        "attention_clamp_rates": {
+          "layer0": {
+            "active_scores": 532480,
+            "clamped_scores": 4526,
+            "percentage": 0.8499849759615384
+          },
+          "layer1": {
+            "active_scores": 532480,
+            "clamped_scores": 3684,
+            "percentage": 0.6918569711538461
+          },
+          "layer2": {
+            "active_scores": 532480,
+            "clamped_scores": 16715,
+            "percentage": 3.1390850360576925
+          },
+          "layer3": {
+            "active_scores": 532480,
+            "clamped_scores": 22144,
+            "percentage": 4.158653846153846
+          },
+          "layer4": {
+            "active_scores": 532480,
+            "clamped_scores": 14341,
+            "percentage": 2.6932466947115383
+          },
+          "layer5": {
+            "active_scores": 532480,
+            "clamped_scores": 38423,
+            "percentage": 7.215857872596154
+          }
+        },
+        "int32_safety_margin": 2147204316,
+        "maximum_intermediate_magnitude": 279331
+      },
+      "samples": {
+        "A little ": {
+          "generated": "and said He saw a big back\nThe ball saw a big bear and said He can said the bear\nHe said He wante a big bad and said I want to help her sad and saw a big friend a big saw a big beach\nendoftext \nOne day a little ball and and said Oe can and said I will sang",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.01639344262295082,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.967741935483871,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6627450980392157,
+            "repeated_fourgram_fraction": 0.4189723320158103,
+            "repeated_trigram_fraction": 0.515748031496063,
+            "sentence_boundaries": 4,
+            "space_fraction": 0.2265625,
+            "unique_word_fraction": 0.45161290322580644,
+            "words": 62
+          }
+        },
+        "He wanted ": {
+          "generated": "to see it was a big back\nThe bear and saw a big bad and flease\nHe lead and saw a big bad and said\nHe looked and saw a big ball and said I will sad and saw saw a big ball\nHe wanted to help he happeded to help her friends\nThe ball and said Her mom and said H",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.01639344262295082,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9516129032258065,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6705882352941177,
+            "repeated_fourgram_fraction": 0.43083003952569165,
+            "repeated_trigram_fraction": 0.515748031496063,
+            "sentence_boundaries": 5,
+            "space_fraction": 0.21875,
+            "unique_word_fraction": 0.45161290322580644,
+            "words": 62
+          }
+        },
+        "He was ": {
+          "generated": "a big beak\nHe wanted to help her friends and saw a big saw a big ball\nHe saw a big said He was so elient\nHe like will saw a big back\nHe want to the ball and said Oe can started to help her friends and said\nThe ball saw a big bear\nendoftext \nOne day said Oe",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.95,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6431372549019607,
+            "repeated_fourgram_fraction": 0.4110671936758893,
+            "repeated_trigram_fraction": 0.48425196850393704,
+            "sentence_boundaries": 7,
+            "space_fraction": 0.20703125,
+            "unique_word_fraction": 0.4666666666666667,
+            "words": 60
+          }
+        },
+        "Mom said ": {
+          "generated": "He was a big sad an some became best and said I help you can started to started to started to play and said He saw a big said in the ball and said\nHe wanted to sad and said He was so so and said He could said I saw a big ball\nShe look to help her saw a big",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.01639344262295082,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6784313725490196,
+            "repeated_fourgram_fraction": 0.4268774703557312,
+            "repeated_trigram_fraction": 0.5275590551181102,
+            "sentence_boundaries": 2,
+            "space_fraction": 0.23046875,
+            "unique_word_fraction": 0.45161290322580644,
+            "words": 62
+          }
+        },
+        "Once upon a time": {
+          "generated": " there was a big beache\nThe ball want to like will sad and saw a big bad the sare\nHe was so happy and said He saw a big beache below and said He can started to saw a big saw a big back\nHe saw a big beach and saw a big ball\nHe wanted to like to help her fri",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9354838709677419,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6901960784313725,
+            "repeated_fourgram_fraction": 0.41501976284584985,
+            "repeated_trigram_fraction": 0.5314960629921259,
+            "sentence_boundaries": 4,
+            "space_fraction": 0.2265625,
+            "unique_word_fraction": 0.46774193548387094,
+            "words": 62
+          }
+        },
+        "One day ": {
+          "generated": "he had a big ball\nHe wanted to have a big bear friend\nHe loved to started to help he like there was a big best and said her friend and saw a big ball\nThe ball saw a big saw a big sand said not knew so happy\nHe was so happy and said I have saw a big saw a b",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9841269841269841,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6745098039215687,
+            "repeated_fourgram_fraction": 0.4031620553359684,
+            "repeated_trigram_fraction": 0.5118110236220472,
+            "sentence_boundaries": 4,
+            "space_fraction": 0.2265625,
+            "unique_word_fraction": 0.4603174603174603,
+            "words": 63
+          }
+        },
+        "She said ": {
+          "generated": "I saw a big sad\nHe saw a big bear and said her doll sad and said Oe\nHe wanted to started to started to see a big beack\nHe wanted to hear and saw something a big back\nHe wanted to play time to help her friend and said Hell becan dow felt the beach\nThe ball ",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9137931034482759,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6509803921568628,
+            "repeated_fourgram_fraction": 0.3754940711462451,
+            "repeated_trigram_fraction": 0.46850393700787396,
+            "sentence_boundaries": 5,
+            "space_fraction": 0.20703125,
+            "unique_word_fraction": 0.5344827586206896,
+            "words": 58
+          }
+        },
+        "She was ": {
+          "generated": "a big bad the bear\nThe box wanted to sad and saw something said I happened the bear said\nHe said He said He want to help he was sar and said he saw a big beach fun\nendoftext \nOne day a little became near the stree went to help a big became friend the box w",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9473684210526315,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6,
+            "repeated_fourgram_fraction": 0.2924901185770751,
+            "repeated_trigram_fraction": 0.4133858267716536,
+            "sentence_boundaries": 4,
+            "space_fraction": 0.20703125,
+            "unique_word_fraction": 0.5614035087719298,
+            "words": 57
+          }
+        },
+        "The boy ": {
+          "generated": "named Max\nHe wanted to sad and said I can friend and saw a big saw a big bear\nHe was so sad and said\nHe lead and said He can help and saw her start and said in he cars\nThey had a big saw a big bad a big ball\nThe bear saw a big ball and saw a big saw a big ",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6862745098039216,
+            "repeated_fourgram_fraction": 0.4545454545454546,
+            "repeated_trigram_fraction": 0.5511811023622047,
+            "sentence_boundaries": 5,
+            "space_fraction": 0.234375,
+            "unique_word_fraction": 0.4307692307692308,
+            "words": 65
+          }
+        },
+        "The cat ": {
+          "generated": "saw a big beak\nThe bird saw a big bear and said I will and said I will wanted to started to said the ball and said Oe can so said the becaun and said the beached and said I have said I have a lits and said the bear and saw a big saw a big saw a big friends",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9344262295081968,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7137254901960784,
+            "repeated_fourgram_fraction": 0.5256916996047432,
+            "repeated_trigram_fraction": 0.594488188976378,
+            "sentence_boundaries": 1,
+            "space_fraction": 0.23046875,
+            "unique_word_fraction": 0.3770491803278688,
+            "words": 61
+          }
+        },
+        "The dog ": {
+          "generated": "sad and said I will saw a big bear\nThe beache back\nHe wanted to started to help her friend and said Oes a lad to said\nHe saw a big beach the ball and said He can we said the because a big back\nThe ball and said her sad\nThe bear saw a big bad and said\nHe wa",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9344262295081968,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6941176470588235,
+            "repeated_fourgram_fraction": 0.42292490118577075,
+            "repeated_trigram_fraction": 0.5354330708661417,
+            "sentence_boundaries": 6,
+            "space_fraction": 0.2109375,
+            "unique_word_fraction": 0.45901639344262296,
+            "words": 61
+          }
+        },
+        "The girl ": {
+          "generated": "named Max\nHe saw a big became ran and said I saw a big saw a big beack\nHe loved to help the said not sad and saw sad and said Her mom said I will and saw a big becaun and said I said I happen the sky the belie was so friend a big friend the strail\nHe said ",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9344262295081968,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6470588235294117,
+            "repeated_fourgram_fraction": 0.39920948616600793,
+            "repeated_trigram_fraction": 0.4881889763779528,
+            "sentence_boundaries": 3,
+            "space_fraction": 0.2265625,
+            "unique_word_fraction": 0.47540983606557374,
+            "words": 61
+          }
+        },
+        "The house ": {
+          "generated": "and saw a big ball\nShe saw a big ball and said He saw saw a big bird and saw a big bear\nendoftext \nOne day a little girl name doa\nHe says the sky and her saw a big friend the bear\nThey had an the sky and said it it\nHe look and said they dog and said Her mo",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.03278688524590164,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9838709677419355,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6352941176470588,
+            "repeated_fourgram_fraction": 0.37154150197628455,
+            "repeated_trigram_fraction": 0.47637795275590555,
+            "sentence_boundaries": 6,
+            "space_fraction": 0.21875,
+            "unique_word_fraction": 0.46774193548387094,
+            "words": 62
+          }
+        },
+        "The little ": {
+          "generated": "ball and said her started to help her friends\nHe want to help the started to help her be a little girl was a big saw a big ball\nShe lad a big sand said he saw a big saw a big bad and says\nHe wanted to like to started to help help\nHe loved to help the sare\n",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.01694915254237288,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9666666666666667,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6941176470588235,
+            "repeated_fourgram_fraction": 0.4545454545454546,
+            "repeated_trigram_fraction": 0.547244094488189,
+            "sentence_boundaries": 5,
+            "space_fraction": 0.21484375,
+            "unique_word_fraction": 0.45,
+            "words": 60
+          }
+        },
+        "There was ": {
+          "generated": "a big bear learn and said not like was a big saw a big back\nHe wanted to stay the ball saw a big bear ball sad a big best and sad and said I said I want to help her all became there was a big sad and said Oe be and said I saw a big saw a big ball\nHe learne",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.96875,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7098039215686274,
+            "repeated_fourgram_fraction": 0.45849802371541504,
+            "repeated_trigram_fraction": 0.5551181102362205,
+            "sentence_boundaries": 2,
+            "space_fraction": 0.23828125,
+            "unique_word_fraction": 0.453125,
+            "words": 64
+          }
+        },
+        "Today ": {
+          "generated": "and said I happy you can because it was sad and said I saw so saw something and said I happy\nHe saw a big beack\nHe wanted to help her and saw a big ball\nHe land lose and said Yes\nI a like the belie\nHe want to the bear and friend and said he could not and s",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9672131147540983,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.607843137254902,
+            "repeated_fourgram_fraction": 0.3003952569169961,
+            "repeated_trigram_fraction": 0.40157480314960625,
+            "sentence_boundaries": 5,
+            "space_fraction": 0.21484375,
+            "unique_word_fraction": 0.5573770491803278,
+            "words": 61
+          }
+        }
+      },
+      "sparsity": {
+        "matrices": {
+          "layer0.ffn_down": {
+            "negative": 512,
+            "positive": 492,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer0.ffn_up": {
+            "negative": 449,
+            "positive": 555,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer0.key": {
+            "negative": 268,
+            "positive": 234,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer0.output": {
+            "negative": 254,
+            "positive": 248,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer0.query": {
+            "negative": 247,
+            "positive": 255,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer0.value": {
+            "negative": 263,
+            "positive": 239,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer1.ffn_down": {
+            "negative": 490,
+            "positive": 514,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer1.ffn_up": {
+            "negative": 445,
+            "positive": 559,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer1.key": {
+            "negative": 252,
+            "positive": 250,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer1.output": {
+            "negative": 278,
+            "positive": 224,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer1.query": {
+            "negative": 235,
+            "positive": 267,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer1.value": {
+            "negative": 255,
+            "positive": 247,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer2.ffn_down": {
+            "negative": 477,
+            "positive": 527,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer2.ffn_up": {
+            "negative": 475,
+            "positive": 529,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer2.key": {
+            "negative": 245,
+            "positive": 257,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer2.output": {
+            "negative": 265,
+            "positive": 237,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer2.query": {
+            "negative": 267,
+            "positive": 235,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer2.value": {
+            "negative": 252,
+            "positive": 250,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer3.ffn_down": {
+            "negative": 504,
+            "positive": 500,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer3.ffn_up": {
+            "negative": 534,
+            "positive": 470,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer3.key": {
+            "negative": 247,
+            "positive": 255,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer3.output": {
+            "negative": 232,
+            "positive": 270,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer3.query": {
+            "negative": 248,
+            "positive": 254,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer3.value": {
+            "negative": 239,
+            "positive": 263,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer4.ffn_down": {
+            "negative": 517,
+            "positive": 487,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer4.ffn_up": {
+            "negative": 489,
+            "positive": 515,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer4.key": {
+            "negative": 262,
+            "positive": 240,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer4.output": {
+            "negative": 245,
+            "positive": 257,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer4.query": {
+            "negative": 258,
+            "positive": 244,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer4.value": {
+            "negative": 261,
+            "positive": 241,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer5.ffn_down": {
+            "negative": 519,
+            "positive": 485,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer5.ffn_up": {
+            "negative": 480,
+            "positive": 524,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer5.key": {
+            "negative": 254,
+            "positive": 248,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer5.output": {
+            "negative": 256,
+            "positive": 246,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer5.query": {
+            "negative": 243,
+            "positive": 259,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer5.value": {
+            "negative": 264,
+            "positive": 238,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "lm_head": {
+            "negative": 476,
+            "positive": 528,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          }
+        },
+        "nonzero": 25100,
+        "sparsity_percentage": 50.9765625,
+        "total": 51200,
+        "zero": 26100
+      }
+    },
+    "C_scaled_int4_improved_mask": {
+      "best_calibrated_cross_entropy": 1.4749770760536194,
+      "best_temperature": 1.125,
+      "calibration_cross_entropy": {
+        "0.75": 1.6080603301525116,
+        "1.0": 1.488480806350708,
+        "1.125": 1.4749770760536194,
+        "1.25": 1.4795922636985779,
+        "1.375": 1.497077226638794,
+        "1.5": 1.5238833129405975,
+        "1.75": 1.5960865914821625,
+        "2.0": 1.6829071938991547
+      },
+      "checkpoint": "generated/run6/candidate-swap-64-exact.json",
+      "exact_forward_matches_independent_int32": true,
+      "incremental_forward_matches_independent_int32_96_characters": true,
+      "independent_exact_int32_128": {
+        "accuracy": 0.5234375,
+        "characters": 128,
+        "cross_entropy": 1.4212365181466473,
+        "perplexity": 4.142239228835907
+      },
+      "mask": {
+        "mask_sha256": "36b3641c25736e6d963e00f8803e2ba74cea0d4465abb6e45235111049c5e5ef",
+        "per_matrix": {
+          "layers.0.ffn_down": 1004,
+          "layers.0.ffn_up": 1004,
+          "layers.0.key": 502,
+          "layers.0.output": 502,
+          "layers.0.query": 502,
+          "layers.0.value": 502,
+          "layers.1.ffn_down": 1004,
+          "layers.1.ffn_up": 1004,
+          "layers.1.key": 502,
+          "layers.1.output": 502,
+          "layers.1.query": 502,
+          "layers.1.value": 502,
+          "layers.2.ffn_down": 1004,
+          "layers.2.ffn_up": 1004,
+          "layers.2.key": 502,
+          "layers.2.output": 502,
+          "layers.2.query": 502,
+          "layers.2.value": 502,
+          "layers.3.ffn_down": 1004,
+          "layers.3.ffn_up": 1004,
+          "layers.3.key": 502,
+          "layers.3.output": 502,
+          "layers.3.query": 502,
+          "layers.3.value": 502,
+          "layers.4.ffn_down": 1004,
+          "layers.4.ffn_up": 1004,
+          "layers.4.key": 502,
+          "layers.4.output": 502,
+          "layers.4.query": 502,
+          "layers.4.value": 502,
+          "layers.5.ffn_down": 1004,
+          "layers.5.ffn_up": 1004,
+          "layers.5.key": 502,
+          "layers.5.output": 502,
+          "layers.5.query": 502,
+          "layers.5.value": 502,
+          "lm_head": 1004
+        },
+        "per_module": {
+          "ffn_down": 6024,
+          "ffn_up": 6024,
+          "key": 3012,
+          "lm_head": 1004,
+          "output": 3012,
+          "query": 3012,
+          "value": 3012
+        },
+        "total_nonzeros": 25100
+      },
+      "mask_changed_from_run5": true,
+      "metrics": {
+        "accuracy": 0.545166015625,
+        "characters": 16384,
+        "cross_entropy": 1.488480806350708,
+        "optimization_cross_entropy": 1.488480806350708,
+        "optimization_temperature": 1.0,
+        "perplexity": 4.430359829373816
+      },
+      "per_module_nonzeros": {
+        "ffn_down": 6024,
+        "ffn_up": 6024,
+        "key": 3012,
+        "lm_head": 1004,
+        "output": 3012,
+        "query": 3012,
+        "value": 3012
+      },
+      "per_module_sparsity": {
+        "ffn_down": {
+          "nonzeros": 6024,
+          "sparsity_percentage": 50.9765625,
+          "total": 12288
+        },
+        "ffn_up": {
+          "nonzeros": 6024,
+          "sparsity_percentage": 50.9765625,
+          "total": 12288
+        },
+        "key": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        },
+        "lm_head": {
+          "nonzeros": 1004,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048
+        },
+        "output": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        },
+        "query": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        },
+        "value": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        }
+      },
+      "range": {
+        "attention_clamp_rates": {
+          "layer0": {
+            "active_scores": 133120,
+            "clamped_scores": 1148,
+            "percentage": 0.8623798076923077
+          },
+          "layer1": {
+            "active_scores": 133120,
+            "clamped_scores": 916,
+            "percentage": 0.6881009615384616
+          },
+          "layer2": {
+            "active_scores": 133120,
+            "clamped_scores": 4496,
+            "percentage": 3.3774038461538463
+          },
+          "layer3": {
+            "active_scores": 133120,
+            "clamped_scores": 5994,
+            "percentage": 4.502704326923077
+          },
+          "layer4": {
+            "active_scores": 133120,
+            "clamped_scores": 4406,
+            "percentage": 3.309795673076923
+          },
+          "layer5": {
+            "active_scores": 133120,
+            "clamped_scores": 10140,
+            "percentage": 7.6171875
+          }
+        },
+        "int32_safety_margin": 2147266141,
+        "maximum_intermediate_magnitude": 217506
+      },
+      "samples": {
+        "A little ": {
+          "generated": "boy and sad and sad a big ball\nHe sad and sad and sad\nHe sad and saw a big box wanted to cat and sad\nHe saw a big ball the ball\nShe sad and sad\nHe saw a big box want to the park\nShe loved the call and they all and sad\nBut and the ball and sad a ball that a",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7725490196078432,
+            "repeated_fourgram_fraction": 0.5889328063241106,
+            "repeated_trigram_fraction": 0.6732283464566929,
+            "sentence_boundaries": 7,
+            "space_fraction": 0.22265625,
+            "unique_word_fraction": 0.3384615384615385,
+            "words": 65
+          }
+        },
+        "He wanted ": {
+          "generated": "to girl and sad\nHe saw a big ball and sad and sad and sad\nShe loved to can and sad\nHe sad and help you and sad\nHe sad and he sad\nShe saw a big ball the park\nHe want to the ball and sad a ball the ball\nHe sad and sad and he car and sad\nHe loved the ball and",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7647058823529411,
+            "repeated_fourgram_fraction": 0.5968379446640316,
+            "repeated_trigram_fraction": 0.6732283464566929,
+            "sentence_boundaries": 8,
+            "space_fraction": 0.21875,
+            "unique_word_fraction": 0.27692307692307694,
+            "words": 65
+          }
+        },
+        "He was ": {
+          "generated": "a big ball and sad\nHe sad a big dood named Tim\nHe sad a big came the ball\nHe sad and sad\nHe want the ball and sad\nHe sad and sad\nHe saw a little girl and sad and said the ball and sad\nShe was sad a back and sad and sad\nHe sad a big ball and sad and sad and",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9846153846153847,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7490196078431373,
+            "repeated_fourgram_fraction": 0.6007905138339921,
+            "repeated_trigram_fraction": 0.6614173228346456,
+            "sentence_boundaries": 8,
+            "space_fraction": 0.21875,
+            "unique_word_fraction": 0.2923076923076923,
+            "words": 65
+          }
+        },
+        "Mom said ": {
+          "generated": "I can and sad a big best and sad\nHe loved the ball and sad\nHe sad a ball the park\nShe saw a big ball\nThe ball and said he sad and sad\nHe sad and sad\nHe loved the toy and sad\nHe loved to play with they all the ball and saw a big ball the boy named Tim\nHe sa",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.984375,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7176470588235294,
+            "repeated_fourgram_fraction": 0.5375494071146245,
+            "repeated_trigram_fraction": 0.6141732283464567,
+            "sentence_boundaries": 8,
+            "space_fraction": 0.21484375,
+            "unique_word_fraction": 0.390625,
+            "words": 64
+          }
+        },
+        "Once upon a time": {
+          "generated": " there was a little ball near and sad\nHe sad and sad\nHe sad a ball and sad and sad\nHe sad and saw a big ball the park\nShe loved the ball and sad and sad and had a ball the park\nHe saw a big ball the park\nHe sad\nHe sad a little boy named Tom and sad and sad",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7490196078431373,
+            "repeated_fourgram_fraction": 0.6086956521739131,
+            "repeated_trigram_fraction": 0.6653543307086613,
+            "sentence_boundaries": 7,
+            "space_fraction": 0.21875,
+            "unique_word_fraction": 0.30158730158730157,
+            "words": 63
+          }
+        },
+        "One day ": {
+          "generated": "and sad the ball and sad and said Thad and said I can a big care and sad\nHe did need a ball that the ball\nHe sad and sad\nHe sad and sad\nHe sad and sad a big ball and and had a long and saw a big ball\nHe sad and sad a big ball and saw a big and sad\nHe long ",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.015384615384615385,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9848484848484849,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.8,
+            "repeated_fourgram_fraction": 0.6284584980237153,
+            "repeated_trigram_fraction": 0.704724409448819,
+            "sentence_boundaries": 6,
+            "space_fraction": 0.234375,
+            "unique_word_fraction": 0.2727272727272727,
+            "words": 66
+          }
+        },
+        "She said ": {
+          "generated": "the ball and and sad a ball\nHe want to the ball and sad\nHe saw a big ball the ball and sad and sad\nHe sad and had a big ball\nShe sad and had a ball and sad and he did and sad\nHe want to the ball and he car and sad and sad and sad a ball and and had and sad",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.03076923076923077,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.8313725490196078,
+            "repeated_fourgram_fraction": 0.7114624505928854,
+            "repeated_trigram_fraction": 0.7677165354330708,
+            "sentence_boundaries": 5,
+            "space_fraction": 0.234375,
+            "unique_word_fraction": 0.21212121212121213,
+            "words": 66
+          }
+        },
+        "She was ": {
+          "generated": "a ball but had and sad\nHe loved to play with the let on the car and sad\nShe saw a big ball and sad\nShe loved the call and sad\nHe saw a lone and and sad\nShe saw a big ball\nHe ward to help and the box was a big ball ball and sad and sad\nShe sad and sad\nHe sa",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.03125,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9538461538461539,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7294117647058824,
+            "repeated_fourgram_fraction": 0.5256916996047432,
+            "repeated_trigram_fraction": 0.610236220472441,
+            "sentence_boundaries": 8,
+            "space_fraction": 0.21875,
+            "unique_word_fraction": 0.38461538461538464,
+            "words": 65
+          }
+        },
+        "The boy ": {
+          "generated": "wanted to clop and sad\nHe sad a big careful and sad and look and sad\nHe loved to play and and sad\nShe sad and sad\nHe loved the park and the ball\nHe want to the box was a big box and sad a ball and sad\nShe was sad and sad\nHe wanted to get a ball and sad and",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.016129032258064516,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9841269841269841,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7411764705882353,
+            "repeated_fourgram_fraction": 0.5296442687747036,
+            "repeated_trigram_fraction": 0.6259842519685039,
+            "sentence_boundaries": 7,
+            "space_fraction": 0.21484375,
+            "unique_word_fraction": 0.31746031746031744,
+            "words": 63
+          }
+        },
+        "The cat ": {
+          "generated": "and sad\nHe saw a big be came\nHer friends and sad\nHe sad and sad\nHe sad a little and sad\nHe sad and sad\nHe wanted to the park and sad and sad\nHe sad and he could and sad and saw a big bad and sad\nHe want to play with the ball\nHe sad and sad and dad a ball t",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9846153846153847,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7137254901960784,
+            "repeated_fourgram_fraction": 0.5375494071146245,
+            "repeated_trigram_fraction": 0.6023622047244095,
+            "sentence_boundaries": 9,
+            "space_fraction": 0.21484375,
+            "unique_word_fraction": 0.35384615384615387,
+            "words": 65
+          }
+        },
+        "The dog ": {
+          "generated": "and a big see the park\nHe sad a big sad and sad\nShe sad and sad a big ball the park\nHe said he sad and said The ball and and he did not to sad a big ball\nShe sad and sad and said he sad and sad and then the ball and sad a big box\nHe sad and sad\nHe sad and ",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.015384615384615385,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.8,
+            "repeated_fourgram_fraction": 0.6442687747035574,
+            "repeated_trigram_fraction": 0.7165354330708662,
+            "sentence_boundaries": 6,
+            "space_fraction": 0.234375,
+            "unique_word_fraction": 0.24242424242424243,
+            "words": 66
+          }
+        },
+        "The girl ": {
+          "generated": "neamed and sad\nHe long the ball and and help and sad\nHe saw a big ball and sad\nHe want to see a big ball\nShe says the park and sad and sad\nHe sad and sad a ball and her mom and dad\nHe sad and had a ball and sad\nHe sad and her and sad\nHe sad and sad\nHe lone",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.015625,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9692307692307692,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7411764705882353,
+            "repeated_fourgram_fraction": 0.5849802371541502,
+            "repeated_trigram_fraction": 0.6496062992125984,
+            "sentence_boundaries": 9,
+            "space_fraction": 0.21484375,
+            "unique_word_fraction": 0.3384615384615385,
+            "words": 65
+          }
+        },
+        "The house ": {
+          "generated": "the ball\nHe sad and help the ball and saw a ball and sad\nHe saw a big both sad\nHe sad and sad\nHe want the boy want to the ball and sad and sad and play with the ball and sad\nHe did he sad and sad and sad and sad\nHe sad a big ball the car and said I sad a b",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9848484848484849,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7764705882352941,
+            "repeated_fourgram_fraction": 0.6007905138339921,
+            "repeated_trigram_fraction": 0.6850393700787402,
+            "sentence_boundaries": 6,
+            "space_fraction": 0.23046875,
+            "unique_word_fraction": 0.30303030303030304,
+            "words": 66
+          }
+        },
+        "The little ": {
+          "generated": "car\nShe saw a little car and sad a ball and sad and sad and saw a big ball\nHe sad and sad and her mom loved the park\nHe sad and sad and saw a big ball there was a big ball\nHe want to the park and a ball and sad\nHe loved to play on the car and sad\nShe loved",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7254901960784313,
+            "repeated_fourgram_fraction": 0.5296442687747036,
+            "repeated_trigram_fraction": 0.6181102362204725,
+            "sentence_boundaries": 6,
+            "space_fraction": 0.22265625,
+            "unique_word_fraction": 0.328125,
+            "words": 64
+          }
+        },
+        "There was ": {
+          "generated": "a big be want to get of the litche and sad a ball\nHe sad and sad and sad and had a ball the called and sad\nShe was a big read and sad and sad\nHe sad and sad and he did not loved the care the park\nHe want to get the toy and a big ball\nShe loved the grom and",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.96875,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7058823529411764,
+            "repeated_fourgram_fraction": 0.4624505928853755,
+            "repeated_trigram_fraction": 0.5748031496062992,
+            "sentence_boundaries": 5,
+            "space_fraction": 0.2265625,
+            "unique_word_fraction": 0.390625,
+            "words": 64
+          }
+        },
+        "Today ": {
+          "generated": "and said Hellow\nSam and says do he dog the ball and sad and sad\nHe sad a little ball and sad and sad\nHe loved to play with the care and sad\nBut then and sad and sad a big ball\nShe little came to help and had a big and sad\nHe sad a big ball and sad and sad ",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9838709677419355,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7058823529411764,
+            "repeated_fourgram_fraction": 0.4782608695652174,
+            "repeated_trigram_fraction": 0.5590551181102362,
+            "sentence_boundaries": 6,
+            "space_fraction": 0.21875,
+            "unique_word_fraction": 0.4032258064516129,
+            "words": 62
+          }
+        }
+      },
+      "sparsity": {
+        "matrices": {
+          "layer0.ffn_down": {
+            "negative": 510,
+            "positive": 494,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer0.ffn_up": {
+            "negative": 440,
+            "positive": 564,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer0.key": {
+            "negative": 265,
+            "positive": 237,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer0.output": {
+            "negative": 259,
+            "positive": 243,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer0.query": {
+            "negative": 251,
+            "positive": 251,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer0.value": {
+            "negative": 270,
+            "positive": 232,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer1.ffn_down": {
+            "negative": 483,
+            "positive": 521,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer1.ffn_up": {
+            "negative": 454,
+            "positive": 550,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer1.key": {
+            "negative": 257,
+            "positive": 245,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer1.output": {
+            "negative": 278,
+            "positive": 224,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer1.query": {
+            "negative": 237,
+            "positive": 265,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer1.value": {
+            "negative": 247,
+            "positive": 255,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer2.ffn_down": {
+            "negative": 478,
+            "positive": 526,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer2.ffn_up": {
+            "negative": 483,
+            "positive": 521,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer2.key": {
+            "negative": 249,
+            "positive": 253,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer2.output": {
+            "negative": 267,
+            "positive": 235,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer2.query": {
+            "negative": 269,
+            "positive": 233,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer2.value": {
+            "negative": 254,
+            "positive": 248,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer3.ffn_down": {
+            "negative": 502,
+            "positive": 502,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer3.ffn_up": {
+            "negative": 527,
+            "positive": 477,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer3.key": {
+            "negative": 246,
+            "positive": 256,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer3.output": {
+            "negative": 237,
+            "positive": 265,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer3.query": {
+            "negative": 252,
+            "positive": 250,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer3.value": {
+            "negative": 242,
+            "positive": 260,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer4.ffn_down": {
+            "negative": 513,
+            "positive": 491,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer4.ffn_up": {
+            "negative": 493,
+            "positive": 511,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer4.key": {
+            "negative": 259,
+            "positive": 243,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer4.output": {
+            "negative": 244,
+            "positive": 258,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer4.query": {
+            "negative": 256,
+            "positive": 246,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer4.value": {
+            "negative": 263,
+            "positive": 239,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer5.ffn_down": {
+            "negative": 519,
+            "positive": 485,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer5.ffn_up": {
+            "negative": 486,
+            "positive": 518,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer5.key": {
+            "negative": 257,
+            "positive": 245,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer5.output": {
+            "negative": 255,
+            "positive": 247,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer5.query": {
+            "negative": 244,
+            "positive": 258,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer5.value": {
+            "negative": 261,
+            "positive": 241,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "lm_head": {
+            "negative": 469,
+            "positive": 535,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          }
+        },
+        "nonzero": 25100,
+        "sparsity_percentage": 50.9765625,
+        "total": 51200,
+        "zero": 26100
+      }
+    },
+    "D_scaled_int4_refined": {
+      "best_calibrated_cross_entropy": 1.4520377814769745,
+      "best_temperature": 1.125,
+      "calibration_cross_entropy": {
+        "0.75": 1.5925179719924927,
+        "1.0": 1.4672380089759827,
+        "1.125": 1.4520377814769745,
+        "1.25": 1.4555765986442566,
+        "1.375": 1.4724968373775482,
+        "1.5": 1.4991443157196045,
+        "1.75": 1.5718674063682556,
+        "2.0": 1.6598118543624878
+      },
+      "checkpoint": "generated/run6/candidate-refined-exact.json",
+      "exact_forward_matches_independent_int32": true,
+      "incremental_forward_matches_independent_int32_96_characters": true,
+      "independent_exact_int32_128": {
+        "accuracy": 0.5703125,
+        "characters": 128,
+        "cross_entropy": 1.3715600364421916,
+        "perplexity": 3.941494777217848
+      },
+      "mask": {
+        "mask_sha256": "1931291c69fe1103ffe7df725ba2b2ed5cbbdadbf13565dbc2e7a658f9474708",
+        "per_matrix": {
+          "layers.0.ffn_down": 1004,
+          "layers.0.ffn_up": 1004,
+          "layers.0.key": 502,
+          "layers.0.output": 502,
+          "layers.0.query": 502,
+          "layers.0.value": 502,
+          "layers.1.ffn_down": 1004,
+          "layers.1.ffn_up": 1004,
+          "layers.1.key": 502,
+          "layers.1.output": 502,
+          "layers.1.query": 502,
+          "layers.1.value": 502,
+          "layers.2.ffn_down": 1004,
+          "layers.2.ffn_up": 1004,
+          "layers.2.key": 502,
+          "layers.2.output": 502,
+          "layers.2.query": 502,
+          "layers.2.value": 502,
+          "layers.3.ffn_down": 1004,
+          "layers.3.ffn_up": 1004,
+          "layers.3.key": 502,
+          "layers.3.output": 502,
+          "layers.3.query": 502,
+          "layers.3.value": 502,
+          "layers.4.ffn_down": 1004,
+          "layers.4.ffn_up": 1004,
+          "layers.4.key": 502,
+          "layers.4.output": 502,
+          "layers.4.query": 502,
+          "layers.4.value": 502,
+          "layers.5.ffn_down": 1004,
+          "layers.5.ffn_up": 1004,
+          "layers.5.key": 502,
+          "layers.5.output": 502,
+          "layers.5.query": 502,
+          "layers.5.value": 502,
+          "lm_head": 1004
+        },
+        "per_module": {
+          "ffn_down": 6024,
+          "ffn_up": 6024,
+          "key": 3012,
+          "lm_head": 1004,
+          "output": 3012,
+          "query": 3012,
+          "value": 3012
+        },
+        "total_nonzeros": 25100
+      },
+      "mask_changed_from_run5": false,
+      "metrics": {
+        "accuracy": 0.5540771484375,
+        "characters": 16384,
+        "cross_entropy": 1.4672380089759827,
+        "optimization_cross_entropy": 1.4672380089759827,
+        "optimization_temperature": 1.0,
+        "perplexity": 4.337239166654639
+      },
+      "per_module_nonzeros": {
+        "ffn_down": 6024,
+        "ffn_up": 6024,
+        "key": 3012,
+        "lm_head": 1004,
+        "output": 3012,
+        "query": 3012,
+        "value": 3012
+      },
+      "per_module_sparsity": {
+        "ffn_down": {
+          "nonzeros": 6024,
+          "sparsity_percentage": 50.9765625,
+          "total": 12288
+        },
+        "ffn_up": {
+          "nonzeros": 6024,
+          "sparsity_percentage": 50.9765625,
+          "total": 12288
+        },
+        "key": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        },
+        "lm_head": {
+          "nonzeros": 1004,
+          "sparsity_percentage": 50.9765625,
+          "total": 2048
+        },
+        "output": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        },
+        "query": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        },
+        "value": {
+          "nonzeros": 3012,
+          "sparsity_percentage": 50.9765625,
+          "total": 6144
+        }
+      },
+      "range": {
+        "attention_clamp_rates": {
+          "layer0": {
+            "active_scores": 133120,
+            "clamped_scores": 1205,
+            "percentage": 0.9051983173076923
+          },
+          "layer1": {
+            "active_scores": 133120,
+            "clamped_scores": 867,
+            "percentage": 0.6512920673076923
+          },
+          "layer2": {
+            "active_scores": 133120,
+            "clamped_scores": 4448,
+            "percentage": 3.3413461538461537
+          },
+          "layer3": {
+            "active_scores": 133120,
+            "clamped_scores": 6419,
+            "percentage": 4.821965144230769
+          },
+          "layer4": {
+            "active_scores": 133120,
+            "clamped_scores": 4026,
+            "percentage": 3.0243389423076925
+          },
+          "layer5": {
+            "active_scores": 133120,
+            "clamped_scores": 10427,
+            "percentage": 7.832782451923077
+          }
+        },
+        "int32_safety_margin": 2147259151,
+        "maximum_intermediate_magnitude": 224496
+      },
+      "samples": {
+        "A little ": {
+          "generated": "bird and day a big back the bird and dad a big back\nShe liked the skiled the big bad and said I can the bate will day and had a big back and had the big big big and dad the park and he careful and dad a big back\nThe bird and dad and cant and he cold a big ",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.03278688524590164,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.967741935483871,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7333333333333334,
+            "repeated_fourgram_fraction": 0.5177865612648221,
+            "repeated_trigram_fraction": 0.6141732283464567,
+            "sentence_boundaries": 2,
+            "space_fraction": 0.234375,
+            "unique_word_fraction": 0.3709677419354839,
+            "words": 62
+          }
+        },
+        "He wanted ": {
+          "generated": "to play with he car and dad a big back the ball was a big back together\nThe big big bird and did not want to the park\nThe big back to the dark and dog\nThe big big big and had a big big back to the big and dad a big big big bard\nThe ball was sad but dad and",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.0967741935483871,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9841269841269841,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7294117647058824,
+            "repeated_fourgram_fraction": 0.4980237154150198,
+            "repeated_trigram_fraction": 0.5866141732283465,
+            "sentence_boundaries": 4,
+            "space_fraction": 0.2265625,
+            "unique_word_fraction": 0.3968253968253968,
+            "words": 63
+          }
+        },
+        "He was ": {
+          "generated": "a big big be careful and a truck\nShe wanted to back to the big big and dad a little bird named Sam\nSam wanted to help he was sad a big big bird and his friends and said Thank you dad a big big bard the ball and dog\nThe card a big big dog sad and said I am ",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.1,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9836065573770492,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6392156862745098,
+            "repeated_fourgram_fraction": 0.3438735177865613,
+            "repeated_trigram_fraction": 0.4645669291338582,
+            "sentence_boundaries": 3,
+            "space_fraction": 0.2265625,
+            "unique_word_fraction": 0.5081967213114754,
+            "words": 61
+          }
+        },
+        "Mom said ": {
+          "generated": "the big bird and dad a big big big big big big big big big big big big big bird named Sam\nShe wanted to see a big back and he cond and dad a the bag and he did not dad a big be a big back and he could not said the big and a big big big big bird\nThe big bad",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.234375,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9846153846153847,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7647058823529411,
+            "repeated_fourgram_fraction": 0.5770750988142292,
+            "repeated_trigram_fraction": 0.6614173228346456,
+            "sentence_boundaries": 2,
+            "space_fraction": 0.2421875,
+            "unique_word_fraction": 0.3384615384615385,
+            "words": 65
+          }
+        },
+        "Once upon a time": {
+          "generated": " there was a big big big and dad a big back\nThe big big big big big big big bird and dad a big big big be hisk and he did not play with the big bird and a big back\nThe big bad the dick the bird and had a big back and dad a big big big big big be and said I",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.21875,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9692307692307692,
+            "maximum_repeated_character_run": 1,
+            "repeated_bigram_fraction": 0.7803921568627451,
+            "repeated_fourgram_fraction": 0.616600790513834,
+            "repeated_trigram_fraction": 0.6850393700787402,
+            "sentence_boundaries": 2,
+            "space_fraction": 0.24609375,
+            "unique_word_fraction": 0.3230769230769231,
+            "words": 65
+          }
+        },
+        "One day ": {
+          "generated": "he can was a little girl named Spot\nShe wanted to dad a big back the care was a big back and dad a big back\nThe big big big bird and dad the big back and his fast and said Yes I want and said Thank you a big back to back to be his a big big big and dad and",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.06451612903225806,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6705882352941177,
+            "repeated_fourgram_fraction": 0.450592885375494,
+            "repeated_trigram_fraction": 0.5393700787401574,
+            "sentence_boundaries": 2,
+            "space_fraction": 0.234375,
+            "unique_word_fraction": 0.42857142857142855,
+            "words": 63
+          }
+        },
+        "She said ": {
+          "generated": "Yes dad\nShe loved he came but he care and said Yes I was a little big big bird the bird and he did not want to the bat and dance and dad the saw a big big big big big big big big and a big back to his mom\nShe wanted to help her mom the careful and said the",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.13114754098360656,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6588235294117647,
+            "repeated_fourgram_fraction": 0.35573122529644263,
+            "repeated_trigram_fraction": 0.4921259842519685,
+            "sentence_boundaries": 2,
+            "space_fraction": 0.23046875,
+            "unique_word_fraction": 0.5,
+            "words": 62
+          }
+        },
+        "She was ": {
+          "generated": "sad and had a big big back to the back and dad the big bird can dog\nThe big big and he day a big back the bag and dick and dad the skild he did not day and dad a big back the big ball day and dad a big big back\nThe bird and had a big back\nThe bird came but",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.047619047619047616,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.96875,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7725490196078432,
+            "repeated_fourgram_fraction": 0.5928853754940712,
+            "repeated_trigram_fraction": 0.6811023622047244,
+            "sentence_boundaries": 3,
+            "space_fraction": 0.234375,
+            "unique_word_fraction": 0.34375,
+            "words": 64
+          }
+        },
+        "The boy ": {
+          "generated": "was a big big big and did not dad a big back the ball was a big big big be and he careful big bird and dad a big back\nThe big bag big big bear and did not know his mom said the big and dad and day her dad\nShe wanted to started to hear a big back\nThe big tr",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.08064516129032258,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9841269841269841,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6941176470588235,
+            "repeated_fourgram_fraction": 0.45849802371541504,
+            "repeated_trigram_fraction": 0.5551181102362205,
+            "sentence_boundaries": 3,
+            "space_fraction": 0.23046875,
+            "unique_word_fraction": 0.4444444444444444,
+            "words": 63
+          }
+        },
+        "The cat ": {
+          "generated": "was a big big big truck\nThe big back and a big big bird and did not want to help he careful and said the big big back to help\nShe was sad and he did not find a time there was a big back to be play with the big back the bag the big big bird and dad a little",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.08196721311475409,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6823529411764706,
+            "repeated_fourgram_fraction": 0.43083003952569165,
+            "repeated_trigram_fraction": 0.5354330708661417,
+            "sentence_boundaries": 2,
+            "space_fraction": 0.23046875,
+            "unique_word_fraction": 0.43548387096774194,
+            "words": 62
+          }
+        },
+        "The dog ": {
+          "generated": "named Mia was a big back to the park\nThe big big bird and dad a big back and said the big back the big bird and he did not keard\nShe the ball and said the babick the big big big and said I can find a time there the ball and he careful and had a big big big",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.08333333333333333,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9672131147540983,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6901960784313725,
+            "repeated_fourgram_fraction": 0.4703557312252964,
+            "repeated_trigram_fraction": 0.5590551181102362,
+            "sentence_boundaries": 2,
+            "space_fraction": 0.2265625,
+            "unique_word_fraction": 0.4426229508196721,
+            "words": 61
+          }
+        },
+        "The girl ": {
+          "generated": "named Sam\nSue said I the big bird that he did not day a big back and did not kear\nendoftext \nOnce upon a time there was a big big big big big big dog\nThe big big big big big bird and did not did not do not a dob the big tree a big big big bad\nShe dog and h",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.1774193548387097,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9523809523809523,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6470588235294117,
+            "repeated_fourgram_fraction": 0.40711462450592883,
+            "repeated_trigram_fraction": 0.4881889763779528,
+            "sentence_boundaries": 5,
+            "space_fraction": 0.2265625,
+            "unique_word_fraction": 0.47619047619047616,
+            "words": 63
+          }
+        },
+        "The house ": {
+          "generated": "was a big big big big bird and did not like the bate and dance was a big back the ball and dang want to the ball the ball and a big back the sad and a the ball and he careful card\nShe was sad but the ball and dance and the big bird\nThe big tree and dad and",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.05,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9672131147540983,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7411764705882353,
+            "repeated_fourgram_fraction": 0.4980237154150198,
+            "repeated_trigram_fraction": 0.6023622047244095,
+            "sentence_boundaries": 2,
+            "space_fraction": 0.2265625,
+            "unique_word_fraction": 0.39344262295081966,
+            "words": 61
+          }
+        },
+        "The little ": {
+          "generated": "said the care the careful came back and dad and did\nShe like the big bird and her friends\nendoftext \nOnce upon a the big tree a big big bird and dad a big big bear a big big big bird and did not keard\nThe big back and a the big big bird and did but dark\nTh",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.08620689655172414,
+            "characters": 256,
+            "dictionary_like_word_fraction": 0.9661016949152542,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.6666666666666667,
+            "repeated_fourgram_fraction": 0.4426877470355731,
+            "repeated_trigram_fraction": 0.5236220472440944,
+            "sentence_boundaries": 5,
+            "space_fraction": 0.2109375,
+            "unique_word_fraction": 0.4406779661016949,
+            "words": 59
+          }
+        },
+        "There was ": {
+          "generated": "a little girl named Sam\nShe wanted to help and dark\nThe big back to he careful the big bird and dad a big back\nThe big bird and had a big big bird and he was sad and dad a big big back and dad\nThe big back the big big and a big big bird and did not day and",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.06557377049180328,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7019607843137254,
+            "repeated_fourgram_fraction": 0.5098814229249011,
+            "repeated_trigram_fraction": 0.5866141732283465,
+            "sentence_boundaries": 4,
+            "space_fraction": 0.22265625,
+            "unique_word_fraction": 0.3870967741935484,
+            "words": 62
+          }
+        },
+        "Today ": {
+          "generated": "was sad and did not a big big bird and said the big big and dad a big back\nThe bird and dad a big back the ball\nThe bird and he did not want to help he careful the big big big train\nShe there was a big back to the big back the ball that the card and a big ",
+          "quality": {
+            "adjacent_repeated_word_fraction": 0.06557377049180328,
+            "characters": 256,
+            "dictionary_like_word_fraction": 1.0,
+            "maximum_repeated_character_run": 2,
+            "repeated_bigram_fraction": 0.7450980392156863,
+            "repeated_fourgram_fraction": 0.5019762845849802,
+            "repeated_trigram_fraction": 0.6141732283464567,
+            "sentence_boundaries": 3,
+            "space_fraction": 0.23046875,
+            "unique_word_fraction": 0.3709677419354839,
+            "words": 62
+          }
+        }
+      },
+      "sparsity": {
+        "matrices": {
+          "layer0.ffn_down": {
+            "negative": 514,
+            "positive": 490,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer0.ffn_up": {
+            "negative": 448,
+            "positive": 556,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer0.key": {
+            "negative": 267,
+            "positive": 235,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer0.output": {
+            "negative": 258,
+            "positive": 244,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer0.query": {
+            "negative": 243,
+            "positive": 259,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer0.value": {
+            "negative": 265,
+            "positive": 237,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer1.ffn_down": {
+            "negative": 483,
+            "positive": 521,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer1.ffn_up": {
+            "negative": 448,
+            "positive": 556,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer1.key": {
+            "negative": 254,
+            "positive": 248,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer1.output": {
+            "negative": 272,
+            "positive": 230,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer1.query": {
+            "negative": 239,
+            "positive": 263,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer1.value": {
+            "negative": 256,
+            "positive": 246,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer2.ffn_down": {
+            "negative": 478,
+            "positive": 526,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer2.ffn_up": {
+            "negative": 480,
+            "positive": 524,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer2.key": {
+            "negative": 242,
+            "positive": 260,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer2.output": {
+            "negative": 260,
+            "positive": 242,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer2.query": {
+            "negative": 269,
+            "positive": 233,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer2.value": {
+            "negative": 254,
+            "positive": 248,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer3.ffn_down": {
+            "negative": 508,
+            "positive": 496,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer3.ffn_up": {
+            "negative": 531,
+            "positive": 473,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer3.key": {
+            "negative": 246,
+            "positive": 256,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer3.output": {
+            "negative": 238,
+            "positive": 264,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer3.query": {
+            "negative": 251,
+            "positive": 251,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer3.value": {
+            "negative": 244,
+            "positive": 258,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer4.ffn_down": {
+            "negative": 519,
+            "positive": 485,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer4.ffn_up": {
+            "negative": 491,
+            "positive": 513,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer4.key": {
+            "negative": 261,
+            "positive": 241,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer4.output": {
+            "negative": 247,
+            "positive": 255,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer4.query": {
+            "negative": 259,
+            "positive": 243,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer4.value": {
+            "negative": 260,
+            "positive": 242,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer5.ffn_down": {
+            "negative": 525,
+            "positive": 479,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer5.ffn_up": {
+            "negative": 485,
+            "positive": 519,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          },
+          "layer5.key": {
+            "negative": 257,
+            "positive": 245,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer5.output": {
+            "negative": 254,
+            "positive": 248,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer5.query": {
+            "negative": 241,
+            "positive": 261,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "layer5.value": {
+            "negative": 262,
+            "positive": 240,
+            "sparsity_percentage": 50.9765625,
+            "total": 1024,
+            "zero": 522
+          },
+          "lm_head": {
+            "negative": 465,
+            "positive": 539,
+            "sparsity_percentage": 50.9765625,
+            "total": 2048,
+            "zero": 1044
+          }
+        },
+        "nonzero": 25100,
+        "sparsity_percentage": 50.9765625,
+        "total": 51200,
+        "zero": 26100
+      }
+    }
+  },
+  "specialization_reason": "No specialized checkpoint was used.",
+  "specialization_used": false
+}

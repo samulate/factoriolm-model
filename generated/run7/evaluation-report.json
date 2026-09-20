@@ -1,0 +1,207 @@
+{
+  "generations": {
+    "Can dogs be good friends": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feel a bit is a bit is a beautiful and a lovely day it is a bit can be happy too and change and can be happy today it is a",
+      "characters": 127,
+      "generated": "I am feel a bit is a bit is a beautiful and a lovely day it is a bit can be happy too and change and can be happy today it is a ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Can dogs be good friends\nA ",
+      "unique_word_ratio": 0.5151515151515151,
+      "words": 33
+    },
+    "How are you today": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I also feel happy today it is a beautiful and happy today it is a bear and a bit feel a bit feeling and a bit feeling a bit beau",
+      "characters": 128,
+      "generated": "I also feel happy today it is a beautiful and happy today it is a bear and a bit feel a bit feeling and a bit feeling a bit beau",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How are you today\nA ",
+      "unique_word_ratio": 0.4666666666666667,
+      "words": 30
+    },
+    "How can I help a friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feeling a bit is a bit but something a bit in the bear and change and happy and happy today",
+      "characters": 96,
+      "generated": "I am feeling a bit is a bit but something a bit in the bear and change and happy and happy today\nA I am feel happy today it is a",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How can I help a friend\nA ",
+      "unique_word_ratio": 0.6818181818181818,
+      "words": 22
+    },
+    "How do I make a new friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am also feel a bit in a bit but happy and a land happy today",
+      "characters": 62,
+      "generated": "I am also feel a bit in a bit but happy and a land happy today\nA Yes it is a beautiful and be but happy today it is a beautiful ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How do I make a new friend\nA ",
+      "unique_word_ratio": 0.75,
+      "words": 16
+    },
+    "Should I share my toys": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feel happy and happy today it is a lovely day and a lovely day",
+      "characters": 67,
+      "generated": "I am feel happy and happy today it is a lovely day and a lovely day\nA I am feel happy today it is a beautiful and happy thank yo",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Should I share my toys\nA ",
+      "unique_word_ratio": 0.6875,
+      "words": 16
+    },
+    "What do plants need to grow": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feeling a bit and happy today it is a bit is a beautiful and a lovely day",
+      "characters": 78,
+      "generated": "I am feeling a bit and happy today it is a bit is a beautiful and a lovely day\nA I am feel a bit does and a bit does feel happy ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What do plants need to grow\nA ",
+      "unique_word_ratio": 0.6842105263157895,
+      "words": 19
+    },
+    "What happens when it rains": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I also feel a bit is a bit feel happy today it is a bit feel a bit feel a bit is a bit be very happy today",
+      "characters": 106,
+      "generated": "I also feel a bit is a bit feel happy today it is a bit feel a bit feel a bit is a bit be very happy today\nA I am feel a bit in ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What happens when it rains\nA ",
+      "unique_word_ratio": 0.39285714285714285,
+      "words": 28
+    },
+    "What makes people happy": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I also feel happy today it is a good and happy today it is a lovely day",
+      "characters": 71,
+      "generated": "I also feel happy today it is a good and happy today it is a lovely day\nA I have a big that see a lovely day and a lovely day an",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What makes people happy\nA ",
+      "unique_word_ratio": 0.7058823529411765,
+      "words": 17
+    },
+    "What should I do when I feel sad": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am also feel a bit in a bit is a bit face a bit in a bit beautiful",
+      "characters": 68,
+      "generated": "I am also feel a bit in a bit is a bit face a bit in a bit beautiful\nA I am feeling a bit and a bit dad and happy too thank you ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What should I do when I feel sad\nA ",
+      "unique_word_ratio": 0.5263157894736842,
+      "words": 19
+    },
+    "Where do birds live": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am all feel happy today it is a bit is a bit disges",
+      "characters": 53,
+      "generated": "I am all feel happy today it is a bit is a bit disges\nA I have to a little and happy to see that is a bit is a bit in the beauti",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Where do birds live\nA ",
+      "unique_word_ratio": 0.7857142857142857,
+      "words": 14
+    },
+    "Why do we need to sleep": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am also feel happy too as a bit and a bit feel a bit feel a bit in a bit feel a bit is a bit feel a bit and a big a beautiful",
+      "characters": 127,
+      "generated": "I am also feel happy too as a bit and a bit feel a bit feel a bit in a bit feel a bit is a bit feel a bit and a big a beautiful\n",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why do we need to sleep\nA ",
+      "unique_word_ratio": 0.4,
+      "words": 35
+    },
+    "Why is the sky blue": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feel happy today it is a bit day is a little a bit feel a bit in the beautiful",
+      "characters": 83,
+      "generated": "I am feel happy today it is a bit day is a little a bit feel a bit in the beautiful\nA I feel happy to see a bit be a bit but it ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why is the sky blue\nA ",
+      "unique_word_ratio": 0.6666666666666666,
+      "words": 21
+    }
+  },
+  "metrics": {
+    "exact": {
+      "all_characters": {
+        "accuracy": 0.5361328125,
+        "characters": 2048,
+        "cross_entropy": 1.4823363953219852,
+        "perplexity": 4.40322133798159
+      },
+      "answer_characters": {
+        "accuracy": 0.5340442986054142,
+        "characters": 1219,
+        "cross_entropy": 1.5024058265494042,
+        "perplexity": 4.492484217308392
+      }
+    },
+    "float": {
+      "all_characters": {
+        "accuracy": 0.660400390625,
+        "characters": 16384,
+        "cross_entropy": 1.0802188515663147,
+        "perplexity": 2.945324069321912
+      },
+      "answer_characters": {
+        "accuracy": 0.6573554788610871,
+        "characters": 9272,
+        "cross_entropy": 1.1107985041489161,
+        "perplexity": 3.036782309827387
+      },
+      "temperature": 1.0
+    },
+    "qat": {
+      "all_characters": {
+        "accuracy": 0.5537109375,
+        "characters": 16384,
+        "cross_entropy": 1.4388172924518585,
+        "perplexity": 4.21570691898059
+      },
+      "answer_characters": {
+        "accuracy": 0.5470232959447799,
+        "characters": 9272,
+        "cross_entropy": 1.470165947164514,
+        "perplexity": 4.34995694419114
+      },
+      "temperature": 1.125
+    },
+    "run6d_exact_on_chat": {
+      "all_characters": {
+        "accuracy": 0.4267578125,
+        "characters": 2048,
+        "cross_entropy": 2.089458852745733,
+        "perplexity": 8.080541218244106
+      },
+      "answer_characters": {
+        "accuracy": 0.4413453650533224,
+        "characters": 1219,
+        "cross_entropy": 1.9853838606743113,
+        "perplexity": 7.281842061840002
+      }
+    }
+  },
+  "quality_gate": {
+    "automatic_surface_form_gate": true,
+    "demo_prompt_semantic_review": "passed",
+    "exact_coherent_heldout_demo": true,
+    "general_question_answering_coherent": false,
+    "limitation": "Broad factual and advice questions produced generic or ungrammatical exact replies; only the reviewed natural held-out conversational demo is claimed coherent.",
+    "manual_semantic_review_required": true,
+    "numerically_better_than_run6d_on_chat": true,
+    "total_questions": 12,
+    "usable_answers": 12
+  }
+}

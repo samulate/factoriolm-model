@@ -1,0 +1,601 @@
+{
+  "finding": {
+    "cached_train_separator_tokens": 42710,
+    "cached_validation_separator_tokens": 6156,
+    "exact_fix": "Recognize <|endoftext|> and <endoftext> case-insensitively as whole document-separator tokens before character normalization, and map each complete separator to a newline story boundary.",
+    "exact_source": "The official cached text uses <|endoftext|> between stories. The former character normalizer mapped '<', '|', and '>' to spaces but retained the ASCII letters, producing literal 'endoftext'.",
+    "observed_selected_training_collapses": 30665,
+    "observed_selected_validation_collapses": 2578,
+    "preprocessing_bug": true,
+    "retraining_required_by_run6d_gate": true,
+    "runtime_blacklist_or_argmax_change": false
+  },
+  "markers_audited": [
+    "endoftext",
+    "<|endoftext|>",
+    "<endoftext>",
+    "end of text",
+    "ENDOFTEXT"
+  ],
+  "run": "6D",
+  "stages": {
+    "A_original_cached_tinystories": {
+      "train": {
+        "bytes": 35000000,
+        "characters": 34985695,
+        "counts": {
+          "<endoftext>": {
+            "case_insensitive": 0,
+            "case_sensitive": 0
+          },
+          "<|endoftext|>": {
+            "case_insensitive": 42710,
+            "case_sensitive": 42710
+          },
+          "ENDOFTEXT": {
+            "case_insensitive": 42710,
+            "case_sensitive": 0
+          },
+          "end of text": {
+            "case_insensitive": 0,
+            "case_sensitive": 0
+          },
+          "endoftext": {
+            "case_insensitive": 42710,
+            "case_sensitive": 42710
+          }
+        },
+        "example_contexts": [
+          {
+            "character_offset": 732,
+            "context": "ful and couldn't believe how lucky Ben was. \nAnd that's how Ben found an amazing vase in the store!\n<|endoftext|>\nOnce upon a time, there was a reliable otter named Ollie. He lived in a river with his family. They",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 1408,
+            "context": "y stone and smiled. The shiny stone made everyone happy, and they forgot about the fish for dinner.\n<|endoftext|>\nOne day, a little boy named Tim went to the park. He saw a big tiger. The tiger was not mean, but v",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 1936,
+            "context": "happy. The dog was easy to play with too. At the end of the day, Tim went home with his new friend.\n<|endoftext|>\n\nOnce upon a time there was a friendly little boy called Bob. Bob loved to pick flowers and look fo",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 2808,
+            "context": "ways kept the big, friendly thumb with him as a reminder that special things can be found anywhere.\n<|endoftext|>\nOnce upon a time, in a small house, there lived a little girl named Lucy. Lucy loved the color oran",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 3777,
+            "context": " Lucy knew that even if others ignore her friend, the spirit was real and they could play together.\n<|endoftext|>\nOne day, a boy named Tim went to the park to play. He saw his friend, Sam, playing with a toy car. ",
+            "matched": "<|endoftext|>"
+          }
+        ],
+        "path": "/private/tmp/TinyStoriesV2-GPT4-train-prefix.txt",
+        "representation": "cached official TinyStories text prefix",
+        "sha256": "19edfcbd334e9e2bdcd60161ac8ffed3e1016f1d0b54f5857f7c293d276bc463"
+      },
+      "validation": {
+        "bytes": 5000000,
+        "characters": 4997978,
+        "counts": {
+          "<endoftext>": {
+            "case_insensitive": 0,
+            "case_sensitive": 0
+          },
+          "<|endoftext|>": {
+            "case_insensitive": 6156,
+            "case_sensitive": 6156
+          },
+          "ENDOFTEXT": {
+            "case_insensitive": 6156,
+            "case_sensitive": 0
+          },
+          "end of text": {
+            "case_insensitive": 0,
+            "case_sensitive": 0
+          },
+          "endoftext": {
+            "case_insensitive": 6156,
+            "case_sensitive": 6156
+          }
+        },
+        "example_contexts": [
+          {
+            "character_offset": 242,
+            "context": "came to trust her. He leaned against her and she kept him safe. The mole had found his best friend.\n<|endoftext|>\nOnce upon a time, in a warm and sunny place, there was a big pit. A little boy named Tom liked to p",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 1066,
+            "context": " for help, but no one could hear them. They were sad and scared, and they never got out of the pit.\n<|endoftext|>\n\n\nTom and Lily were playing with their toys in the living room. They liked to build towers and brid",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 3035,
+            "context": "ake. It was sour, but they liked it. They learned that sharing is caring, and that family is sweet.\n<|endoftext|>\n\nOnce upon a time there was a little girl named Lucy. She loved to go to the store to buy sweets wi",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 4075,
+            "context": "standing when faced with a conflict. And that is why Lucy and the little girl became great friends.\n<|endoftext|>\nOne morning, a cat named Tom woke up. He felt happy because the sun was shining. Tom wanted to star",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 4742,
+            "context": "o sleep, they both did another easy stretch. Tom knew that tomorrow would be another happy morning.\n<|endoftext|>\n\n\nLily and Tom were twins who liked to decorate things. They had a big box of crayons, stickers, an",
+            "matched": "<|endoftext|>"
+          }
+        ],
+        "path": "/private/tmp/TinyStoriesV2-GPT4-valid-prefix.txt",
+        "representation": "cached official TinyStories text prefix",
+        "sha256": "c9f65e8a510a8dae860691cdc7c04c3f137c9bac8440c97640a5b4d17312a6bd"
+      }
+    },
+    "B_after_loading_and_parsing": {
+      "byte_and_character_identical_to_stage_A": true,
+      "description": "Run 4 reads each cached UTF-8 text file directly with errors=ignore; there is no record parser or separator transform before normalization.",
+      "train": {
+        "bytes": 35000000,
+        "characters": 34985695,
+        "counts": {
+          "<endoftext>": {
+            "case_insensitive": 0,
+            "case_sensitive": 0
+          },
+          "<|endoftext|>": {
+            "case_insensitive": 42710,
+            "case_sensitive": 42710
+          },
+          "ENDOFTEXT": {
+            "case_insensitive": 42710,
+            "case_sensitive": 0
+          },
+          "end of text": {
+            "case_insensitive": 0,
+            "case_sensitive": 0
+          },
+          "endoftext": {
+            "case_insensitive": 42710,
+            "case_sensitive": 42710
+          }
+        },
+        "example_contexts": [
+          {
+            "character_offset": 732,
+            "context": "ful and couldn't believe how lucky Ben was. \nAnd that's how Ben found an amazing vase in the store!\n<|endoftext|>\nOnce upon a time, there was a reliable otter named Ollie. He lived in a river with his family. They",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 1408,
+            "context": "y stone and smiled. The shiny stone made everyone happy, and they forgot about the fish for dinner.\n<|endoftext|>\nOne day, a little boy named Tim went to the park. He saw a big tiger. The tiger was not mean, but v",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 1936,
+            "context": "happy. The dog was easy to play with too. At the end of the day, Tim went home with his new friend.\n<|endoftext|>\n\nOnce upon a time there was a friendly little boy called Bob. Bob loved to pick flowers and look fo",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 2808,
+            "context": "ways kept the big, friendly thumb with him as a reminder that special things can be found anywhere.\n<|endoftext|>\nOnce upon a time, in a small house, there lived a little girl named Lucy. Lucy loved the color oran",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 3777,
+            "context": " Lucy knew that even if others ignore her friend, the spirit was real and they could play together.\n<|endoftext|>\nOne day, a boy named Tim went to the park to play. He saw his friend, Sam, playing with a toy car. ",
+            "matched": "<|endoftext|>"
+          }
+        ],
+        "path": "/private/tmp/TinyStoriesV2-GPT4-train-prefix.txt",
+        "representation": "cached official TinyStories text prefix",
+        "sha256": "19edfcbd334e9e2bdcd60161ac8ffed3e1016f1d0b54f5857f7c293d276bc463"
+      },
+      "validation": {
+        "bytes": 5000000,
+        "characters": 4997978,
+        "counts": {
+          "<endoftext>": {
+            "case_insensitive": 0,
+            "case_sensitive": 0
+          },
+          "<|endoftext|>": {
+            "case_insensitive": 6156,
+            "case_sensitive": 6156
+          },
+          "ENDOFTEXT": {
+            "case_insensitive": 6156,
+            "case_sensitive": 0
+          },
+          "end of text": {
+            "case_insensitive": 0,
+            "case_sensitive": 0
+          },
+          "endoftext": {
+            "case_insensitive": 6156,
+            "case_sensitive": 6156
+          }
+        },
+        "example_contexts": [
+          {
+            "character_offset": 242,
+            "context": "came to trust her. He leaned against her and she kept him safe. The mole had found his best friend.\n<|endoftext|>\nOnce upon a time, in a warm and sunny place, there was a big pit. A little boy named Tom liked to p",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 1066,
+            "context": " for help, but no one could hear them. They were sad and scared, and they never got out of the pit.\n<|endoftext|>\n\n\nTom and Lily were playing with their toys in the living room. They liked to build towers and brid",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 3035,
+            "context": "ake. It was sour, but they liked it. They learned that sharing is caring, and that family is sweet.\n<|endoftext|>\n\nOnce upon a time there was a little girl named Lucy. She loved to go to the store to buy sweets wi",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 4075,
+            "context": "standing when faced with a conflict. And that is why Lucy and the little girl became great friends.\n<|endoftext|>\nOne morning, a cat named Tom woke up. He felt happy because the sun was shining. Tom wanted to star",
+            "matched": "<|endoftext|>"
+          },
+          {
+            "character_offset": 4742,
+            "context": "o sleep, they both did another easy stretch. Tom knew that tomorrow would be another happy morning.\n<|endoftext|>\n\n\nLily and Tom were twins who liked to decorate things. They had a big box of crayons, stickers, an",
+            "matched": "<|endoftext|>"
+          }
+        ],
+        "path": "/private/tmp/TinyStoriesV2-GPT4-valid-prefix.txt",
+        "representation": "cached official TinyStories text prefix",
+        "sha256": "c9f65e8a510a8dae860691cdc7c04c3f137c9bac8440c97640a5b4d17312a6bd"
+      }
+    },
+    "C_normalized_training_text_used_by_runs_4_5_6": {
+      "bytes": 24000000,
+      "characters": 24000000,
+      "counts": {
+        "<endoftext>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "<|endoftext|>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "ENDOFTEXT": {
+          "case_insensitive": 30665,
+          "case_sensitive": 0
+        },
+        "end of text": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "endoftext": {
+          "case_insensitive": 30665,
+          "case_sensitive": 30665
+        }
+      },
+      "example_contexts": [
+        {
+          "character_offset": 704,
+          "context": "eautiful and couldnt believe how lucky Ben was\nAnd thats how Ben found an amazing vase in the store\nendoftext \nOnce upon a time there was a reliable otter named Ollie\nHe lived in a river with his family\nThey a",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 1339,
+          "context": "hiny stone and smiled\nThe shiny stone made everyone happy and they forgot about the fish for dinner\nendoftext \nOne day a little boy named Tim went to the park\nHe saw a big tiger\nThe tiger was not mean but very",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 1844,
+          "context": "ery happy\nThe dog was easy to play with too\nAt the end of the day Tim went home with his new friend\nendoftext \nOnce upon a time there was a friendly little boy called Bob\nBob loved to pick flowers and look for",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 2688,
+          "context": "always kept the big friendly thumb with him as a reminder that special things can be found anywhere\nendoftext \nOnce upon a time in a small house there lived a little girl named Lucy\nLucy loved the color orange",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 3615,
+          "context": "un\nLucy knew that even if others ignore her friend the spirit was real and they could play together\nendoftext \nOne day a boy named Tim went to the park to play\nHe saw his friend Sam playing with a toy car\nTim ",
+          "matched": "endoftext"
+        }
+      ],
+      "path": "generated/run4/tinystories-v2-gpt4-train.txt",
+      "representation": "selected normalized ASCII training characters",
+      "sha256": "07231ee7df9ccca9ead28ea81333ef8a7fc93714e98c3fab658cf814fd8bb947"
+    },
+    "D_normalized_validation_text_used_by_runs_4_5_6": {
+      "bytes": 2000000,
+      "characters": 2000000,
+      "counts": {
+        "<endoftext>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "<|endoftext|>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "ENDOFTEXT": {
+          "case_insensitive": 2578,
+          "case_sensitive": 0
+        },
+        "end of text": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "endoftext": {
+          "case_insensitive": 2578,
+          "case_sensitive": 2578
+        }
+      },
+      "example_contexts": [
+        {
+          "character_offset": 233,
+          "context": "on came to trust her\nHe leaned against her and she kept him safe\nThe mole had found his best friend\nendoftext \nOnce upon a time in a warm and sunny place there was a big pit\nA little boy named Tom liked to pla",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 1019,
+          "context": "lled for help but no one could hear them\nThey were sad and scared and they never got out of the pit\nendoftext \nTom and Lily were playing with their toys in the living room\nThey liked to build towers and bridge",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 2895,
+          "context": "mon cake\nIt was sour but they liked it\nThey learned that sharing is caring and that family is sweet\nendoftext \nOnce upon a time there was a little girl named Lucy\nShe loved to go to the store to buy sweets wit",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 3898,
+          "context": "erstanding when faced with a conflict\nAnd that is why Lucy and the little girl became great friends\nendoftext \nOne morning a cat named Tom woke up\nHe felt happy because the sun was shining\nTom wanted to start ",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 4540,
+          "context": "g to sleep they both did another easy stretch\nTom knew that tomorrow would be another happy morning\nendoftext \nLily and Tom were twins who liked to decorate things\nThey had a big box of crayons stickers and gl",
+          "matched": "endoftext"
+        }
+      ],
+      "path": "generated/run4/tinystories-v2-gpt4-validation.txt",
+      "representation": "selected normalized ASCII validation characters",
+      "sha256": "fa0b82bcffb12e03856e056517b56cc24bfd9a347611d2a94a0d9287a47c29ad"
+    },
+    "E_materialized_training_token_stream": {
+      "counts_after_decoding": {
+        "<endoftext>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "<|endoftext|>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "ENDOFTEXT": {
+          "case_insensitive": 30665,
+          "case_sensitive": 0
+        },
+        "end of text": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "endoftext": {
+          "case_insensitive": 30665,
+          "case_sensitive": 30665
+        }
+      },
+      "decoded_characters": 24000000,
+      "example_contexts_after_decoding": [
+        {
+          "character_offset": 704,
+          "context": "eautiful and couldnt believe how lucky Ben was\nAnd thats how Ben found an amazing vase in the store\nendoftext \nOnce upon a time there was a reliable otter named Ollie\nHe lived in a river with his family\nThey a",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 1339,
+          "context": "hiny stone and smiled\nThe shiny stone made everyone happy and they forgot about the fish for dinner\nendoftext \nOne day a little boy named Tim went to the park\nHe saw a big tiger\nThe tiger was not mean but very",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 1844,
+          "context": "ery happy\nThe dog was easy to play with too\nAt the end of the day Tim went home with his new friend\nendoftext \nOnce upon a time there was a friendly little boy called Bob\nBob loved to pick flowers and look for",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 2688,
+          "context": "always kept the big friendly thumb with him as a reminder that special things can be found anywhere\nendoftext \nOnce upon a time in a small house there lived a little girl named Lucy\nLucy loved the color orange",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 3615,
+          "context": "un\nLucy knew that even if others ignore her friend the spirit was real and they could play together\nendoftext \nOne day a boy named Tim went to the park to play\nHe saw his friend Sam playing with a toy car\nTim ",
+          "matched": "endoftext"
+        }
+      ],
+      "path": "generated/run4/tinystories-v2-gpt4-train.bin",
+      "representation": "one vocabulary ID per selected normalized character",
+      "sha256": "21859f36283344bc9ddc95e606eab25612d2ecf65a6474ead9e358b5e83006e6",
+      "tokens": 24000000
+    },
+    "E_materialized_validation_token_stream": {
+      "counts_after_decoding": {
+        "<endoftext>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "<|endoftext|>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "ENDOFTEXT": {
+          "case_insensitive": 2578,
+          "case_sensitive": 0
+        },
+        "end of text": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "endoftext": {
+          "case_insensitive": 2578,
+          "case_sensitive": 2578
+        }
+      },
+      "decoded_characters": 2000000,
+      "example_contexts_after_decoding": [
+        {
+          "character_offset": 233,
+          "context": "on came to trust her\nHe leaned against her and she kept him safe\nThe mole had found his best friend\nendoftext \nOnce upon a time in a warm and sunny place there was a big pit\nA little boy named Tom liked to pla",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 1019,
+          "context": "lled for help but no one could hear them\nThey were sad and scared and they never got out of the pit\nendoftext \nTom and Lily were playing with their toys in the living room\nThey liked to build towers and bridge",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 2895,
+          "context": "mon cake\nIt was sour but they liked it\nThey learned that sharing is caring and that family is sweet\nendoftext \nOnce upon a time there was a little girl named Lucy\nShe loved to go to the store to buy sweets wit",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 3898,
+          "context": "erstanding when faced with a conflict\nAnd that is why Lucy and the little girl became great friends\nendoftext \nOne morning a cat named Tom woke up\nHe felt happy because the sun was shining\nTom wanted to start ",
+          "matched": "endoftext"
+        },
+        {
+          "character_offset": 4540,
+          "context": "g to sleep they both did another easy stretch\nTom knew that tomorrow would be another happy morning\nendoftext \nLily and Tom were twins who liked to decorate things\nThey had a big box of crayons stickers and gl",
+          "matched": "endoftext"
+        }
+      ],
+      "path": "generated/run4/tinystories-v2-gpt4-validation.bin",
+      "representation": "one vocabulary ID per selected normalized character",
+      "sha256": "1912c5f736711de260ce8d78ed55817428826e85b5eaa4dec94f31ff993734fd",
+      "tokens": 2000000
+    },
+    "E_training_windows": {
+      "description": "Individual 64-character windows are sampled contiguously from the materialized token stream at training time; therefore their source occurrence counts are the decoded token-stream counts above.",
+      "materialized": false
+    },
+    "F_cleaned_normalized_training_text": {
+      "bytes": 24000000,
+      "characters": 24000000,
+      "counts": {
+        "<endoftext>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "<|endoftext|>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "ENDOFTEXT": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "end of text": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "endoftext": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        }
+      },
+      "example_contexts": [],
+      "path": "generated/run6d/tinystories-v2-gpt4-train.txt",
+      "representation": "whole-token separator fix",
+      "sha256": "99c7ee5b98b97f2cbb285eae6a6f0e6a6d9eef2f1b14ad658dde49e4a414310a"
+    },
+    "F_cleaned_normalized_validation_text": {
+      "bytes": 2000000,
+      "characters": 2000000,
+      "counts": {
+        "<endoftext>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "<|endoftext|>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "ENDOFTEXT": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "end of text": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "endoftext": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        }
+      },
+      "example_contexts": [],
+      "path": "generated/run6d/tinystories-v2-gpt4-validation.txt",
+      "representation": "whole-token separator fix",
+      "sha256": "f7c35a8826d3ded1a85288ff4f79a1a8328ade250489f4b999f1605169a74435"
+    },
+    "F_cleaned_training_token_stream": {
+      "counts_after_decoding": {
+        "<endoftext>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "<|endoftext|>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "ENDOFTEXT": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "end of text": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "endoftext": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        }
+      },
+      "decoded_characters": 24000000,
+      "example_contexts_after_decoding": [],
+      "path": "generated/run6d/tinystories-v2-gpt4-train.bin",
+      "representation": "whole-token separator fix",
+      "sha256": "61dc243f8b87f24867344ae36d4600636a12c9fad57220213e4c3f7feac3163c",
+      "tokens": 24000000
+    },
+    "F_cleaned_validation_token_stream": {
+      "counts_after_decoding": {
+        "<endoftext>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "<|endoftext|>": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "ENDOFTEXT": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "end of text": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        },
+        "endoftext": {
+          "case_insensitive": 0,
+          "case_sensitive": 0
+        }
+      },
+      "decoded_characters": 2000000,
+      "example_contexts_after_decoding": [],
+      "path": "generated/run6d/tinystories-v2-gpt4-validation.bin",
+      "representation": "whole-token separator fix",
+      "sha256": "4e849db6f0ff8f1bd650874e545b5437ca51b79b91c47c8a321a81e7f25accca",
+      "tokens": 2000000
+    }
+  }
+}

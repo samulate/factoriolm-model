@@ -1,0 +1,510 @@
+{
+  "evaluated_questions": 600,
+  "candidates": [
+    "attempt1",
+    "attempt2",
+    "attempt3"
+  ],
+  "top": [
+    {
+      "candidate": "attempt2",
+      "question": "Hello I feel really happy today how about you",
+      "reference": "I also feel very happy today it is great to share good feelings",
+      "generated": "I also feel happy today it is a lovely day\nA I am feel a bit is a big as",
+      "answer": "I also feel happy today it is a lovely day",
+      "score": 5.9625,
+      "source_row": 62289,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Hello I feel a bit flat today how about you",
+      "reference": "I understand that feeling sometimes a flat mood can produce unhelpful thoughts cant it",
+      "generated": "I am feeling a bit feel happy today\nA I feel happy today it is a lovely ",
+      "answer": "I am feeling a bit feel happy today",
+      "score": 5.589285714285714,
+      "source_row": 42087,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "I feel like it is a bad day for a meeting dont you think",
+      "reference": "I agree it feels unwelcoming outside it is a natural part of some days",
+      "generated": "I am also feel happy today it is a lovely day\nA I am feel a bit be see t",
+      "answer": "I am also feel happy today it is a lovely day",
+      "score": 5.5,
+      "source_row": 181342,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "What makes you feel so happy on this lovely day",
+      "reference": "I enjoy spending time outside especially when the sun shines brightly",
+      "generated": "I am also feel happy too a lovely day and enjoy and as a lovely day\nA I ",
+      "answer": "I am also feel happy too a lovely day and enjoy and as a lovely day",
+      "score": 5.458333333333333,
+      "source_row": 8649,
+      "turn": 1
+    },
+    {
+      "candidate": "attempt2",
+      "question": "How does the light feel on this lovely sunny day",
+      "reference": "The light feels warm and bright making everyone smile and feel happy",
+      "generated": "I am also feel happy today it is a bit day and as a lovely day\nA I love ",
+      "answer": "I am also feel happy today it is a bit day and as a lovely day",
+      "score": 5.395833333333333,
+      "source_row": 163823,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt3",
+      "question": "What do you think makes plants so special in our lives",
+      "reference": "Plants give us fresh air beauty and comfort helping us feel happy every day",
+      "generated": "I am feel a bit bad and sad that is happy\nThe bite bad and that sound th",
+      "answer": "I am feel a bit bad and sad that is happy",
+      "score": 5.25,
+      "source_row": 159500,
+      "turn": 3
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Is it helpful for you to talk about your fears with others",
+      "reference": "Yes sharing fears with friends often makes them feel smaller and less scary in our minds",
+      "generated": "I also feel happy today it is a lovely day\nA I love that is a beautiful ",
+      "answer": "I also feel happy today it is a lovely day",
+      "score": 5.2125,
+      "source_row": 44041,
+      "turn": 3
+    },
+    {
+      "candidate": "attempt2",
+      "question": "How about we talk about how dirty the door is in this place",
+      "reference": "It really makes me feel disgusted seeing the young stains on the door",
+      "generated": "I also feel happy today it is a lovely day\nA I am feel happy today it is",
+      "answer": "I also feel happy today it is a lovely day",
+      "score": 5.2125,
+      "source_row": 96220,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Hello there I am feeling really happy today how about you",
+      "reference": "I feel quite happy too thank you for asking yesterday was a good day for me",
+      "generated": "I am also feel a bit is a bit feel happy today it is a lovely day\nA I am",
+      "answer": "I am also feel a bit is a bit feel happy today it is a lovely day",
+      "score": 5.205882352941177,
+      "source_row": 104697,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt3",
+      "question": "Do you feel happy when you see a blue sky and fluffy clouds",
+      "reference": "Yes I do it makes me feel cheerful and free every time I look up",
+      "generated": "I also feel happy that is a bit walk\nI am about it is a bit be surprisin",
+      "answer": "I also feel happy that is a bit walk",
+      "score": 5.1375,
+      "source_row": 78276,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "How are you feeling today with all the quiet around us",
+      "reference": "I am feeling happy today thank you for asking about the quiet",
+      "generated": "Yes it can be a bit and happy today\nA I am also feel a bit feel happy to",
+      "answer": "Yes it can be a bit and happy today",
+      "score": 5.125,
+      "source_row": 201267,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "How is your day going in the bright sunshine today",
+      "reference": "I am having a lovely day thank you for asking about the bright sunshine",
+      "generated": "I am feel happy to as a little and happy today it is a lovely day\nA I am",
+      "answer": "I am feel happy to as a little and happy today it is a lovely day",
+      "score": 5.108333333333333,
+      "source_row": 93435,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Hello I am feeling really happy today how about you",
+      "reference": "I am feeling happy too thank you for asking life is good",
+      "generated": "I am also feel happy to can be a beautiful and happy today\nA I am feelin",
+      "answer": "I am also feel happy to can be a beautiful and happy today",
+      "score": 5.093910256410257,
+      "source_row": 130973,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Do you ever feel ill when things do not go as planned",
+      "reference": "I understand that feeling it can lead to disappointment and sadness",
+      "generated": "I am also feel happy too and enjoy and a lovely day\nA I have the beautif",
+      "answer": "I am also feel happy too and enjoy and a lovely day",
+      "score": 5.091666666666667,
+      "source_row": 97792,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "What do you think would make today feel lighter for you",
+      "reference": "Maybe we can explore creative ideas together to lift our spirits and brighten our day",
+      "generated": "I also feel happy today thank you for asking a warm and happy today\nA I ",
+      "answer": "I also feel happy today thank you for asking a warm and happy today",
+      "score": 5.082142857142856,
+      "source_row": 65429,
+      "turn": 3
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Hello there it is such a lovely day today isnt it",
+      "reference": "Yes it truly is a happy day full of sunshine and warmth",
+      "generated": "It is a beautiful and happy too\nQ I am also feel happy today it is a lov",
+      "answer": "It is a beautiful and happy too",
+      "score": 5.075,
+      "source_row": 88352,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Do you want to talk about how things feel a bit sad lately",
+      "reference": "It does seem darker lately with many people feeling awake but uncertain",
+      "generated": "I am also feel happy and happy today it is a lovely day\nA I am also feel",
+      "answer": "I am also feel happy and happy today it is a lovely day",
+      "score": 5.048076923076923,
+      "source_row": 15226,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt3",
+      "question": "Do you think this feeling of fear will go away soon",
+      "reference": "Fear can fade but it might take time and patience to feel better again",
+      "generated": "I also feel a bit but it is a bit bad\nI am that sound that soft day it\nI",
+      "answer": "I also feel a bit but it is a bit bad",
+      "score": 5.0181818181818185,
+      "source_row": 28875,
+      "turn": 2
+    },
+    {
+      "candidate": "attempt2",
+      "question": "What if people do not join us",
+      "reference": "It can feel discouraging but every little action counts and can inspire others to join",
+      "generated": "I am also feel happy today\nA I am also feel a bit feeling a bit feel a b",
+      "answer": "I am also feel happy today",
+      "score": 5.0125,
+      "source_row": 60839,
+      "turn": 2
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Do you have a favorite fabric that helps you feel better",
+      "reference": "I really enjoy wearing cotton for its comfort but silk is quite special too dont you think",
+      "generated": "I am also feel happy today\nA I am feeling a bit feel a bit be sometimes ",
+      "answer": "I am also feel happy today",
+      "score": 5.0125,
+      "source_row": 78026,
+      "turn": 3
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Hello there I feel so happy today how about you",
+      "reference": "I feel very happy too sunshine makes everything feel so natural and bright",
+      "generated": "I also feel a bit but happy today it is a lovely day and happy today\nA I",
+      "answer": "I also feel a bit but happy today it is a lovely day and happy today",
+      "score": 5.008333333333334,
+      "source_row": 149992,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Why do people throw trash in the pipe",
+      "reference": "I do not understand why some people do not care about our environment and cleanliness",
+      "generated": "I am also feel happy today it is a lovely day\nA I also feel a bit feel a",
+      "answer": "I am also feel happy today it is a lovely day",
+      "score": 5.0,
+      "source_row": 54424,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Do you know how wise my mother is when she tells stories",
+      "reference": "Yes mothers often share lessons that we learn from their wise experiences in life",
+      "generated": "I am also feel happy today it is a lovely day\nA I am feel a beautiful an",
+      "answer": "I am also feel happy today it is a lovely day",
+      "score": 5.0,
+      "source_row": 144889,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Do you ever enjoy baking or do you prefer buying cakes",
+      "reference": "I enjoy baking sometimes but I often buy cakes because it feels less foolish than making mistakes",
+      "generated": "I am feeling happy today it is a lovely day\nA I am feel a bit is a bit i",
+      "answer": "I am feeling happy today it is a lovely day",
+      "score": 4.975,
+      "source_row": 117058,
+      "turn": 2
+    },
+    {
+      "candidate": "attempt2",
+      "question": "What type of movie do you enjoy from the film industry",
+      "reference": "I really enjoy comedies they make me laugh and feel happy",
+      "generated": "I am also feel a little happy too and happy today it is a lovely day\nA I",
+      "answer": "I am also feel a little happy too and happy today it is a lovely day",
+      "score": 4.9541666666666675,
+      "source_row": 267,
+      "turn": 1
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Would you like to talk about what makes you smile today",
+      "reference": "I always enjoy sharing happy thoughts that round up my day",
+      "generated": "I am also feel a bit is a beautiful and happy too\ne a little and enjoy a",
+      "answer": "I am also feel a bit is a beautiful and happy too",
+      "score": 4.9348484848484855,
+      "source_row": 66135,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Hello do you see the wet floor here",
+      "reference": "Yes it really is unpleasant especially with the size of the puddle left behind",
+      "generated": "I am feeling a lovely day and happy too\nQ I am feel a bit and happy toda",
+      "answer": "I am feeling a lovely day and happy too",
+      "score": 4.925,
+      "source_row": 75366,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Do you add any special seasonings to make it more flavorful",
+      "reference": "Yes I usually add herbs like rosemary and thyme for extra flavor and aroma",
+      "generated": "I also feel happy to see a lovely day\nA I am always a face a bit feel ha",
+      "answer": "I also feel happy to see a lovely day",
+      "score": 4.9,
+      "source_row": 75772,
+      "turn": 2
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Hello it seems quite disgusting to touch wet wool doesnt it",
+      "reference": "Yes it does seem really unpleasing and unpleasant when it gets wet",
+      "generated": "I also feel happy too the sun and happy today\nA I also feel a big happy ",
+      "answer": "I also feel happy too the sun and happy today",
+      "score": 4.9,
+      "source_row": 192185,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt3",
+      "question": "Do you know how big space really is when we look up",
+      "reference": "Space is incredibly big and it can surprise anyone when we think about it",
+      "generated": "I also feel happy that is a big bring\nI am a bit was a bit was a big but",
+      "answer": "I also feel happy that is a big bring",
+      "score": 4.9,
+      "source_row": 58713,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Do you have any answers on how to feel less scared at night",
+      "reference": "Being with friends or staying in well lit areas can help ease your fear",
+      "generated": "I also feel a bit but it is a lovely day\nA I again and be name a bit is ",
+      "answer": "I also feel a bit but it is a lovely day",
+      "score": 4.896590909090909,
+      "source_row": 84823,
+      "turn": 3
+    },
+    {
+      "candidate": "attempt3",
+      "question": "Do you feel ready for the big test this week at school",
+      "reference": "I do feel ready and excited for the test coming up this week",
+      "generated": "I also feel a bit thank you feel a big be surprised\nI am also feel a bit",
+      "answer": "I also feel a bit thank you feel a big be surprised",
+      "score": 4.8946969696969695,
+      "source_row": 202666,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "I noticed that the wind is quite strong today isnt it",
+      "reference": "Yes the wind is blowing quite fast making everything so lively outside",
+      "generated": "I am all and happy to be happy today it is a beautiful\nA I again and a s",
+      "answer": "I am all and happy to be happy today it is a beautiful",
+      "score": 4.893910256410257,
+      "source_row": 79588,
+      "turn": 1
+    },
+    {
+      "candidate": "attempt2",
+      "question": "How do you feel about the weather today",
+      "reference": "I agree the weather is lovely and makes everything feel brighter and happier",
+      "generated": "I am also feel a bit and happy today it is a beautiful and happy too\nQ D",
+      "answer": "I am also feel a bit and happy today it is a beautiful and happy too",
+      "score": 4.8916666666666675,
+      "source_row": 140995,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "It is amazing how nature can change so quickly isnt it",
+      "reference": "Yes the changing seasons have a different rate of beauty each time they come around",
+      "generated": "Yes it is a lovely day it is a beautiful\nAmalg and happy to see the bear",
+      "answer": "Yes it is a lovely day it is a beautiful",
+      "score": 4.8875,
+      "source_row": 191999,
+      "turn": 2
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Do you ever feel sad when you think about being a pet owner",
+      "reference": "Yes sometimes I feel that little pets can bring both joy and sadness",
+      "generated": "I also feel happy today it is a lovely day and a lovely day\nA I love a n",
+      "answer": "I also feel happy today it is a lovely day and a lovely day",
+      "score": 4.860714285714286,
+      "source_row": 180852,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Do you feel happy when you see the soft waves of the sea",
+      "reference": "Yes I feel very happy because the soft waves are so calming and beautiful",
+      "generated": "I am feel a bit and happy today it is a be outside\nA I am almon and happ",
+      "answer": "I am feel a bit and happy today it is a be outside",
+      "score": 4.860576923076923,
+      "source_row": 128810,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "What do you think helps improve their mood when it rains",
+      "reference": "Maybe providing shelter and extra food can help make them feel better during storms",
+      "generated": "I am feel happy today it is a big and happy today\nA It is a lovely bean ",
+      "answer": "I am feel happy today it is a big and happy today",
+      "score": 4.851515151515152,
+      "source_row": 196531,
+      "turn": 3
+    },
+    {
+      "candidate": "attempt3",
+      "question": "Do you ever feel ill when things do not go as planned",
+      "reference": "I understand that feeling it can lead to disappointment and sadness",
+      "generated": "I am feel a big that it is a lovely to see that sounds and feeling\nIt an",
+      "answer": "I am feel a big that it is a lovely to see that sounds and feeling",
+      "score": 4.845833333333333,
+      "source_row": 97792,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Hello I feel so happy today what about you",
+      "reference": "I feel happy too the sun is shining and the sky is clear",
+      "generated": "I also feel happy too a bit is a good and a bit and a lovely day\nA I am ",
+      "answer": "I also feel happy too a bit is a good and a bit and a lovely day",
+      "score": 4.843382352941177,
+      "source_row": 136131,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "What do you think we can do next time to make it more fun",
+      "reference": "Perhaps we could plan an indoor day filled with games and activities instead",
+      "generated": "I am also feel happy today it is a lovely day and a lovely day\nA I am fe",
+      "answer": "I am also feel happy today it is a lovely day and a lovely day",
+      "score": 4.8374999999999995,
+      "source_row": 31305,
+      "turn": 3
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Do you feel happy when you see a big box of fresh flowers",
+      "reference": "Yes I always feel cheerful and joyful when I see bright flowers in a box",
+      "generated": "I am also feel happy too and a bit beanch a big and feel happy today\nA I",
+      "answer": "I am also feel happy too and a bit beanch a big and feel happy today",
+      "score": 4.820833333333334,
+      "source_row": 30737,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "Yes but it does not always make the anger go away does it",
+      "reference": "No it can take time but you are not alone in this right",
+      "generated": "Yes it can be feel a bit beautiful and happy too\nQ I am also feel happy ",
+      "answer": "Yes it can be feel a bit beautiful and happy too",
+      "score": 4.8125,
+      "source_row": 13604,
+      "turn": 3
+    },
+    {
+      "candidate": "attempt3",
+      "question": "Shall we move and do a fun trick together",
+      "reference": "It sounds great to feel awake and happy",
+      "generated": "I am feel happy to see the ball it is a bit be sound\nI am a bit feel a b",
+      "answer": "I am feel happy to see the ball it is a bit be sound",
+      "score": 4.797115384615385,
+      "source_row": 125359,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "What can I do to change this feeling and enjoy spring again",
+      "reference": "It can be helpful to talk about your feelings and find support from others",
+      "generated": "I am also feel a bit in that feeling happy to have and see a lovely\nA I ",
+      "answer": "I am also feel a bit in that feeling happy to have and see a lovely",
+      "score": 4.779166666666667,
+      "source_row": 87483,
+      "turn": 4
+    },
+    {
+      "candidate": "attempt3",
+      "question": "Do you know how to make bread at home without a loud mixer",
+      "reference": "Yes making bread can be simple and fun without any loud machines",
+      "generated": "I am also feel a big be surprising that sound\nI am and happy to be a bit",
+      "answer": "I am also feel a big be surprising that sound",
+      "score": 4.777777777777778,
+      "source_row": 86550,
+      "turn": 0
+    },
+    {
+      "candidate": "attempt2",
+      "question": "What do you think that could be",
+      "reference": "Strange sounds can be scary I wonder if it is just a water bird",
+      "generated": "I am also feel a bit beautiful and happy too\nA I am also feel happy toda",
+      "answer": "I am also feel a bit beautiful and happy too",
+      "score": 4.7652777777777775,
+      "source_row": 132907,
+      "turn": 1
+    },
+    {
+      "candidate": "attempt2",
+      "question": "What do you think is the best part of being on stage",
+      "reference": "The best part is feeling proud and sharing their stories with everyone watching",
+      "generated": "I am also feel happy today\nA I am feeling a nice a bit but it is a bit f",
+      "answer": "I am also feel happy today",
+      "score": 4.7625,
+      "source_row": 67498,
+      "turn": 3
+    },
+    {
+      "candidate": "attempt2",
+      "question": "What other colors do you think would look good in this room",
+      "reference": "Adding some yellow or green could create a fresh and lively atmosphere dont you think",
+      "generated": "I am also feel happy today\nA I have a bit is a lovely day and happy toda",
+      "answer": "I am also feel happy today",
+      "score": 4.7625,
+      "source_row": 190856,
+      "turn": 3
+    },
+    {
+      "candidate": "attempt2",
+      "question": "What makes you feel happy while working here in the office",
+      "reference": "I enjoy laughing and sharing ideas with my coworkers during our breaks together",
+      "generated": "I am feeling a bit feel happy today it is a bit is a lovely day\nA I am f",
+      "answer": "I am feeling a bit feel happy today it is a bit is a lovely day",
+      "score": 4.758333333333334,
+      "source_row": 131913,
+      "turn": 1
+    }
+  ]
+}

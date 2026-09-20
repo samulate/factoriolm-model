@@ -1,0 +1,401 @@
+{
+  "accelerator": "cpu",
+  "attention": {
+    "clamped_at_minus_6_percentage": 12.266836240310077,
+    "clamped_at_plus_6_percentage": 20.8000242248062,
+    "int32_range_safe": true,
+    "maximum_absolute_observed_integer": 19973120,
+    "score_distribution": {
+      "-1": 9713,
+      "-2": 10986,
+      "-3": 5706,
+      "-4": 4468,
+      "-5": 3087,
+      "-6": 14603,
+      "0": 9381,
+      "1": 7932,
+      "2": 4178,
+      "3": 3034,
+      "4": 2230,
+      "5": 1800,
+      "6": 21954
+    },
+    "valid_head_scores": 99072,
+    "weight_distribution": {
+      "1": 14603,
+      "1024": 2230,
+      "128": 7932,
+      "16": 10986,
+      "2": 3087,
+      "2048": 1800,
+      "256": 4178,
+      "32": 9713,
+      "4": 4468,
+      "4096": 21954,
+      "512": 3034,
+      "64": 9381,
+      "8": 5706
+    }
+  },
+  "checkpoint": "generated/run3/factorio-lm-smoke-exact.json",
+  "configuration": {
+    "batch_size": 4,
+    "candidate_steps": 16,
+    "device": "auto",
+    "embedding_limit": 31,
+    "final_steps": 96,
+    "gradient_clip": 1.0,
+    "learning_rate": 0.012,
+    "relative_bias_limit": 6,
+    "sample_length": 24,
+    "sample_prompt": "Factorio ",
+    "seed": 7321,
+    "sequence_length": 24,
+    "ternary_threshold": 0.55,
+    "validation_fraction": 0.15
+  },
+  "corpus": {
+    "characters": 1144,
+    "path": "data/smoke_corpus.txt",
+    "tokens": 1144,
+    "train_tokens": 972,
+    "unsupported_characters_mapped_to_space": 30,
+    "validation_tokens": 172
+  },
+  "divisor_comparison_steps_per_candidate": 112,
+  "embedding_range": [
+    -8,
+    8
+  ],
+  "exact_validation_loss": 571.9520340208765,
+  "final_training": {
+    "completed_steps": 112,
+    "device": "cpu",
+    "final_train_loss": 737.8836059570312,
+    "initial_train_loss": 5651.07275390625,
+    "loss_log": [
+      {
+        "gradient_norm_before_clip": 10659.55859375,
+        "step": 1,
+        "train_loss": 5158.77783203125
+      },
+      {
+        "gradient_norm_before_clip": 4367.650390625,
+        "step": 14,
+        "train_loss": 2733.116455078125
+      },
+      {
+        "gradient_norm_before_clip": 2961.37255859375,
+        "step": 28,
+        "train_loss": 1933.1922607421875
+      },
+      {
+        "gradient_norm_before_clip": 2531.891357421875,
+        "step": 42,
+        "train_loss": 1555.8033447265625
+      },
+      {
+        "gradient_norm_before_clip": 2059.01806640625,
+        "step": 56,
+        "train_loss": 1285.7708740234375
+      },
+      {
+        "gradient_norm_before_clip": 985.0721435546875,
+        "step": 70,
+        "train_loss": 791.0208129882812
+      },
+      {
+        "gradient_norm_before_clip": 1342.711669921875,
+        "step": 84,
+        "train_loss": 800.911376953125
+      },
+      {
+        "gradient_norm_before_clip": 877.7454223632812,
+        "step": 98,
+        "train_loss": 635.8589477539062
+      },
+      {
+        "gradient_norm_before_clip": 1098.803955078125,
+        "step": 112,
+        "train_loss": 808.28125
+      }
+    ],
+    "start_step": 0,
+    "steps_this_run": 112,
+    "validation_loss": 689.7500610351562
+  },
+  "latent_checkpoint": "generated/run3/factorio-lm-smoke-latent.pt",
+  "qat_vs_exact": {
+    "all_logits_exact": true,
+    "logits_compared": 512,
+    "maximum_absolute_difference": 0,
+    "tokens_compared": 8
+  },
+  "relative_bias_range": [
+    -2,
+    2
+  ],
+  "sample_generated": "b be hebne iry ireneanea",
+  "sample_prompt": "Factorio ",
+  "sparsity": {
+    "layer0.ffn_down": {
+      "negative": 497,
+      "positive": 472,
+      "sparsity_percentage": 52.685546875,
+      "total": 2048,
+      "zero": 1079
+    },
+    "layer0.ffn_up": {
+      "negative": 468,
+      "positive": 535,
+      "sparsity_percentage": 51.025390625,
+      "total": 2048,
+      "zero": 1045
+    },
+    "layer0.key": {
+      "negative": 272,
+      "positive": 229,
+      "sparsity_percentage": 51.07421875,
+      "total": 1024,
+      "zero": 523
+    },
+    "layer0.output": {
+      "negative": 230,
+      "positive": 246,
+      "sparsity_percentage": 53.515625,
+      "total": 1024,
+      "zero": 548
+    },
+    "layer0.query": {
+      "negative": 280,
+      "positive": 250,
+      "sparsity_percentage": 48.2421875,
+      "total": 1024,
+      "zero": 494
+    },
+    "layer0.value": {
+      "negative": 258,
+      "positive": 261,
+      "sparsity_percentage": 49.31640625,
+      "total": 1024,
+      "zero": 505
+    },
+    "layer1.ffn_down": {
+      "negative": 475,
+      "positive": 529,
+      "sparsity_percentage": 50.9765625,
+      "total": 2048,
+      "zero": 1044
+    },
+    "layer1.ffn_up": {
+      "negative": 510,
+      "positive": 516,
+      "sparsity_percentage": 49.90234375,
+      "total": 2048,
+      "zero": 1022
+    },
+    "layer1.key": {
+      "negative": 246,
+      "positive": 277,
+      "sparsity_percentage": 48.92578125,
+      "total": 1024,
+      "zero": 501
+    },
+    "layer1.output": {
+      "negative": 234,
+      "positive": 255,
+      "sparsity_percentage": 52.24609375,
+      "total": 1024,
+      "zero": 535
+    },
+    "layer1.query": {
+      "negative": 276,
+      "positive": 254,
+      "sparsity_percentage": 48.2421875,
+      "total": 1024,
+      "zero": 494
+    },
+    "layer1.value": {
+      "negative": 250,
+      "positive": 229,
+      "sparsity_percentage": 53.22265625,
+      "total": 1024,
+      "zero": 545
+    },
+    "layer2.ffn_down": {
+      "negative": 513,
+      "positive": 525,
+      "sparsity_percentage": 49.31640625,
+      "total": 2048,
+      "zero": 1010
+    },
+    "layer2.ffn_up": {
+      "negative": 523,
+      "positive": 484,
+      "sparsity_percentage": 50.830078125,
+      "total": 2048,
+      "zero": 1041
+    },
+    "layer2.key": {
+      "negative": 267,
+      "positive": 252,
+      "sparsity_percentage": 49.31640625,
+      "total": 1024,
+      "zero": 505
+    },
+    "layer2.output": {
+      "negative": 251,
+      "positive": 233,
+      "sparsity_percentage": 52.734375,
+      "total": 1024,
+      "zero": 540
+    },
+    "layer2.query": {
+      "negative": 263,
+      "positive": 252,
+      "sparsity_percentage": 49.70703125,
+      "total": 1024,
+      "zero": 509
+    },
+    "layer2.value": {
+      "negative": 253,
+      "positive": 255,
+      "sparsity_percentage": 50.390625,
+      "total": 1024,
+      "zero": 516
+    },
+    "layer3.ffn_down": {
+      "negative": 502,
+      "positive": 495,
+      "sparsity_percentage": 51.318359375,
+      "total": 2048,
+      "zero": 1051
+    },
+    "layer3.ffn_up": {
+      "negative": 529,
+      "positive": 496,
+      "sparsity_percentage": 49.951171875,
+      "total": 2048,
+      "zero": 1023
+    },
+    "layer3.key": {
+      "negative": 255,
+      "positive": 252,
+      "sparsity_percentage": 50.48828125,
+      "total": 1024,
+      "zero": 517
+    },
+    "layer3.output": {
+      "negative": 265,
+      "positive": 235,
+      "sparsity_percentage": 51.171875,
+      "total": 1024,
+      "zero": 524
+    },
+    "layer3.query": {
+      "negative": 251,
+      "positive": 277,
+      "sparsity_percentage": 48.4375,
+      "total": 1024,
+      "zero": 496
+    },
+    "layer3.value": {
+      "negative": 225,
+      "positive": 272,
+      "sparsity_percentage": 51.46484375,
+      "total": 1024,
+      "zero": 527
+    },
+    "layer4.ffn_down": {
+      "negative": 506,
+      "positive": 531,
+      "sparsity_percentage": 49.365234375,
+      "total": 2048,
+      "zero": 1011
+    },
+    "layer4.ffn_up": {
+      "negative": 541,
+      "positive": 509,
+      "sparsity_percentage": 48.73046875,
+      "total": 2048,
+      "zero": 998
+    },
+    "layer4.key": {
+      "negative": 260,
+      "positive": 251,
+      "sparsity_percentage": 50.09765625,
+      "total": 1024,
+      "zero": 513
+    },
+    "layer4.output": {
+      "negative": 262,
+      "positive": 236,
+      "sparsity_percentage": 51.3671875,
+      "total": 1024,
+      "zero": 526
+    },
+    "layer4.query": {
+      "negative": 254,
+      "positive": 254,
+      "sparsity_percentage": 50.390625,
+      "total": 1024,
+      "zero": 516
+    },
+    "layer4.value": {
+      "negative": 264,
+      "positive": 244,
+      "sparsity_percentage": 50.390625,
+      "total": 1024,
+      "zero": 516
+    },
+    "layer5.ffn_down": {
+      "negative": 492,
+      "positive": 509,
+      "sparsity_percentage": 51.123046875,
+      "total": 2048,
+      "zero": 1047
+    },
+    "layer5.ffn_up": {
+      "negative": 520,
+      "positive": 543,
+      "sparsity_percentage": 48.095703125,
+      "total": 2048,
+      "zero": 985
+    },
+    "layer5.key": {
+      "negative": 271,
+      "positive": 250,
+      "sparsity_percentage": 49.12109375,
+      "total": 1024,
+      "zero": 503
+    },
+    "layer5.output": {
+      "negative": 239,
+      "positive": 234,
+      "sparsity_percentage": 53.80859375,
+      "total": 1024,
+      "zero": 551
+    },
+    "layer5.query": {
+      "negative": 261,
+      "positive": 263,
+      "sparsity_percentage": 48.828125,
+      "total": 1024,
+      "zero": 500
+    },
+    "layer5.value": {
+      "negative": 250,
+      "positive": 264,
+      "sparsity_percentage": 49.8046875,
+      "total": 1024,
+      "zero": 510
+    },
+    "lm_head": {
+      "negative": 443,
+      "positive": 454,
+      "sparsity_percentage": 56.201171875,
+      "total": 2048,
+      "zero": 1151
+    }
+  }
+}

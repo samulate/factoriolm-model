@@ -1,0 +1,90 @@
+PROMPT: 'Once upon a time'
+EXACT (256 chars):
+ bug the box was a little said the boys and a bagain
+It was a little smiled and shanked to she wast and she was a like to see was so she shane was a ling and said to can and and she she grane wast and shanke and she saw a live bug and shanked to and she sh
+
+PROMPT: 'One day '
+EXACT (256 chars):
+a big box was a ball back
+It was a little shan a ball said the bark
+It said the bany and she she said a said
+She said a said
+Bus shany and saw a big back and had a babore was a little ball and she bany sad
+The saw a ball and the said a said to said
+She lov
+
+PROMPT: 'There was '
+EXACT (256 chars):
+a little shan a big and shan
+The shanked to lits the said the bark the shank was sad
+But and the she she lived and said the bark
+Lucy and the she shank and shanked and she gad and and the box was a ball said a ball and she dog and said
+But was a ball and a
+
+PROMPT: 'The little '
+EXACT (256 chars):
+bird she good and she gad
+Its and the said the bird she saw a big babig box said
+She said
+She said
+She said the said a big and she said
+Bus and the shan and she shan and was a ball and she she she big and and and she she shanked to and said a saw
+Its and t
+
+PROMPT: 'The boy '
+EXACT (256 chars):
+she box was a big buttere in the she said
+Lucy and she she said
+She said the grone and she shan and saw a said
+She said
+They dog and she shanked to she lived to se was a live said
+They leane a bag and she she she was said
+But was a ball and and she said
+Sh
+
+PROMPT: 'The girl '
+EXACT (256 chars):
+and shank and shanked to she said
+But and the said
+She said
+Bus said
+She saw a said
+I like the she inst she bark the grand
+He shous was said the ball and a babore and and she said
+But the bird and she grong and and shan and she saw a big and a bag the she 
+
+PROMPT: 'He was '
+EXACT (256 chars):
+a little cat was said
+Lily and and was said the bird said the ball she shanked to she shank was a ball and shanked to and she shan and she shane was shaing and and she shanked to and and she she shank was scared and said the box was a ball and and shanked 
+
+PROMPT: 'She was '
+EXACT (256 chars):
+a little gurd and she box was shanked to and shan a ball was sad
+It was a live loved to shan and shany and and and she shan
+She saw a babore and said the bad
+The said the bark and she she shane was said a big and saw a said the bark
+It she big bug and and 
+
+PROMPT: 'Today '
+EXACT (256 chars):
+and she she shan
+She said
+But and she saw a liked to she big boys and she shan and said
+Bus saw a big and said the gan
+The grane she saw a said a bagad
+The said
+But and she she saw and she she said
+She said
+She said the ball and they and said
+Bus said
+She 
+
+PROMPT: 'Factorio '
+EXACT (256 chars):
+a said
+Lud and the ball and a babig and the big and she was said a ball she said and she can was a ling and shanked to and a ball and and was sad
+It was a ball and the she sad
+She said the box was a ball and the bark
+Lucy and she she grone was a ball and s
+

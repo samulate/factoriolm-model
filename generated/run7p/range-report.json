@@ -1,0 +1,814 @@
+{
+  "attention_score_clamp": [
+    -6,
+    6
+  ],
+  "attention_score_saturation": {
+    "layer0": {
+      "active_scores": 532480,
+      "clamped_scores": 13583,
+      "percentage": 2.5508939302884617
+    },
+    "layer1": {
+      "active_scores": 532480,
+      "clamped_scores": 15712,
+      "percentage": 2.9507211538461537
+    },
+    "layer2": {
+      "active_scores": 532480,
+      "clamped_scores": 39848,
+      "percentage": 7.4834735576923075
+    },
+    "layer3": {
+      "active_scores": 532480,
+      "clamped_scores": 45826,
+      "percentage": 8.60614483173077
+    },
+    "layer4": {
+      "active_scores": 532480,
+      "clamped_scores": 33570,
+      "percentage": 6.304462139423077
+    },
+    "layer5": {
+      "active_scores": 532480,
+      "clamped_scores": 79340,
+      "percentage": 14.90009014423077
+    }
+  },
+  "characters": 4096,
+  "maximum_observed_absolute_value": 330875,
+  "minimum_observed_headroom": 2147152772,
+  "overflow_observed": false,
+  "signed_int32_limit": 2147483647,
+  "stages": {
+    "layer0.attention": {
+      "maximum": 27,
+      "maximum_absolute": 28,
+      "minimum": -28,
+      "signed_int32_headroom": 2147483619
+    },
+    "layer0.attention_denominator": {
+      "maximum": 11498,
+      "maximum_absolute": 11498,
+      "minimum": 32,
+      "signed_int32_headroom": 2147472149
+    },
+    "layer0.attention_numerator": {
+      "maximum": 143303,
+      "maximum_absolute": 143303,
+      "minimum": -129884,
+      "signed_int32_headroom": 2147340344
+    },
+    "layer0.biased_score": {
+      "maximum": 11,
+      "maximum_absolute": 11,
+      "minimum": -9,
+      "signed_int32_headroom": 2147483636
+    },
+    "layer0.block_output": {
+      "maximum": 24,
+      "maximum_absolute": 25,
+      "minimum": -25,
+      "signed_int32_headroom": 2147483622
+    },
+    "layer0.dot": {
+      "maximum": 3861,
+      "maximum_absolute": 3861,
+      "minimum": -3255,
+      "signed_int32_headroom": 2147479786
+    },
+    "layer0.ffn_down": {
+      "maximum": 17,
+      "maximum_absolute": 18,
+      "minimum": -18,
+      "signed_int32_headroom": 2147483629
+    },
+    "layer0.ffn_up": {
+      "maximum": 48,
+      "maximum_absolute": 48,
+      "minimum": -40,
+      "signed_int32_headroom": 2147483599
+    },
+    "layer0.k": {
+      "maximum": 50,
+      "maximum_absolute": 56,
+      "minimum": -56,
+      "signed_int32_headroom": 2147483591
+    },
+    "layer0.output_projection": {
+      "maximum": 13,
+      "maximum_absolute": 13,
+      "minimum": -12,
+      "signed_int32_headroom": 2147483634
+    },
+    "layer0.q": {
+      "maximum": 51,
+      "maximum_absolute": 59,
+      "minimum": -59,
+      "signed_int32_headroom": 2147483588
+    },
+    "layer0.residual": {
+      "maximum": 17,
+      "maximum_absolute": 19,
+      "minimum": -19,
+      "signed_int32_headroom": 2147483628
+    },
+    "layer0.score": {
+      "maximum": 6,
+      "maximum_absolute": 6,
+      "minimum": -6,
+      "signed_int32_headroom": 2147483641
+    },
+    "layer0.v": {
+      "maximum": 29,
+      "maximum_absolute": 29,
+      "minimum": -28,
+      "signed_int32_headroom": 2147483618
+    },
+    "layer0.weight": {
+      "maximum": 4096,
+      "maximum_absolute": 4096,
+      "minimum": 0,
+      "signed_int32_headroom": 2147479551
+    },
+    "layer1.attention": {
+      "maximum": 33,
+      "maximum_absolute": 33,
+      "minimum": -31,
+      "signed_int32_headroom": 2147483614
+    },
+    "layer1.attention_denominator": {
+      "maximum": 14682,
+      "maximum_absolute": 14682,
+      "minimum": 8,
+      "signed_int32_headroom": 2147468965
+    },
+    "layer1.attention_numerator": {
+      "maximum": 198988,
+      "maximum_absolute": 198988,
+      "minimum": -151402,
+      "signed_int32_headroom": 2147284659
+    },
+    "layer1.biased_score": {
+      "maximum": 10,
+      "maximum_absolute": 12,
+      "minimum": -12,
+      "signed_int32_headroom": 2147483635
+    },
+    "layer1.block_output": {
+      "maximum": 27,
+      "maximum_absolute": 29,
+      "minimum": -29,
+      "signed_int32_headroom": 2147483618
+    },
+    "layer1.dot": {
+      "maximum": 4228,
+      "maximum_absolute": 5105,
+      "minimum": -5105,
+      "signed_int32_headroom": 2147478542
+    },
+    "layer1.ffn_down": {
+      "maximum": 17,
+      "maximum_absolute": 19,
+      "minimum": -19,
+      "signed_int32_headroom": 2147483628
+    },
+    "layer1.ffn_up": {
+      "maximum": 43,
+      "maximum_absolute": 47,
+      "minimum": -47,
+      "signed_int32_headroom": 2147483600
+    },
+    "layer1.k": {
+      "maximum": 62,
+      "maximum_absolute": 62,
+      "minimum": -62,
+      "signed_int32_headroom": 2147483585
+    },
+    "layer1.output_projection": {
+      "maximum": 16,
+      "maximum_absolute": 16,
+      "minimum": -15,
+      "signed_int32_headroom": 2147483631
+    },
+    "layer1.q": {
+      "maximum": 64,
+      "maximum_absolute": 64,
+      "minimum": -62,
+      "signed_int32_headroom": 2147483583
+    },
+    "layer1.residual": {
+      "maximum": 24,
+      "maximum_absolute": 26,
+      "minimum": -26,
+      "signed_int32_headroom": 2147483621
+    },
+    "layer1.score": {
+      "maximum": 6,
+      "maximum_absolute": 6,
+      "minimum": -6,
+      "signed_int32_headroom": 2147483641
+    },
+    "layer1.v": {
+      "maximum": 40,
+      "maximum_absolute": 40,
+      "minimum": -39,
+      "signed_int32_headroom": 2147483607
+    },
+    "layer1.weight": {
+      "maximum": 4096,
+      "maximum_absolute": 4096,
+      "minimum": 0,
+      "signed_int32_headroom": 2147479551
+    },
+    "layer2.attention": {
+      "maximum": 31,
+      "maximum_absolute": 36,
+      "minimum": -36,
+      "signed_int32_headroom": 2147483611
+    },
+    "layer2.attention_denominator": {
+      "maximum": 25938,
+      "maximum_absolute": 25938,
+      "minimum": 32,
+      "signed_int32_headroom": 2147457709
+    },
+    "layer2.attention_numerator": {
+      "maximum": 330875,
+      "maximum_absolute": 330875,
+      "minimum": -259842,
+      "signed_int32_headroom": 2147152772
+    },
+    "layer2.biased_score": {
+      "maximum": 13,
+      "maximum_absolute": 18,
+      "minimum": -18,
+      "signed_int32_headroom": 2147483629
+    },
+    "layer2.block_output": {
+      "maximum": 32,
+      "maximum_absolute": 32,
+      "minimum": -30,
+      "signed_int32_headroom": 2147483615
+    },
+    "layer2.dot": {
+      "maximum": 7332,
+      "maximum_absolute": 7740,
+      "minimum": -7740,
+      "signed_int32_headroom": 2147475907
+    },
+    "layer2.ffn_down": {
+      "maximum": 26,
+      "maximum_absolute": 26,
+      "minimum": -21,
+      "signed_int32_headroom": 2147483621
+    },
+    "layer2.ffn_up": {
+      "maximum": 51,
+      "maximum_absolute": 51,
+      "minimum": -48,
+      "signed_int32_headroom": 2147483596
+    },
+    "layer2.k": {
+      "maximum": 78,
+      "maximum_absolute": 78,
+      "minimum": -74,
+      "signed_int32_headroom": 2147483569
+    },
+    "layer2.output_projection": {
+      "maximum": 16,
+      "maximum_absolute": 18,
+      "minimum": -18,
+      "signed_int32_headroom": 2147483629
+    },
+    "layer2.q": {
+      "maximum": 84,
+      "maximum_absolute": 84,
+      "minimum": -75,
+      "signed_int32_headroom": 2147483563
+    },
+    "layer2.residual": {
+      "maximum": 31,
+      "maximum_absolute": 31,
+      "minimum": -30,
+      "signed_int32_headroom": 2147483616
+    },
+    "layer2.score": {
+      "maximum": 6,
+      "maximum_absolute": 6,
+      "minimum": -6,
+      "signed_int32_headroom": 2147483641
+    },
+    "layer2.v": {
+      "maximum": 42,
+      "maximum_absolute": 52,
+      "minimum": -52,
+      "signed_int32_headroom": 2147483595
+    },
+    "layer2.weight": {
+      "maximum": 4096,
+      "maximum_absolute": 4096,
+      "minimum": 0,
+      "signed_int32_headroom": 2147479551
+    },
+    "layer3.attention": {
+      "maximum": 32,
+      "maximum_absolute": 33,
+      "minimum": -33,
+      "signed_int32_headroom": 2147483614
+    },
+    "layer3.attention_denominator": {
+      "maximum": 15184,
+      "maximum_absolute": 15184,
+      "minimum": 2,
+      "signed_int32_headroom": 2147468463
+    },
+    "layer3.attention_numerator": {
+      "maximum": 216049,
+      "maximum_absolute": 216850,
+      "minimum": -216850,
+      "signed_int32_headroom": 2147266797
+    },
+    "layer3.biased_score": {
+      "maximum": 13,
+      "maximum_absolute": 19,
+      "minimum": -19,
+      "signed_int32_headroom": 2147483628
+    },
+    "layer3.block_output": {
+      "maximum": 31,
+      "maximum_absolute": 37,
+      "minimum": -37,
+      "signed_int32_headroom": 2147483610
+    },
+    "layer3.dot": {
+      "maximum": 5328,
+      "maximum_absolute": 7844,
+      "minimum": -7844,
+      "signed_int32_headroom": 2147475803
+    },
+    "layer3.ffn_down": {
+      "maximum": 22,
+      "maximum_absolute": 24,
+      "minimum": -24,
+      "signed_int32_headroom": 2147483623
+    },
+    "layer3.ffn_up": {
+      "maximum": 45,
+      "maximum_absolute": 55,
+      "minimum": -55,
+      "signed_int32_headroom": 2147483592
+    },
+    "layer3.k": {
+      "maximum": 81,
+      "maximum_absolute": 91,
+      "minimum": -91,
+      "signed_int32_headroom": 2147483556
+    },
+    "layer3.output_projection": {
+      "maximum": 17,
+      "maximum_absolute": 17,
+      "minimum": -16,
+      "signed_int32_headroom": 2147483630
+    },
+    "layer3.q": {
+      "maximum": 79,
+      "maximum_absolute": 79,
+      "minimum": -72,
+      "signed_int32_headroom": 2147483568
+    },
+    "layer3.residual": {
+      "maximum": 33,
+      "maximum_absolute": 33,
+      "minimum": -33,
+      "signed_int32_headroom": 2147483614
+    },
+    "layer3.score": {
+      "maximum": 6,
+      "maximum_absolute": 6,
+      "minimum": -6,
+      "signed_int32_headroom": 2147483641
+    },
+    "layer3.v": {
+      "maximum": 44,
+      "maximum_absolute": 44,
+      "minimum": -41,
+      "signed_int32_headroom": 2147483603
+    },
+    "layer3.weight": {
+      "maximum": 4096,
+      "maximum_absolute": 4096,
+      "minimum": 0,
+      "signed_int32_headroom": 2147479551
+    },
+    "layer4.attention": {
+      "maximum": 35,
+      "maximum_absolute": 35,
+      "minimum": -30,
+      "signed_int32_headroom": 2147483612
+    },
+    "layer4.attention_denominator": {
+      "maximum": 19217,
+      "maximum_absolute": 19217,
+      "minimum": 32,
+      "signed_int32_headroom": 2147464430
+    },
+    "layer4.attention_numerator": {
+      "maximum": 178677,
+      "maximum_absolute": 221546,
+      "minimum": -221546,
+      "signed_int32_headroom": 2147262101
+    },
+    "layer4.biased_score": {
+      "maximum": 15,
+      "maximum_absolute": 20,
+      "minimum": -20,
+      "signed_int32_headroom": 2147483627
+    },
+    "layer4.block_output": {
+      "maximum": 31,
+      "maximum_absolute": 37,
+      "minimum": -37,
+      "signed_int32_headroom": 2147483610
+    },
+    "layer4.dot": {
+      "maximum": 6184,
+      "maximum_absolute": 8490,
+      "minimum": -8490,
+      "signed_int32_headroom": 2147475157
+    },
+    "layer4.ffn_down": {
+      "maximum": 23,
+      "maximum_absolute": 26,
+      "minimum": -26,
+      "signed_int32_headroom": 2147483621
+    },
+    "layer4.ffn_up": {
+      "maximum": 48,
+      "maximum_absolute": 63,
+      "minimum": -63,
+      "signed_int32_headroom": 2147483584
+    },
+    "layer4.k": {
+      "maximum": 81,
+      "maximum_absolute": 81,
+      "minimum": -78,
+      "signed_int32_headroom": 2147483566
+    },
+    "layer4.output_projection": {
+      "maximum": 17,
+      "maximum_absolute": 17,
+      "minimum": -16,
+      "signed_int32_headroom": 2147483630
+    },
+    "layer4.q": {
+      "maximum": 85,
+      "maximum_absolute": 85,
+      "minimum": -78,
+      "signed_int32_headroom": 2147483562
+    },
+    "layer4.residual": {
+      "maximum": 32,
+      "maximum_absolute": 37,
+      "minimum": -37,
+      "signed_int32_headroom": 2147483610
+    },
+    "layer4.score": {
+      "maximum": 6,
+      "maximum_absolute": 6,
+      "minimum": -6,
+      "signed_int32_headroom": 2147483641
+    },
+    "layer4.v": {
+      "maximum": 46,
+      "maximum_absolute": 46,
+      "minimum": -45,
+      "signed_int32_headroom": 2147483601
+    },
+    "layer4.weight": {
+      "maximum": 4096,
+      "maximum_absolute": 4096,
+      "minimum": 0,
+      "signed_int32_headroom": 2147479551
+    },
+    "layer5.attention": {
+      "maximum": 35,
+      "maximum_absolute": 35,
+      "minimum": -29,
+      "signed_int32_headroom": 2147483612
+    },
+    "layer5.attention_denominator": {
+      "maximum": 32603,
+      "maximum_absolute": 32603,
+      "minimum": 2,
+      "signed_int32_headroom": 2147451044
+    },
+    "layer5.attention_numerator": {
+      "maximum": 231928,
+      "maximum_absolute": 244199,
+      "minimum": -244199,
+      "signed_int32_headroom": 2147239448
+    },
+    "layer5.biased_score": {
+      "maximum": 15,
+      "maximum_absolute": 28,
+      "minimum": -28,
+      "signed_int32_headroom": 2147483619
+    },
+    "layer5.block_output": {
+      "maximum": 32,
+      "maximum_absolute": 33,
+      "minimum": -33,
+      "signed_int32_headroom": 2147483614
+    },
+    "layer5.dot": {
+      "maximum": 6720,
+      "maximum_absolute": 13274,
+      "minimum": -13274,
+      "signed_int32_headroom": 2147470373
+    },
+    "layer5.ffn_down": {
+      "maximum": 26,
+      "maximum_absolute": 28,
+      "minimum": -28,
+      "signed_int32_headroom": 2147483619
+    },
+    "layer5.ffn_up": {
+      "maximum": 54,
+      "maximum_absolute": 59,
+      "minimum": -59,
+      "signed_int32_headroom": 2147483588
+    },
+    "layer5.k": {
+      "maximum": 99,
+      "maximum_absolute": 99,
+      "minimum": -90,
+      "signed_int32_headroom": 2147483548
+    },
+    "layer5.output_projection": {
+      "maximum": 17,
+      "maximum_absolute": 17,
+      "minimum": -16,
+      "signed_int32_headroom": 2147483630
+    },
+    "layer5.q": {
+      "maximum": 81,
+      "maximum_absolute": 94,
+      "minimum": -94,
+      "signed_int32_headroom": 2147483553
+    },
+    "layer5.residual": {
+      "maximum": 34,
+      "maximum_absolute": 38,
+      "minimum": -38,
+      "signed_int32_headroom": 2147483609
+    },
+    "layer5.score": {
+      "maximum": 6,
+      "maximum_absolute": 6,
+      "minimum": -6,
+      "signed_int32_headroom": 2147483641
+    },
+    "layer5.v": {
+      "maximum": 41,
+      "maximum_absolute": 44,
+      "minimum": -44,
+      "signed_int32_headroom": 2147483603
+    },
+    "layer5.weight": {
+      "maximum": 4096,
+      "maximum_absolute": 4096,
+      "minimum": 0,
+      "signed_int32_headroom": 2147479551
+    },
+    "linear_raw.layers.0.ffn_down": {
+      "maximum": 702,
+      "maximum_absolute": 772,
+      "minimum": -772,
+      "signed_int32_headroom": 2147482875
+    },
+    "linear_raw.layers.0.ffn_up": {
+      "maximum": 1396,
+      "maximum_absolute": 1396,
+      "minimum": -1177,
+      "signed_int32_headroom": 2147482251
+    },
+    "linear_raw.layers.0.key": {
+      "maximum": 1165,
+      "maximum_absolute": 1291,
+      "minimum": -1291,
+      "signed_int32_headroom": 2147482356
+    },
+    "linear_raw.layers.0.output": {
+      "maximum": 492,
+      "maximum_absolute": 492,
+      "minimum": -471,
+      "signed_int32_headroom": 2147483155
+    },
+    "linear_raw.layers.0.query": {
+      "maximum": 1139,
+      "maximum_absolute": 1308,
+      "minimum": -1308,
+      "signed_int32_headroom": 2147482339
+    },
+    "linear_raw.layers.0.value": {
+      "maximum": 883,
+      "maximum_absolute": 883,
+      "minimum": -845,
+      "signed_int32_headroom": 2147482764
+    },
+    "linear_raw.layers.1.ffn_down": {
+      "maximum": 655,
+      "maximum_absolute": 711,
+      "minimum": -711,
+      "signed_int32_headroom": 2147482936
+    },
+    "linear_raw.layers.1.ffn_up": {
+      "maximum": 1186,
+      "maximum_absolute": 1278,
+      "minimum": -1278,
+      "signed_int32_headroom": 2147482369
+    },
+    "linear_raw.layers.1.key": {
+      "maximum": 1187,
+      "maximum_absolute": 1187,
+      "minimum": -1183,
+      "signed_int32_headroom": 2147482460
+    },
+    "linear_raw.layers.1.output": {
+      "maximum": 505,
+      "maximum_absolute": 505,
+      "minimum": -476,
+      "signed_int32_headroom": 2147483142
+    },
+    "linear_raw.layers.1.query": {
+      "maximum": 1222,
+      "maximum_absolute": 1222,
+      "minimum": -1192,
+      "signed_int32_headroom": 2147482425
+    },
+    "linear_raw.layers.1.value": {
+      "maximum": 1098,
+      "maximum_absolute": 1098,
+      "minimum": -1064,
+      "signed_int32_headroom": 2147482549
+    },
+    "linear_raw.layers.2.ffn_down": {
+      "maximum": 877,
+      "maximum_absolute": 877,
+      "minimum": -715,
+      "signed_int32_headroom": 2147482770
+    },
+    "linear_raw.layers.2.ffn_up": {
+      "maximum": 1233,
+      "maximum_absolute": 1233,
+      "minimum": -1166,
+      "signed_int32_headroom": 2147482414
+    },
+    "linear_raw.layers.2.key": {
+      "maximum": 1256,
+      "maximum_absolute": 1256,
+      "minimum": -1185,
+      "signed_int32_headroom": 2147482391
+    },
+    "linear_raw.layers.2.output": {
+      "maximum": 519,
+      "maximum_absolute": 570,
+      "minimum": -570,
+      "signed_int32_headroom": 2147483077
+    },
+    "linear_raw.layers.2.query": {
+      "maximum": 1264,
+      "maximum_absolute": 1264,
+      "minimum": -1133,
+      "signed_int32_headroom": 2147482383
+    },
+    "linear_raw.layers.2.value": {
+      "maximum": 1016,
+      "maximum_absolute": 1257,
+      "minimum": -1257,
+      "signed_int32_headroom": 2147482390
+    },
+    "linear_raw.layers.3.ffn_down": {
+      "maximum": 615,
+      "maximum_absolute": 648,
+      "minimum": -648,
+      "signed_int32_headroom": 2147482999
+    },
+    "linear_raw.layers.3.ffn_up": {
+      "maximum": 1048,
+      "maximum_absolute": 1267,
+      "minimum": -1267,
+      "signed_int32_headroom": 2147482380
+    },
+    "linear_raw.layers.3.key": {
+      "maximum": 1057,
+      "maximum_absolute": 1192,
+      "minimum": -1192,
+      "signed_int32_headroom": 2147482455
+    },
+    "linear_raw.layers.3.output": {
+      "maximum": 583,
+      "maximum_absolute": 583,
+      "minimum": -548,
+      "signed_int32_headroom": 2147483064
+    },
+    "linear_raw.layers.3.query": {
+      "maximum": 1190,
+      "maximum_absolute": 1190,
+      "minimum": -1086,
+      "signed_int32_headroom": 2147482457
+    },
+    "linear_raw.layers.3.value": {
+      "maximum": 1116,
+      "maximum_absolute": 1116,
+      "minimum": -1034,
+      "signed_int32_headroom": 2147482531
+    },
+    "linear_raw.layers.4.ffn_down": {
+      "maximum": 595,
+      "maximum_absolute": 668,
+      "minimum": -668,
+      "signed_int32_headroom": 2147482979
+    },
+    "linear_raw.layers.4.ffn_up": {
+      "maximum": 865,
+      "maximum_absolute": 1140,
+      "minimum": -1140,
+      "signed_int32_headroom": 2147482507
+    },
+    "linear_raw.layers.4.key": {
+      "maximum": 1226,
+      "maximum_absolute": 1226,
+      "minimum": -1175,
+      "signed_int32_headroom": 2147482421
+    },
+    "linear_raw.layers.4.output": {
+      "maximum": 507,
+      "maximum_absolute": 507,
+      "minimum": -492,
+      "signed_int32_headroom": 2147483140
+    },
+    "linear_raw.layers.4.query": {
+      "maximum": 1196,
+      "maximum_absolute": 1196,
+      "minimum": -1098,
+      "signed_int32_headroom": 2147482451
+    },
+    "linear_raw.layers.4.value": {
+      "maximum": 1064,
+      "maximum_absolute": 1064,
+      "minimum": -1051,
+      "signed_int32_headroom": 2147482583
+    },
+    "linear_raw.layers.5.ffn_down": {
+      "maximum": 601,
+      "maximum_absolute": 666,
+      "minimum": -666,
+      "signed_int32_headroom": 2147482981
+    },
+    "linear_raw.layers.5.ffn_up": {
+      "maximum": 920,
+      "maximum_absolute": 1013,
+      "minimum": -1013,
+      "signed_int32_headroom": 2147482634
+    },
+    "linear_raw.layers.5.key": {
+      "maximum": 993,
+      "maximum_absolute": 993,
+      "minimum": -903,
+      "signed_int32_headroom": 2147482654
+    },
+    "linear_raw.layers.5.output": {
+      "maximum": 511,
+      "maximum_absolute": 511,
+      "minimum": -477,
+      "signed_int32_headroom": 2147483136
+    },
+    "linear_raw.layers.5.query": {
+      "maximum": 979,
+      "maximum_absolute": 1134,
+      "minimum": -1134,
+      "signed_int32_headroom": 2147482513
+    },
+    "linear_raw.layers.5.value": {
+      "maximum": 947,
+      "maximum_absolute": 1015,
+      "minimum": -1015,
+      "signed_int32_headroom": 2147482632
+    },
+    "linear_raw.lm_head": {
+      "maximum": 538,
+      "maximum_absolute": 827,
+      "minimum": -827,
+      "signed_int32_headroom": 2147482820
+    },
+    "lm_logits": {
+      "maximum": 19,
+      "maximum_absolute": 29,
+      "minimum": -29,
+      "signed_int32_headroom": 2147483618
+    }
+  },
+  "windows": 64
+}

@@ -1,0 +1,54 @@
+QUESTION: How are you today
+PROMPT: 'Q How are you today?\nA '
+EXACT: I also feel a bit to feel a bit that and happy too, thank you for asking to calm and be a beautiful to can feel a bit can be can
+
+QUESTION: Why is the sky blue
+PROMPT: 'Q Why is the sky blue?\nA '
+EXACT: I am all feeling that and and feel happiness to hear that a love and happy too, it is a bit do feel happy today, thank you for a
+
+QUESTION: Can dogs be good friends
+PROMPT: 'Q Can dogs be good friends?\nA '
+EXACT: I am feeling that a lovely day, thank you for asking.
+Q I am feeling that a lovely to hear is a bit coluch a bit can be a befeep
+
+QUESTION: What do plants need to grow
+PROMPT: 'Q What do plants need to grow?\nA '
+EXACT: I feel happy today, thank you for asking.
+Q Hello see that is a beautiful day it can be a litten that the seem that thank you fo
+
+QUESTION: How can I help a friend
+PROMPT: 'Q How can I help a friend?\nA '
+EXACT: Yes, I also feel happy too, it is a lovely day and happy today, thank you for asking a bit and beautiful day to seem the seem th
+
+QUESTION: What happens when it rains
+PROMPT: 'Q What happens when it rains?\nA '
+EXACT: I feel happy too, it is a lovely day, thank you feel a bit did not feeling a little and feel a bit thank you for asking.
+Q I am 
+
+QUESTION: Should I share my toys
+PROMPT: 'Q Should I share my toys?\nA '
+EXACT: I feel happy today, thank you for a love a bit that is a lovely day to feel happy today, thank you for asking.
+Q What it is a li
+
+QUESTION: What makes people happy
+PROMPT: 'Q What makes people happy?\nA '
+EXACT: I am feeling a beautiful beautiful coll and a face a bit to can feel a bit can be happy today, thank you for asking that a lovel
+
+QUESTION: Where do birds live
+PROMPT: 'Q Where do birds live?\nA '
+EXACT: I am feeling happy today, thank you for asking.
+Q Hear that that the seem that is a lovely day, thank you for asking.
+Q I am all
+
+QUESTION: What should I do when I feel sad
+PROMPT: 'Q What should I do when I feel sad?\nA '
+EXACT: I also feel happy today, it is a love that a little a bit to feel a lite a bit and like a bit can be a beautiful day, thank you 
+
+QUESTION: Why do we need to sleep
+PROMPT: 'Q Why do we need to sleep?\nA '
+EXACT: I feel happy today, thank you for a lovely day in the seems can feel a bit that a bit do feel a bit be calm and asking a litte f
+
+QUESTION: How do I make a new friend
+PROMPT: 'Q How do I make a new friend?\nA '
+EXACT: I am feeling happy too, it is a little and a befer and a bit feel a bit to calm and be some happy too, it is a lovely day, thank
+

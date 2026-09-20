@@ -1,0 +1,197 @@
+PROMPT: 'A little '
+EXACT (256 chars):
+bird and he lid looked the bird and said the beaut but and was a big big but and said not ke you be a big bear food
+He liked the bird was a big bug
+The bird looked not but he want to play
+He was very fun was a big ball and liked the bird and said not but h
+
+PROMPT: 'He liked to jump run and '
+EXACT (256 chars):
+said He happy and said not big and said the beaut bear you be fun
+He was fun
+He was happy and said the bird said keap you but and have a big bear and said the big bird
+He liked to be fun
+He wanted the bird and said keapped and said Heard happy
+He wanted to
+
+PROMPT: 'He loved to play with it every '
+EXACT (256 chars):
+day and but he with a big faround and wanted to help but he want to be fun
+He liked the big big wind and said He could not look
+He wanted to be fun
+He was not can said no she look and the bird and he climbed and said I said you be fun
+He wanted to play wit
+
+PROMPT: 'He said to his friend '
+EXACT (256 chars):
+a big but he was firn
+He wanted to be friends and said the big fir find
+He like to be friend the bird and said I will felt find a big fire and said not said the bird not came and said the bear friends
+He was very happy and happy and find a big but was a bi
+
+PROMPT: 'He saw a large mud '
+EXACT (256 chars):
+not like
+He liked the bird and said kearn the big ball and said the beaut but he wanted the big bear and all became because a big bear a big bear and said not ket back and said I have you be fun firn
+He said I can fin you be fun
+He was not but he wanted to
+
+PROMPT: 'He wanted '
+EXACT (256 chars):
+to play with the bird and had a big find with his far a bear friend
+He liked the big fun
+He wanted to help his friends and said the bird but and he wanted to help but he was a big bear new feel became bear find a big bug and said the bird
+The bird was find
+
+PROMPT: 'He wanted to find some dinner to '
+EXACT (256 chars):
+help him and said they because a big big bug and had a big fare the bird
+He liked the bird wanted to find a big fire far the bear and bear find a big beach
+He looked at the big bear and bug the bear and but the bird wanted to be find a big bear friend
+The 
+
+PROMPT: 'He was '
+EXACT (256 chars):
+no find the bird was not but he wanted to help he liked to play
+He liked the bear with the bird and but he liked the bear and happy
+He wanted to help the beach but and he said the bird and have a big fire and had a big fin
+He wanted to be care and said but
+
+PROMPT: 'Mom said '
+EXACT (256 chars):
+I yell have for you be fun
+He said I said I want for him find you but he wanted to be fun
+He wanted to help he wanted to help he lonelf a big bear and said I will said I wanted to be fun
+He said I wanted to find a big bull be full said Hello you can keame
+
+
+PROMPT: 'Once upon a time'
+EXACT (256 chars):
+ there was a big named Tim was a big bear not like at the bird was very fun
+He wanted to have a big bull wanted to help he said the bear and said not know
+They said the bear and said the beach and he could not be fun
+He said the beach fun foll happy
+He was
+
+PROMPT: 'One day '
+EXACT (256 chars):
+Thank you but he wanted to play with the big with the but he said but he wanted to be for find a big ball and said the bear bear friend
+He was sad
+He looked and said the beautiful said It was a big ball and said I will and but he looked the bird and said n
+
+PROMPT: 'One day Maxs friend a little '
+EXACT (256 chars):
+bird was a big bear learn
+He wanted to be fun was a big but when the bird and said not like and find a big find a big bear friend
+The bird look the bear and said not know
+He was a big beak friend was face all became be a big but he wanted to be fun
+He like
+
+PROMPT: 'She said '
+EXACT (256 chars):
+It was happy you can wanted to find a big find a big but he wanted to find a big but the big but the bear friend
+He was no play
+He wanted to play with he with his fun
+The bird a big ball with he with the bird was a big bear and cat was a big big big bear w
+
+PROMPT: 'She was '
+EXACT (256 chars):
+very car
+He liked the bird wanted to help he looked and said It was a big beaut big fun
+He wanted the bear and said It look fin
+He wanted the bird the big but she wanted to play with a big big with he with the bird was the bear and said not but he like fin
+
+PROMPT: 'The bird lived in a big tree '
+EXACT (256 chars):
+with the bird
+He liked the bird was fally big and happy and had a big big bull wanted to blew what was a big big fin
+He lived to play with the bear was a big big bird
+He looked and said He have for the big box and said keap the beach and said the beach oth
+
+PROMPT: 'The boy '
+EXACT (256 chars):
+named Lucy was sad and had a big beautiful said I long and happy
+He looked noind a big box was a big bug and said the big beach
+He liked and said He felt became be fun and because a big bull like a big buan and he was a big bear not want to be fun
+The bird
+
+PROMPT: 'The cat '
+EXACT (256 chars):
+was a big bug the ball but he with a big ball fun
+The bird looked and said not but he liked the big but and said I want to play with his fun
+He was very far a big but he wanted to play with the book but he wanted to be fun
+He looked and the bear and happy
+
+
+PROMPT: 'The dog '
+EXACT (256 chars):
+named Lily
+The bird was sad and said Hear but he wanted to be fun
+He was very far a big bear friends and bear friends
+He liked the bird and happy and became bear and he wanted to play with the bird what was a big ball wanted to help but was are for far a b
+
+PROMPT: 'The girl '
+EXACT (256 chars):
+named Tim was so happy and said the beautiful and said you can be fun
+He said the bird the bird want but the bird was share and she but she box and said I saw a big bear and said the beach
+They wanted to play with the bear and said I will said I long and h
+
+PROMPT: 'The house '
+EXACT (256 chars):
+and said I said I have for you but when fire
+He was not fun
+He wanted to play with the bird and said the bird was share and said the boy
+He wanted to be fun and he liked the beaut but when she said the beach
+He was fun was a big big big fire wanted to clot
+
+PROMPT: 'The little '
+EXACT (256 chars):
+bird and had a big fun
+He wanted to play with his big bird and but and said the bird was sad but when she ball and wanted to be fun
+He wanted to be fun
+He liked the beach fun the beach
+He was a big big but was a big bull became boy named Tim was a big bird
+
+PROMPT: 'There was '
+EXACT (256 chars):
+a big big beach
+He looked and look it was a big bear friends
+He looked and said not cake a big and he liked and find a big bear and but he wanted to but the bear was a big big bear friends
+He wanted to play with the boy named Tim was a big beach other and 
+
+PROMPT: 'Tim was very eager '
+EXACT (256 chars):
+and happy
+He wanted to play with his find he said because and he said the bird
+He liked the beach but the beaughting for the bird
+He wanted to play with the bird with his bear and the big was a big but when he happy
+He wanted to play with the bear friends
+
+
+PROMPT: 'Tim went to the store with his mom to '
+EXACT (256 chars):
+find a big friends
+He was very face of fin the beach and fun was farmp
+He looked and said Help you but he wanted to play with her bear and but he wanted to play with the beaut the bird
+He wanted to like to be fun
+He liked the bear wanted to help he said I 
+
+PROMPT: 'Today '
+EXACT (256 chars):
+and said He was a big bear became be careful food found a big but he wanted to help be but he liked the bird was sad
+He looked and said I long the bear and said knew she wind a big beak fun
+He was a big bug and he liked the bird was sad and became book the
+
+PROMPT: 'Tom thanked the bird for helping them and they all '
+EXACT (256 chars):
+and the bear and the bear was a big beaut big wanted to play with the bird was a big big bear now wanted to clon it wanted to chin the beaut bear and and she wanted to be fun
+He was very found a big bear and said Thank you can be fun
+They wanted to play wi
+
+SELECTED DEMO: 'Sam decided to '
+EXACT (256 chars):
+play with his friend
+He was very happy
+The bird and happen and said the bird said the bird wanted to help the big bear and said the bird foll said I can felt be fun
+He was fun was a big bear friend
+He wanted to be food and said I want to help find a big fu

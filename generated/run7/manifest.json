@@ -1,0 +1,8 @@
+{
+  "checkpoint": "generated/run7/factorio-lm-tinychat-exact.json",
+  "demo_prompt": "Q Hello I feel really happy today how about you\nA ",
+  "generation_samples": "generated/run7/generation-samples.txt",
+  "run": 7,
+  "selected_demo": "generated/run7/selected-demo.json",
+  "training_report": "generated/run7/training-report.json"
+}

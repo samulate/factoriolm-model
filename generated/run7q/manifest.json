@@ -1,0 +1,12 @@
+{
+  "run": "7Q",
+  "status": "rejected-experiment",
+  "release_checkpoint": "generated/run7p/factorio-lm-tinychat-punctuation-exact.json",
+  "experiment_report": "generated/run7q/experiment-report.json",
+  "result": "generated/run7q/RESULT.md",
+  "exhaustive_prompt_mining": "generated/run7q/prompt-mining-exhaustive.json",
+  "exhaustive_prompt_finalists": "generated/run7q/PROMPT-EXHAUSTIVE-FINALISTS.md",
+  "broad_topic_dataset_report": "generated/run7q/dataset-report.json",
+  "cosmic_topic_dataset_report": "generated/run7q/cosmic-mystery/dataset-report.json",
+  "scheduled_sampling_progress": "generated/run7q/sequence-mystery/progress.json"
+}

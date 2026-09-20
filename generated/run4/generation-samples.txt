@@ -1,0 +1,64 @@
+PROMPT: 'Once upon a time'
+EXACT: titin tin tin tin binen linen lin linininenininineneninenenenen bin bin n bin bintn bin bin ctlen len len le letna twle btntbbtl
+RUN 3:  e                                                            eeeeeeeeeeeeeReReRenerrrrrrrrrrpurp nerer nererpu neees res neGreG
+
+PROMPT: 'One day '
+EXACT: aititititin in inen in ineninininenenininininininen neninenenenenenennnnnnnnnnnnnn n ntn wnnn tn tent le tetntetnt le a a a lete
+RUN 3:  efefWhlnefr                    repbp         rehehehehelel     p    pbebehrenenenenenenenenenenenenee nee    e eeeeeeeeeeeeeeee
+
+PROMPT: 'There was '
+EXACT: mitle latititle bitle lwl batle l bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbeeoabbe
+ee
+e tlee acleebeolle aclle abeoatle tle atletl tlore 
+RUN 3:                                                        peeeeeneeeeeeeeeeeeeeeeeees rpV rrrrrrrrr rr r r r r r r hu r r r  hu pu 
+
+PROMPT: 'The little '
+EXACT: lellleelleltletletletletletletletletle latle atle la l e a ee a e a a a e
+e aeeea ea a le
+ea a balanlaeeeeananananacanananletwet
+RUN 3: hnrelelelelebr hn leb                                                     frekreeinenerrrerrrrrrrererererpurererererere         
+
+PROMPT: 'The boy '
+EXACT: aeletle letletbe lwle betletbetle atbe tbetle la be betbeore be e e eor e beor ee e e e e e
+e e a eee ae be eoor a ela ebelle be
+RUN 3: hrf           hfrrrrrrrrrrrrrrr  line           p   prrrrrrene                    eeeeeeeee                                  eRe
+
+PROMPT: 'The girl '
+EXACT: l
+bibb
+b
+bwb
+b
+b
+bbb
+bb
+bbbb
+bbbbb
+bocbbbbbbby
+bobbocbobybylby
+wbylbylw
+bylwbylwo
+llllllllllllllllllllllllllllllllllllllllllllll
+RUN 3: hne                    frrrrrrrre                                                       eeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrhurpu
+
+PROMPT: 'He was '
+EXACT: eamwany mayaitacaitle atl twatltlan babantle ba ban bba bbbba tbbbbbcle twe tle bbbbatbbabbatbe etleotle eabatbatle etle etle e 
+RUN 3: RRRRRRRRxpeeeepeeeeeeepeeeeeeeeeeeeeeeeeeeeeeeeeer                                                 eReReReReverprrrrrrrrrrrrrrrr
+
+PROMPT: 'She was '
+EXACT: a
+aaa aa
+ay
+bacmwabababaimbabay
+Iy
+I twlt twltyltltlbcbbabactyltwbbbbtbwbbbbbbtbbbbtlee tcle tle tle ale alalale ale aaatlealaea
+RUN 3:  lbelne                           elelelene                        eeeeeeeeeeeeeeeeeeeeeeees r r r r rp rpurrrrpurpeGrpurpurpu h
+
+PROMPT: 'Today '
+EXACT: lllllllllle letlee lad lwlelllle latleletle l le l bal le bca leee lor a e e le bbe eoreooreore belooa ee aa e etwawloawawltwwww
+RUN 3: hrh l l l                                                     pne      nenenerrrrrrrrrrrrrrrrrrrrp         eeeeeeeeeeeeeeeeeeeee
+
+PROMPT: 'Factorio '
+EXACT: ylylylllllellleed letetle late l latle etetetl Te l le a e a e a e e e e e e e e e e e e le  e e e ae lan e ean ean ean e ean e 
+RUN 3: b be hebne iry ireneaneaneaneaelele aneaneleele ane                      eeeeeeeeGr                                             
+

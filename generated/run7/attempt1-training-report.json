@@ -1,0 +1,492 @@
+{
+  "configuration": {
+    "answer_weight": 1.0,
+    "batch_size": 64,
+    "device": "cpu",
+    "distillation_weight": 0.35,
+    "evaluation_characters": 16384,
+    "evaluation_interval": 250,
+    "exact_evaluation_characters": 2048,
+    "float_learning_rate": 0.00075,
+    "float_steps": 2500,
+    "generation_length": 128,
+    "gradient_clip": 1.0,
+    "integer_logit_temperature": 1.125,
+    "integer_qat_learning_rate": 0.00075,
+    "integer_qat_steps": 2500,
+    "maximum_answer_characters": 120,
+    "maximum_question_characters": 59,
+    "maximum_scale_denominator": 256,
+    "minimum_answer_characters": 4,
+    "minimum_question_characters": 8,
+    "nonzero_weights": 25100,
+    "requested_source_rows": 200000,
+    "seed": 4107,
+    "sequence_length": 64,
+    "source_page_size": 100,
+    "validation_fraction": 0.08,
+    "warmup_steps": 150,
+    "weight_decay": 0.01,
+    "weight_limit": 7
+  },
+  "data": {
+    "acceptance_rate": 0.02822011066169631,
+    "accepted_examples": 24573,
+    "dataset": {
+      "bytes": 154533089,
+      "dataset": "starhopp3r/TinyChat",
+      "dataset_card": "https://huggingface.co/datasets/starhopp3r/TinyChat",
+      "license": "CC BY-NC 4.0",
+      "parquet_path": "generated/run7/tinychat-0000.parquet",
+      "parquet_sha256": "b6f660e16010c1832d3f4d459a9701e049053693c4ef7060ecbd9f2ff6e5eb7f",
+      "path": "generated/run7/tinychat-source-rows.jsonl",
+      "requested_source_rows": 200000,
+      "selected_source_rows": 200000,
+      "selection": "exact deterministic evenly spaced sample from official converted train shard 0000.parquet",
+      "sha256": "87e2ea324630a2974bf06a9c4efe6601719106f3a116f6d985dde02817427c76",
+      "source_page_size": 100,
+      "source_revision": "refs/convert/parquet",
+      "source_shard_rows": 675994,
+      "source_split": "train",
+      "total_source_rows": 1000000
+    },
+    "format": "Q question\\nA answer\\n",
+    "parsing": "Parse [INST] markers before normalization; select the final complete question from the user turn and first complete assistant sentence without character truncation.",
+    "source_conversation_pairs": 870762,
+    "splits": {
+      "train": {
+        "answer_characters": 1588701,
+        "answer_mask": "generated/run7/tinychat-train.mask.bin",
+        "characters": 2860177,
+        "examples": 22529,
+        "mask_sha256": "f2e8e9e517b2c9c9141f19147e96ee15eb90d4d611af4e3d14bf944d7e97b5b4",
+        "records": "generated/run7/tinychat-train.jsonl",
+        "text": "generated/run7/tinychat-train.txt",
+        "token_sha256": "5cfd033cccdc00eab26013e59babfec3fc07a52b80eb18e1edf494f238bf3486",
+        "tokens": "generated/run7/tinychat-train.bin"
+      },
+      "validation": {
+        "answer_characters": 145436,
+        "answer_mask": "generated/run7/tinychat-validation.mask.bin",
+        "characters": 261239,
+        "examples": 2044,
+        "mask_sha256": "b841d439599283b42a0920155ac31ec65bd0e45e121913c2c984324b4fdef205",
+        "records": "generated/run7/tinychat-validation.jsonl",
+        "text": "generated/run7/tinychat-validation.txt",
+        "token_sha256": "2ab59eab1930f655f9e88d83afebcf2c40507e11d87f42032b36bd1d82014354",
+        "tokens": "generated/run7/tinychat-validation.bin"
+      }
+    }
+  },
+  "exact_checkpoint": "generated/run7/factorio-lm-tinychat-exact.json",
+  "generations": {
+    "Can dogs be good friends": {
+      "adjacent_duplicate_words": 0,
+      "answer": "Yes it can be happy to see seems and because happy to see share and bring sometimes and bring and sometimes and feel sad and bri",
+      "characters": 128,
+      "generated": "Yes it can be happy to see seems and because happy to see share and bring sometimes and bring and sometimes and feel sad and bri",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Can dogs be good friends\nA ",
+      "unique_word_ratio": 0.6153846153846154,
+      "words": 26
+    },
+    "How are you today": {
+      "adjacent_duplicate_words": 1,
+      "answer": "I am feel sea watch and happy to can be for and surprising and and face and can be feel and start and can be some for and feelin",
+      "characters": 128,
+      "generated": "I am feel sea watch and happy to can be for and surprising and and face and can be feel and start and can be some for and feelin",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How are you today\nA ",
+      "unique_word_ratio": 0.5517241379310345,
+      "words": 29
+    },
+    "How can I help a friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feel sad thank you feel happy to see happy today to see a good and sad and enjoy the see seem and sometimes and a lovely da",
+      "characters": 128,
+      "generated": "I am feel sad thank you feel happy to see happy today to see a good and sad and enjoy the see seem and sometimes and a lovely da",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How can I help a friend\nA ",
+      "unique_word_ratio": 0.6551724137931034,
+      "words": 29
+    },
+    "How do I make a new friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel a bit see sometimes and can be very happy to can be feel fearful and sun and share and happy to sea and be feart to see h",
+      "characters": 128,
+      "generated": "I feel a bit see sometimes and can be very happy to can be feel fearful and sun and share and happy to sea and be feart to see h",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How do I make a new friend\nA ",
+      "unique_word_ratio": 0.6,
+      "words": 30
+    },
+    "Should I share my toys": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy too can be happy to sea that something and share and can be feel a bit feel a bit fear and friends can be formal an",
+      "characters": 128,
+      "generated": "I feel happy too can be happy to sea that something and share and can be feel a bit feel a bit fear and friends can be formal an",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Should I share my toys\nA ",
+      "unique_word_ratio": 0.6206896551724138,
+      "words": 29
+    },
+    "What do plants need to grow": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy to see happy to see a bitte sometimes and see can happy to see and happy to happy to can happy to make a bring and",
+      "characters": 127,
+      "generated": "I feel happy to see happy to see a bitte sometimes and see can happy to see and happy to happy to can happy to make a bring and ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What do plants need to grow\nA ",
+      "unique_word_ratio": 0.41379310344827586,
+      "words": 29
+    },
+    "What happens when it rains": {
+      "adjacent_duplicate_words": 2,
+      "answer": "I feel a bit seems can be feel sear and and face and can be feel stay thank you feel fear sometimes and share and such and and b",
+      "characters": 128,
+      "generated": "I feel a bit seems can be feel sear and and face and can be feel stay thank you feel fear sometimes and share and such and and b",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What happens when it rains\nA ",
+      "unique_word_ratio": 0.6206896551724138,
+      "words": 29
+    },
+    "What makes people happy": {
+      "adjacent_duplicate_words": 4,
+      "answer": "I am feel happy to say have and happy to see and and a lovel sometimes to see see see heard and and happy to share and fact and",
+      "characters": 127,
+      "generated": "I am feel happy to say have and happy to see and and a lovel sometimes to see see see heard and and happy to share and fact and ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What makes people happy\nA ",
+      "unique_word_ratio": 0.5172413793103449,
+      "words": 29
+    },
+    "What should I do when I feel sad": {
+      "adjacent_duplicate_words": 1,
+      "answer": "Yes it can be happy to can and be feel happy to be seems sometimes and the sunny day and and a big and sometimes and face and fe",
+      "characters": 128,
+      "generated": "Yes it can be happy to can and be feel happy to be seems sometimes and the sunny day and and a big and sometimes and face and fe",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What should I do when I feel sad\nA ",
+      "unique_word_ratio": 0.5862068965517241,
+      "words": 29
+    },
+    "Where do birds live": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feel happy to come can be feel sometimes and sad and happy to can be some can be feel happy to see happy today thank you fo",
+      "characters": 128,
+      "generated": "I am feel happy to come can be feel sometimes and sad and happy to can be some can be feel happy to see happy today thank you fo",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Where do birds live\nA ",
+      "unique_word_ratio": 0.5862068965517241,
+      "words": 29
+    },
+    "Why do we need to sleep": {
+      "adjacent_duplicate_words": 1,
+      "answer": "I am feel a bit feel sometimes and about you feel happy to see simplace and and feel happy to see happy to see a bit of seart to",
+      "characters": 128,
+      "generated": "I am feel a bit feel sometimes and about you feel happy to see simplace and and feel happy to see happy to see a bit of seart to",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why do we need to sleep\nA ",
+      "unique_word_ratio": 0.5172413793103449,
+      "words": 29
+    },
+    "Why is the sky blue": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy today to bright something and share and bad and happy to see happy to see happy to see share and can feel happy to",
+      "characters": 127,
+      "generated": "I feel happy today to bright something and share and bad and happy to see happy to see happy to see share and can feel happy to ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why is the sky blue\nA ",
+      "unique_word_ratio": 0.4444444444444444,
+      "words": 27
+    }
+  },
+  "initialization": {
+    "architecture_changed": false,
+    "float": "generated/run6d/factorio-lm-cleaned-float.pt",
+    "integer": "generated/run6d/factorio-lm-cleaned-int4.pt",
+    "mask_changed": false
+  },
+  "metrics": {
+    "exact": {
+      "all_characters": {
+        "accuracy": 0.5615234375,
+        "characters": 2048,
+        "cross_entropy": 1.4460171006249134,
+        "perplexity": 4.246168728114364
+      },
+      "answer_characters": {
+        "accuracy": 0.5693191140278917,
+        "characters": 1219,
+        "cross_entropy": 1.4268463501458444,
+        "perplexity": 4.165541795641257
+      }
+    },
+    "float": {
+      "all_characters": {
+        "accuracy": 0.660400390625,
+        "characters": 16384,
+        "cross_entropy": 1.0802188515663147,
+        "perplexity": 2.945324069321912
+      },
+      "answer_characters": {
+        "accuracy": 0.6573554788610871,
+        "characters": 9272,
+        "cross_entropy": 1.1107985041489161,
+        "perplexity": 3.036782309827387
+      },
+      "temperature": 1.0
+    },
+    "qat": {
+      "all_characters": {
+        "accuracy": 0.56884765625,
+        "characters": 16384,
+        "cross_entropy": 1.4065072238445282,
+        "perplexity": 4.081674103912998
+      },
+      "answer_characters": {
+        "accuracy": 0.5634167385677308,
+        "characters": 9272,
+        "cross_entropy": 1.423792051590137,
+        "perplexity": 4.152838397212385
+      },
+      "temperature": 1.125
+    },
+    "run6d_exact_on_chat": {
+      "all_characters": {
+        "accuracy": 0.4267578125,
+        "characters": 2048,
+        "cross_entropy": 2.089458852745733,
+        "perplexity": 8.080541218244106
+      },
+      "answer_characters": {
+        "accuracy": 0.4413453650533224,
+        "characters": 1219,
+        "cross_entropy": 1.9853838606743113,
+        "perplexity": 7.281842061840002
+      }
+    }
+  },
+  "quality_gate": {
+    "automatic_generation_gate": true,
+    "numerically_better_than_run6d_on_chat": true,
+    "total_questions": 12,
+    "usable_answers": 7
+  },
+  "range_report": "generated/run7/range-report.json",
+  "run": 7,
+  "run6d_generations": {
+    "Can dogs be good friends": {
+      "adjacent_duplicate_words": 0,
+      "answer": "was a big bug ball said I sand share the beaut because friends and have fun",
+      "characters": 75,
+      "generated": "was a big bug ball said I sand share the beaut because friends and have fun\nHe said I want for he said not but he dog came and s",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Can dogs be good friends\nA ",
+      "unique_word_ratio": 1.0,
+      "words": 16
+    },
+    "How are you today": {
+      "adjacent_duplicate_words": 1,
+      "answer": "like fin a big buan and fun and have for a big bug and said I saw a big big and said the bear and he wanted to go but it was a b",
+      "characters": 128,
+      "generated": "like fin a big buan and fun and have for a big bug and said I saw a big big and said the bear and he wanted to go but it was a b",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 1,
+      "prompt": "Q How are you today\nA ",
+      "unique_word_ratio": 0.6764705882352942,
+      "words": 34
+    },
+    "How can I help a friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "with he wanted to play with he with the beach",
+      "characters": 45,
+      "generated": "with he wanted to play with he with the beach\nHe liked the big and like the bear and said but he looked and said not big bear fe",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 1,
+      "prompt": "Q How can I help a friend\nA ",
+      "unique_word_ratio": 0.7,
+      "words": 10
+    },
+    "How do I make a new friend": {
+      "adjacent_duplicate_words": 2,
+      "answer": "like a big but he wanted to play with the big but the bird was far and find a big find a big big big bird",
+      "characters": 105,
+      "generated": "like a big but he wanted to play with the big but the bird was far and find a big find a big big big bird\nHe looked and became b",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 1,
+      "prompt": "Q How do I make a new friend\nA ",
+      "unique_word_ratio": 0.5769230769230769,
+      "words": 26
+    },
+    "Should I share my toys": {
+      "adjacent_duplicate_words": 1,
+      "answer": "like the bird was very far a big bug and have for find find a big but and dad was a big bear and said not but he walk but he cou",
+      "characters": 128,
+      "generated": "like the bird was very far a big bug and have for find find a big but and dad was a big bear and said not but he walk but he cou",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 1,
+      "prompt": "Q Should I share my toys\nA ",
+      "unique_word_ratio": 0.65625,
+      "words": 32
+    },
+    "What do plants need to grow": {
+      "adjacent_duplicate_words": 0,
+      "answer": "big bear friend was a big but he liked the big wanted to help but was share and bear with the bird and said the bear",
+      "characters": 116,
+      "generated": "big bear friend was a big but he liked the big wanted to help but was share and bear with the bird and said the bear\nHe was very",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 1,
+      "prompt": "Q What do plants need to grow\nA ",
+      "unique_word_ratio": 0.6538461538461539,
+      "words": 26
+    },
+    "What happens when it rains": {
+      "adjacent_duplicate_words": 1,
+      "answer": "with his friends and had a big bull was a big big firsh found a big fing",
+      "characters": 72,
+      "generated": "with his friends and had a big bull was a big big firsh found a big fing\nHe wanted to play with the beaut but he looked and said",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What happens when it rains\nA ",
+      "unique_word_ratio": 0.7058823529411765,
+      "words": 17
+    },
+    "What makes people happy": {
+      "adjacent_duplicate_words": 1,
+      "answer": "big but he want to play with him was a big box with his bean with a big big but was a big but was a big but was a big bear but w",
+      "characters": 128,
+      "generated": "big but he want to play with him was a big box with his bean with a big big but was a big but was a big but was a big bear but w",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 1,
+      "prompt": "Q What makes people happy\nA ",
+      "unique_word_ratio": 0.4411764705882353,
+      "words": 34
+    },
+    "What should I do when I feel sad": {
+      "adjacent_duplicate_words": 0,
+      "answer": "big bear and said I said I said Yes far you beaut bear fin felt and became but he was a bear and said kettent food was a big bea",
+      "characters": 128,
+      "generated": "big bear and said I said I said Yes far you beaut bear fin felt and became but he was a bear and said kettent food was a big bea",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What should I do when I feel sad\nA ",
+      "unique_word_ratio": 0.6333333333333333,
+      "words": 30
+    },
+    "Where do birds live": {
+      "adjacent_duplicate_words": 0,
+      "answer": "had a big bear beaut but was the big bird was a big find with a big ball bear friend",
+      "characters": 84,
+      "generated": "had a big bear beaut but was the big bird was a big find with a big ball bear friend\nThe bird was said but he look you but him w",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Where do birds live\nA ",
+      "unique_word_ratio": 0.65,
+      "words": 20
+    },
+    "Why do we need to sleep": {
+      "adjacent_duplicate_words": 0,
+      "answer": "big said the bird and said He wanted the big bear and can said you but he looked and said not but he wanted to have you and can",
+      "characters": 127,
+      "generated": "big said the bird and said He wanted the big bear and can said you but he looked and said not but he wanted to have you and can ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why do we need to sleep\nA ",
+      "unique_word_ratio": 0.5172413793103449,
+      "words": 29
+    },
+    "Why is the sky blue": {
+      "adjacent_duplicate_words": 0,
+      "answer": "big bear and said the bird and said the big bird and said He look you be fun",
+      "characters": 76,
+      "generated": "big bear and said the bird and said the big bird and said He look you be fun\nHe was very happy and had a big flooke a big big bi",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why is the sky blue\nA ",
+      "unique_word_ratio": 0.6111111111111112,
+      "words": 18
+    }
+  },
+  "sparsity": {
+    "mask_sha256": "1931291c69fe1103ffe7df725ba2b2ed5cbbdadbf13565dbc2e7a658f9474708",
+    "per_matrix": {
+      "layers.0.ffn_down": 1004,
+      "layers.0.ffn_up": 1004,
+      "layers.0.key": 502,
+      "layers.0.output": 502,
+      "layers.0.query": 502,
+      "layers.0.value": 502,
+      "layers.1.ffn_down": 1004,
+      "layers.1.ffn_up": 1004,
+      "layers.1.key": 502,
+      "layers.1.output": 502,
+      "layers.1.query": 502,
+      "layers.1.value": 502,
+      "layers.2.ffn_down": 1004,
+      "layers.2.ffn_up": 1004,
+      "layers.2.key": 502,
+      "layers.2.output": 502,
+      "layers.2.query": 502,
+      "layers.2.value": 502,
+      "layers.3.ffn_down": 1004,
+      "layers.3.ffn_up": 1004,
+      "layers.3.key": 502,
+      "layers.3.output": 502,
+      "layers.3.query": 502,
+      "layers.3.value": 502,
+      "layers.4.ffn_down": 1004,
+      "layers.4.ffn_up": 1004,
+      "layers.4.key": 502,
+      "layers.4.output": 502,
+      "layers.4.query": 502,
+      "layers.4.value": 502,
+      "layers.5.ffn_down": 1004,
+      "layers.5.ffn_up": 1004,
+      "layers.5.key": 502,
+      "layers.5.output": 502,
+      "layers.5.query": 502,
+      "layers.5.value": 502,
+      "lm_head": 1004
+    },
+    "per_module": {
+      "ffn_down": 6024,
+      "ffn_up": 6024,
+      "key": 3012,
+      "lm_head": 1004,
+      "output": 3012,
+      "query": 3012,
+      "value": 3012
+    },
+    "total_nonzeros": 25100
+  },
+  "training": {
+    "float": {
+      "best_answer_cross_entropy": 1.1107985041489161,
+      "best_step": 2500,
+      "checkpoint": "generated/run7/factorio-lm-tinychat-float.pt",
+      "recovered_after_post_training_evaluation_interruption": true,
+      "stage": "float"
+    },
+    "integer_qat": {
+      "best_answer_cross_entropy": 1.423792051590137,
+      "best_step": 1750,
+      "checkpoint": "generated/run7/factorio-lm-tinychat-int4.pt",
+      "recovered_after_post_training_evaluation_interruption": true,
+      "stage": "int4"
+    }
+  }
+}

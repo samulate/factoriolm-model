@@ -1,0 +1,22 @@
+{
+  "batch_size": 64,
+  "device": "cpu",
+  "distillation_weight": 0.25,
+  "evaluation_characters": 16384,
+  "evaluation_interval": 250,
+  "generation_length": 256,
+  "gradient_clip": 1.0,
+  "integer_logit_temperature": 1.25,
+  "integer_qat_learning_rate": 0.002,
+  "integer_qat_steps": 2000,
+  "mask_refresh_interval": 100000,
+  "maximum_scale_denominator": 256,
+  "nonzero_weights": 25100,
+  "seed": 4104,
+  "sequence_length": 64,
+  "sparse_float_learning_rate": 0.001,
+  "sparse_float_steps": 750,
+  "warmup_steps": 250,
+  "weight_decay": 0.01,
+  "weight_limit": 7
+}

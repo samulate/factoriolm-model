@@ -1,0 +1,230 @@
+{
+  "candidate": "scaled-int4-limited-swap-64",
+  "checkpoint": "generated/run6/factorio-lm-int4-swap-64.pt",
+  "configuration": {
+    "batch_size": 64,
+    "device": "cpu",
+    "distillation_weight": 0.25,
+    "evaluation_characters": 16384,
+    "evaluation_interval": 250,
+    "generation_length": 256,
+    "gradient_clip": 1.0,
+    "integer_logit_temperature": 1.25,
+    "integer_qat_learning_rate": 0.002,
+    "integer_qat_steps": 2000,
+    "mask_refresh_interval": 100000,
+    "maximum_scale_denominator": 256,
+    "nonzero_weights": 25100,
+    "seed": 4104,
+    "sequence_length": 64,
+    "sparse_float_learning_rate": 0.001,
+    "sparse_float_steps": 750,
+    "warmup_steps": 250,
+    "weight_decay": 0.01,
+    "weight_limit": 7
+  },
+  "mask": {
+    "mask_sha256": "36b3641c25736e6d963e00f8803e2ba74cea0d4465abb6e45235111049c5e5ef",
+    "per_matrix": {
+      "layers.0.ffn_down": 1004,
+      "layers.0.ffn_up": 1004,
+      "layers.0.key": 502,
+      "layers.0.output": 502,
+      "layers.0.query": 502,
+      "layers.0.value": 502,
+      "layers.1.ffn_down": 1004,
+      "layers.1.ffn_up": 1004,
+      "layers.1.key": 502,
+      "layers.1.output": 502,
+      "layers.1.query": 502,
+      "layers.1.value": 502,
+      "layers.2.ffn_down": 1004,
+      "layers.2.ffn_up": 1004,
+      "layers.2.key": 502,
+      "layers.2.output": 502,
+      "layers.2.query": 502,
+      "layers.2.value": 502,
+      "layers.3.ffn_down": 1004,
+      "layers.3.ffn_up": 1004,
+      "layers.3.key": 502,
+      "layers.3.output": 502,
+      "layers.3.query": 502,
+      "layers.3.value": 502,
+      "layers.4.ffn_down": 1004,
+      "layers.4.ffn_up": 1004,
+      "layers.4.key": 502,
+      "layers.4.output": 502,
+      "layers.4.query": 502,
+      "layers.4.value": 502,
+      "layers.5.ffn_down": 1004,
+      "layers.5.ffn_up": 1004,
+      "layers.5.key": 502,
+      "layers.5.output": 502,
+      "layers.5.query": 502,
+      "layers.5.value": 502,
+      "lm_head": 1004
+    },
+    "per_module": {
+      "ffn_down": 6024,
+      "ffn_up": 6024,
+      "key": 3012,
+      "lm_head": 1004,
+      "output": 3012,
+      "query": 3012,
+      "value": 3012
+    },
+    "total_nonzeros": 25100
+  },
+  "training": {
+    "best_step": 2000,
+    "checkpoint": "generated/run6/factorio-lm-int4-swap-64.pt",
+    "elapsed_seconds": 564.9822238339984,
+    "log": [
+      {
+        "elapsed_seconds": 0.3169534170010593,
+        "gradient_norm": 5.845784664154053,
+        "learning_rate": 8e-06,
+        "objective": 2.022078275680542,
+        "step": 1,
+        "validation": {
+          "accuracy": 0.35748291015625,
+          "characters": 16384,
+          "cross_entropy": 2.216113805770874,
+          "optimization_cross_entropy": 2.131250560283661,
+          "optimization_temperature": 1.25,
+          "perplexity": 9.171618826710969
+        }
+      },
+      {
+        "elapsed_seconds": 65.07023316700361,
+        "gradient_norm": 1.946057915687561,
+        "learning_rate": 0.002,
+        "objective": 1.318341851234436,
+        "step": 250,
+        "validation": {
+          "accuracy": 0.5218505859375,
+          "characters": 16384,
+          "cross_entropy": 1.5481350123882294,
+          "optimization_cross_entropy": 1.5426871180534363,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.702691537643495
+        }
+      },
+      {
+        "elapsed_seconds": 135.63132624997525,
+        "gradient_norm": 2.0723392963409424,
+        "learning_rate": 0.0019114722339182856,
+        "objective": 1.2673319578170776,
+        "step": 500,
+        "validation": {
+          "accuracy": 0.525146484375,
+          "characters": 16384,
+          "cross_entropy": 1.588904708623886,
+          "optimization_cross_entropy": 1.553903043270111,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.898380834764749
+        }
+      },
+      {
+        "elapsed_seconds": 212.8460315419943,
+        "gradient_norm": 2.141583204269409,
+        "learning_rate": 0.0016620431515480163,
+        "objective": 1.2266370058059692,
+        "step": 750,
+        "validation": {
+          "accuracy": 0.54461669921875,
+          "characters": 16384,
+          "cross_entropy": 1.5318906009197235,
+          "optimization_cross_entropy": 1.5178576111793518,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.626916210391897
+        }
+      },
+      {
+        "elapsed_seconds": 283.4062757919892,
+        "gradient_norm": 2.0766375064849854,
+        "learning_rate": 0.0013011693454550814,
+        "objective": 1.2441511154174805,
+        "step": 1000,
+        "validation": {
+          "accuracy": 0.530517578125,
+          "characters": 16384,
+          "cross_entropy": 1.5343782901763916,
+          "optimization_cross_entropy": 1.5212827324867249,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.638440869081341
+        }
+      },
+      {
+        "elapsed_seconds": 354.51792962499894,
+        "gradient_norm": 1.5736645460128784,
+        "learning_rate": 0.0009004066766227601,
+        "objective": 1.215119481086731,
+        "step": 1250,
+        "validation": {
+          "accuracy": 0.54388427734375,
+          "characters": 16384,
+          "cross_entropy": 1.501561015844345,
+          "optimization_cross_entropy": 1.4970744848251343,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.488690521252452
+        }
+      },
+      {
+        "elapsed_seconds": 423.67055920898565,
+        "gradient_norm": 1.5578418970108032,
+        "learning_rate": 0.0005392203689993608,
+        "objective": 1.1323262453079224,
+        "step": 1500,
+        "validation": {
+          "accuracy": 0.541259765625,
+          "characters": 16384,
+          "cross_entropy": 1.5077352225780487,
+          "optimization_cross_entropy": 1.4889385104179382,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.516490357148598
+        }
+      },
+      {
+        "elapsed_seconds": 495.12021179200383,
+        "gradient_norm": 1.8713290691375732,
+        "learning_rate": 0.00028922824793269503,
+        "objective": 1.2170565128326416,
+        "step": 1750,
+        "validation": {
+          "accuracy": 0.55426025390625,
+          "characters": 16384,
+          "cross_entropy": 1.4943883121013641,
+          "optimization_cross_entropy": 1.4887129366397858,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.45660966472976
+        }
+      },
+      {
+        "elapsed_seconds": 564.507741666981,
+        "gradient_norm": 1.5834810733795166,
+        "learning_rate": 0.0002,
+        "objective": 1.1694673299789429,
+        "step": 2000,
+        "validation": {
+          "accuracy": 0.545166015625,
+          "characters": 16384,
+          "cross_entropy": 1.488480806350708,
+          "optimization_cross_entropy": 1.4795922636985779,
+          "optimization_temperature": 1.25,
+          "perplexity": 4.430359829373816
+        }
+      }
+    ],
+    "metrics": {
+      "accuracy": 0.545166015625,
+      "characters": 16384,
+      "cross_entropy": 1.488480806350708,
+      "optimization_cross_entropy": 1.4795922636985779,
+      "optimization_temperature": 1.25,
+      "perplexity": 4.430359829373816
+    },
+    "stage": "integer",
+    "steps": 2000
+  }
+}

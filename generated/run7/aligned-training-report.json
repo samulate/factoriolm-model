@@ -1,0 +1,191 @@
+{
+  "float": {
+    "checkpoint": "generated/run7/factorio-lm-tinychat-float.pt",
+    "decision": "Use the saved float teacher for int4 refinement.",
+    "metrics": {
+      "accuracy": 0.68804931640625,
+      "characters": 16384,
+      "cross_entropy": 1.0360577798945414,
+      "perplexity": 2.8180855738653525,
+      "temperature": 1.0
+    },
+    "stage": "aligned-float-audit",
+    "steps": 0
+  },
+  "integer": {
+    "best_step": 2500,
+    "checkpoint": "generated/run7/factorio-lm-tinychat-aligned-int4.pt",
+    "elapsed_seconds": 1170.0705925840011,
+    "log": [
+      {
+        "elapsed_seconds": 27.63117841699568,
+        "gradient_norm": 8.458354949951172,
+        "learning_rate": 1.6666666666666667e-06,
+        "objective": 0.8833689093589783,
+        "step": 1,
+        "validation": {
+          "accuracy": 0.588134765625,
+          "characters": 16384,
+          "cross_entropy": 1.3610288769964427,
+          "perplexity": 3.9002040683960604,
+          "temperature": 1.125
+        }
+      },
+      {
+        "elapsed_seconds": 126.97045058400545,
+        "gradient_norm": 7.961427688598633,
+        "learning_rate": 0.00024901532690654025,
+        "objective": 1.1970921754837036,
+        "step": 250,
+        "validation": {
+          "accuracy": 0.58453369140625,
+          "characters": 16384,
+          "cross_entropy": 1.347816380657605,
+          "perplexity": 3.849011571481622,
+          "temperature": 1.125
+        }
+      },
+      {
+        "elapsed_seconds": 227.45993979199557,
+        "gradient_norm": 7.810628414154053,
+        "learning_rate": 0.00023796605608144845,
+        "objective": 1.0492660999298096,
+        "step": 500,
+        "validation": {
+          "accuracy": 0.59228515625,
+          "characters": 16384,
+          "cross_entropy": 1.3167842717376743,
+          "perplexity": 3.7314028857983854,
+          "temperature": 1.125
+        }
+      },
+      {
+        "elapsed_seconds": 323.8467797500052,
+        "gradient_norm": 6.862869739532471,
+        "learning_rate": 0.00021578964937055988,
+        "objective": 1.0700803995132446,
+        "step": 750,
+        "validation": {
+          "accuracy": 0.57769775390625,
+          "characters": 16384,
+          "cross_entropy": 1.3255895279364722,
+          "perplexity": 3.7644039222583046,
+          "temperature": 1.125
+        }
+      },
+      {
+        "elapsed_seconds": 428.8317794169998,
+        "gradient_norm": 6.343545913696289,
+        "learning_rate": 0.0001849422586380495,
+        "objective": 0.6995879411697388,
+        "step": 1000,
+        "validation": {
+          "accuracy": 0.59283447265625,
+          "characters": 16384,
+          "cross_entropy": 1.307494815907944,
+          "perplexity": 3.6969006849539094,
+          "temperature": 1.125
+        }
+      },
+      {
+        "elapsed_seconds": 533.4417132499948,
+        "gradient_norm": 8.398651123046875,
+        "learning_rate": 0.0001488403921235225,
+        "objective": 1.3432222604751587,
+        "step": 1250,
+        "validation": {
+          "accuracy": 0.596923828125,
+          "characters": 16384,
+          "cross_entropy": 1.2978833767508604,
+          "perplexity": 3.6615383625854694,
+          "temperature": 1.125
+        }
+      },
+      {
+        "elapsed_seconds": 658.2465050000028,
+        "gradient_norm": 6.901612758636475,
+        "learning_rate": 0.00011148251846510651,
+        "objective": 1.0891070365905762,
+        "step": 1500,
+        "validation": {
+          "accuracy": 0.60406494140625,
+          "characters": 16384,
+          "cross_entropy": 1.2857758266723067,
+          "perplexity": 3.6174734011585903,
+          "temperature": 1.125
+        }
+      },
+      {
+        "elapsed_seconds": 785.5272669590049,
+        "gradient_norm": 7.50303316116333,
+        "learning_rate": 7.700621559523889e-05,
+        "objective": 0.6244303584098816,
+        "step": 1750,
+        "validation": {
+          "accuracy": 0.60235595703125,
+          "characters": 16384,
+          "cross_entropy": 1.2787368373442405,
+          "perplexity": 3.5920994527369627,
+          "temperature": 1.125
+        }
+      },
+      {
+        "elapsed_seconds": 886.5175869170052,
+        "gradient_norm": 7.543396949768066,
+        "learning_rate": 4.922991256185503e-05,
+        "objective": 0.930163562297821,
+        "step": 2000,
+        "validation": {
+          "accuracy": 0.60076904296875,
+          "characters": 16384,
+          "cross_entropy": 1.2723735274523165,
+          "perplexity": 3.5693143818738196,
+          "temperature": 1.125
+        }
+      },
+      {
+        "elapsed_seconds": 989.0947792499937,
+        "gradient_norm": 8.941683769226074,
+        "learning_rate": 3.122997874096545e-05,
+        "objective": 0.9332172274589539,
+        "step": 2250,
+        "validation": {
+          "accuracy": 0.60650634765625,
+          "characters": 16384,
+          "cross_entropy": 1.2664200121754448,
+          "perplexity": 3.5481275448318,
+          "temperature": 1.125
+        }
+      },
+      {
+        "elapsed_seconds": 1115.3556737089966,
+        "gradient_norm": 4.91553258895874,
+        "learning_rate": 2.5e-05,
+        "objective": 0.8016101121902466,
+        "step": 2500,
+        "validation": {
+          "accuracy": 0.60821533203125,
+          "characters": 16384,
+          "cross_entropy": 1.2596901277637471,
+          "perplexity": 3.524329226364778,
+          "temperature": 1.125
+        }
+      }
+    ],
+    "metrics": {
+      "accuracy": 0.60821533203125,
+      "characters": 16384,
+      "cross_entropy": 1.2596901277637471,
+      "perplexity": 3.524329226364778,
+      "temperature": 1.125
+    },
+    "stage": "aligned-integer",
+    "steps": 2500
+  },
+  "maximum_answer_characters": 64,
+  "reason": "Align answer targets with their questions and weight the first 32 characters.",
+  "train_examples": 6358,
+  "validation_examples": 545,
+  "weighted_train_targets": 984461,
+  "weighted_validation_targets": 84895
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+generated/run3/*-latent.pt
+
+# TinyChat downloads and processed datasets stay local.
+generated/**/tinychat*.parquet
+generated/**/tinychat*.jsonl
+generated/**/tinychat*.txt
+generated/**/tinychat*.bin

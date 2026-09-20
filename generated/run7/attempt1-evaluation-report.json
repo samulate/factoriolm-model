@@ -1,0 +1,202 @@
+{
+  "generations": {
+    "Can dogs be good friends": {
+      "adjacent_duplicate_words": 0,
+      "answer": "Yes it can be happy to see seems and because happy to see share and bring sometimes and bring and sometimes and feel sad and bri",
+      "characters": 128,
+      "generated": "Yes it can be happy to see seems and because happy to see share and bring sometimes and bring and sometimes and feel sad and bri",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Can dogs be good friends\nA ",
+      "unique_word_ratio": 0.6153846153846154,
+      "words": 26
+    },
+    "How are you today": {
+      "adjacent_duplicate_words": 1,
+      "answer": "I am feel sea watch and happy to can be for and surprising and and face and can be feel and start and can be some for and feelin",
+      "characters": 128,
+      "generated": "I am feel sea watch and happy to can be for and surprising and and face and can be feel and start and can be some for and feelin",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How are you today\nA ",
+      "unique_word_ratio": 0.5517241379310345,
+      "words": 29
+    },
+    "How can I help a friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feel sad thank you feel happy to see happy today to see a good and sad and enjoy the see seem and sometimes and a lovely da",
+      "characters": 128,
+      "generated": "I am feel sad thank you feel happy to see happy today to see a good and sad and enjoy the see seem and sometimes and a lovely da",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How can I help a friend\nA ",
+      "unique_word_ratio": 0.6551724137931034,
+      "words": 29
+    },
+    "How do I make a new friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel a bit see sometimes and can be very happy to can be feel fearful and sun and share and happy to sea and be feart to see h",
+      "characters": 128,
+      "generated": "I feel a bit see sometimes and can be very happy to can be feel fearful and sun and share and happy to sea and be feart to see h",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How do I make a new friend\nA ",
+      "unique_word_ratio": 0.6,
+      "words": 30
+    },
+    "Should I share my toys": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy too can be happy to sea that something and share and can be feel a bit feel a bit fear and friends can be formal an",
+      "characters": 128,
+      "generated": "I feel happy too can be happy to sea that something and share and can be feel a bit feel a bit fear and friends can be formal an",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Should I share my toys\nA ",
+      "unique_word_ratio": 0.6206896551724138,
+      "words": 29
+    },
+    "What do plants need to grow": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy to see happy to see a bitte sometimes and see can happy to see and happy to happy to can happy to make a bring and",
+      "characters": 127,
+      "generated": "I feel happy to see happy to see a bitte sometimes and see can happy to see and happy to happy to can happy to make a bring and ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What do plants need to grow\nA ",
+      "unique_word_ratio": 0.41379310344827586,
+      "words": 29
+    },
+    "What happens when it rains": {
+      "adjacent_duplicate_words": 2,
+      "answer": "I feel a bit seems can be feel sear and and face and can be feel stay thank you feel fear sometimes and share and such and and b",
+      "characters": 128,
+      "generated": "I feel a bit seems can be feel sear and and face and can be feel stay thank you feel fear sometimes and share and such and and b",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What happens when it rains\nA ",
+      "unique_word_ratio": 0.6206896551724138,
+      "words": 29
+    },
+    "What makes people happy": {
+      "adjacent_duplicate_words": 4,
+      "answer": "I am feel happy to say have and happy to see and and a lovel sometimes to see see see heard and and happy to share and fact and",
+      "characters": 127,
+      "generated": "I am feel happy to say have and happy to see and and a lovel sometimes to see see see heard and and happy to share and fact and ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What makes people happy\nA ",
+      "unique_word_ratio": 0.5172413793103449,
+      "words": 29
+    },
+    "What should I do when I feel sad": {
+      "adjacent_duplicate_words": 1,
+      "answer": "Yes it can be happy to can and be feel happy to be seems sometimes and the sunny day and and a big and sometimes and face and fe",
+      "characters": 128,
+      "generated": "Yes it can be happy to can and be feel happy to be seems sometimes and the sunny day and and a big and sometimes and face and fe",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What should I do when I feel sad\nA ",
+      "unique_word_ratio": 0.5862068965517241,
+      "words": 29
+    },
+    "Where do birds live": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feel happy to come can be feel sometimes and sad and happy to can be some can be feel happy to see happy today thank you fo",
+      "characters": 128,
+      "generated": "I am feel happy to come can be feel sometimes and sad and happy to can be some can be feel happy to see happy today thank you fo",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Where do birds live\nA ",
+      "unique_word_ratio": 0.5862068965517241,
+      "words": 29
+    },
+    "Why do we need to sleep": {
+      "adjacent_duplicate_words": 1,
+      "answer": "I am feel a bit feel sometimes and about you feel happy to see simplace and and feel happy to see happy to see a bit of seart to",
+      "characters": 128,
+      "generated": "I am feel a bit feel sometimes and about you feel happy to see simplace and and feel happy to see happy to see a bit of seart to",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why do we need to sleep\nA ",
+      "unique_word_ratio": 0.5172413793103449,
+      "words": 29
+    },
+    "Why is the sky blue": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy today to bright something and share and bad and happy to see happy to see happy to see share and can feel happy to",
+      "characters": 127,
+      "generated": "I feel happy today to bright something and share and bad and happy to see happy to see happy to see share and can feel happy to ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why is the sky blue\nA ",
+      "unique_word_ratio": 0.4444444444444444,
+      "words": 27
+    }
+  },
+  "metrics": {
+    "exact": {
+      "all_characters": {
+        "accuracy": 0.5615234375,
+        "characters": 2048,
+        "cross_entropy": 1.4460171006249134,
+        "perplexity": 4.246168728114364
+      },
+      "answer_characters": {
+        "accuracy": 0.5693191140278917,
+        "characters": 1219,
+        "cross_entropy": 1.4268463501458444,
+        "perplexity": 4.165541795641257
+      }
+    },
+    "float": {
+      "all_characters": {
+        "accuracy": 0.660400390625,
+        "characters": 16384,
+        "cross_entropy": 1.0802188515663147,
+        "perplexity": 2.945324069321912
+      },
+      "answer_characters": {
+        "accuracy": 0.6573554788610871,
+        "characters": 9272,
+        "cross_entropy": 1.1107985041489161,
+        "perplexity": 3.036782309827387
+      },
+      "temperature": 1.0
+    },
+    "qat": {
+      "all_characters": {
+        "accuracy": 0.56884765625,
+        "characters": 16384,
+        "cross_entropy": 1.4065072238445282,
+        "perplexity": 4.081674103912998
+      },
+      "answer_characters": {
+        "accuracy": 0.5634167385677308,
+        "characters": 9272,
+        "cross_entropy": 1.423792051590137,
+        "perplexity": 4.152838397212385
+      },
+      "temperature": 1.125
+    },
+    "run6d_exact_on_chat": {
+      "all_characters": {
+        "accuracy": 0.4267578125,
+        "characters": 2048,
+        "cross_entropy": 2.089458852745733,
+        "perplexity": 8.080541218244106
+      },
+      "answer_characters": {
+        "accuracy": 0.4413453650533224,
+        "characters": 1219,
+        "cross_entropy": 1.9853838606743113,
+        "perplexity": 7.281842061840002
+      }
+    }
+  },
+  "quality_gate": {
+    "automatic_generation_gate": true,
+    "numerically_better_than_run6d_on_chat": true,
+    "total_questions": 12,
+    "usable_answers": 7
+  }
+}

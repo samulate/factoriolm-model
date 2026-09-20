@@ -1,0 +1,132 @@
+PROMPT: 'A little '
+EXACT (256 chars):
+and said He saw a big back
+The ball saw a big bear and said He can said the bear
+He said He wante a big bad and said I want to help her sad and saw a big friend a big saw a big beach
+endoftext 
+One day a little ball and and said Oe can and said I will sang
+
+PROMPT: 'He wanted '
+EXACT (256 chars):
+to see it was a big back
+The bear and saw a big bad and flease
+He lead and saw a big bad and said
+He looked and saw a big ball and said I will sad and saw saw a big ball
+He wanted to help he happeded to help her friends
+The ball and said Her mom and said H
+
+PROMPT: 'He was '
+EXACT (256 chars):
+a big beak
+He wanted to help her friends and saw a big saw a big ball
+He saw a big said He was so elient
+He like will saw a big back
+He want to the ball and said Oe can started to help her friends and said
+The ball saw a big bear
+endoftext 
+One day said Oe
+
+PROMPT: 'Mom said '
+EXACT (256 chars):
+He was a big sad an some became best and said I help you can started to started to started to play and said He saw a big said in the ball and said
+He wanted to sad and said He was so so and said He could said I saw a big ball
+She look to help her saw a big
+
+PROMPT: 'Once upon a time'
+EXACT (256 chars):
+ there was a big beache
+The ball want to like will sad and saw a big bad the sare
+He was so happy and said He saw a big beache below and said He can started to saw a big saw a big back
+He saw a big beach and saw a big ball
+He wanted to like to help her fri
+
+PROMPT: 'One day '
+EXACT (256 chars):
+he had a big ball
+He wanted to have a big bear friend
+He loved to started to help he like there was a big best and said her friend and saw a big ball
+The ball saw a big saw a big sand said not knew so happy
+He was so happy and said I have saw a big saw a b
+
+PROMPT: 'She said '
+EXACT (256 chars):
+I saw a big sad
+He saw a big bear and said her doll sad and said Oe
+He wanted to started to started to see a big beack
+He wanted to hear and saw something a big back
+He wanted to play time to help her friend and said Hell becan dow felt the beach
+The ball 
+
+PROMPT: 'She was '
+EXACT (256 chars):
+a big bad the bear
+The box wanted to sad and saw something said I happened the bear said
+He said He said He want to help he was sar and said he saw a big beach fun
+endoftext 
+One day a little became near the stree went to help a big became friend the box w
+
+PROMPT: 'The boy '
+EXACT (256 chars):
+named Max
+He wanted to sad and said I can friend and saw a big saw a big bear
+He was so sad and said
+He lead and said He can help and saw her start and said in he cars
+They had a big saw a big bad a big ball
+The bear saw a big ball and saw a big saw a big 
+
+PROMPT: 'The cat '
+EXACT (256 chars):
+saw a big beak
+The bird saw a big bear and said I will and said I will wanted to started to said the ball and said Oe can so said the becaun and said the beached and said I have said I have a lits and said the bear and saw a big saw a big saw a big friends
+
+PROMPT: 'The dog '
+EXACT (256 chars):
+sad and said I will saw a big bear
+The beache back
+He wanted to started to help her friend and said Oes a lad to said
+He saw a big beach the ball and said He can we said the because a big back
+The ball and said her sad
+The bear saw a big bad and said
+He wa
+
+PROMPT: 'The girl '
+EXACT (256 chars):
+named Max
+He saw a big became ran and said I saw a big saw a big beack
+He loved to help the said not sad and saw sad and said Her mom said I will and saw a big becaun and said I said I happen the sky the belie was so friend a big friend the strail
+He said 
+
+PROMPT: 'The house '
+EXACT (256 chars):
+and saw a big ball
+She saw a big ball and said He saw saw a big bird and saw a big bear
+endoftext 
+One day a little girl name doa
+He says the sky and her saw a big friend the bear
+They had an the sky and said it it
+He look and said they dog and said Her mo
+
+PROMPT: 'The little '
+EXACT (256 chars):
+ball and said her started to help her friends
+He want to help the started to help her be a little girl was a big saw a big ball
+She lad a big sand said he saw a big saw a big bad and says
+He wanted to like to started to help help
+He loved to help the sare
+
+
+PROMPT: 'There was '
+EXACT (256 chars):
+a big bear learn and said not like was a big saw a big back
+He wanted to stay the ball saw a big bear ball sad a big best and sad and said I said I want to help her all became there was a big sad and said Oe be and said I saw a big saw a big ball
+He learne
+
+PROMPT: 'Today '
+EXACT (256 chars):
+and said I happy you can because it was sad and said I saw so saw something and said I happy
+He saw a big beack
+He wanted to help her and saw a big ball
+He land lose and said Yes
+I a like the belie
+He want to the bear and friend and said he could not and s
+

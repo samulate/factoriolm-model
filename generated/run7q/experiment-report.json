@@ -1,0 +1,65 @@
+{
+  "run": "7Q",
+  "status": "rejected-experiment",
+  "conclusion": "No coherent non-greeting demo trajectory was found, and no experimental checkpoint is eligible to replace Run 7P.",
+  "release": {
+    "selected_run": "7P",
+    "model_changed": false,
+    "exact_checkpoint_sha256": "7da54d490f623ed729919683e0972f34cd1e9c893403bc627471be0c94753a1a",
+    "integer_checkpoint_sha256": "d5660643cb01a6be9ed735fdeb94b8f2323a89303d40cd5fe9117efb9b5c6b13"
+  },
+  "experiments": [
+    {
+      "name": "broad-balanced-topics",
+      "thematic_train_records": 3059,
+      "thematic_validation_records": 297,
+      "integer_steps_completed": 2000,
+      "best_step": 2000,
+      "best_selection_cross_entropy": 1.1908239365420854,
+      "result": "rejected-autoregressive-collapse"
+    },
+    {
+      "name": "cosmic-mystery-balanced",
+      "thematic_train_records": 146,
+      "thematic_validation_records": 18,
+      "float_steps_completed": 500,
+      "integer_steps_completed": 375,
+      "best_integer_step": 250,
+      "best_integer_selection_cross_entropy": 1.3064088796388154,
+      "result": "rejected-zero-coherent-heldout-generations"
+    },
+    {
+      "name": "scheduled-sampling-cosmic-mystery",
+      "optimizer_steps_completed": 60,
+      "rollout_characters": 16,
+      "general_cross_entropy_at_step_60": 1.393856002137909,
+      "thematic_cross_entropy_at_step_60": 1.386732247141481,
+      "coherent_heldout_passes": 0,
+      "result": "rejected-no-autoregressive-recovery"
+    },
+    {
+      "name": "cosmic-mystery-specialist-probe",
+      "thematic_batch_probability": 0.99,
+      "float_steps_completed": 250,
+      "selected_float_step": 1,
+      "result": "rejected-topical-and-general-validation-worsened"
+    },
+    {
+      "name": "exhaustive-frozen-run7p-mining",
+      "natural_non_mood_prompts_evaluated": 13503,
+      "characters_generated_per_prompt": 64,
+      "elapsed_seconds": 273.7629010829987,
+      "strict_non_generic_passes": 0,
+      "surprising_topic_passes": 0,
+      "result": "no-eligible-prompt"
+    }
+  ],
+  "architecture": {
+    "changed": false,
+    "vocabulary_changed": false,
+    "weight_representation_changed": false,
+    "sparse_mask_changed": false,
+    "controller_or_cache_changed": false
+  },
+  "recommended_next_step": "If a non-greeting Q/A demo is still required, retrain a new float TinyChat teacher with answer-level topic balancing and autoregressive sequence evaluation from the start; do not continue fine-tuning the collapsed Run 7P teacher."
+}

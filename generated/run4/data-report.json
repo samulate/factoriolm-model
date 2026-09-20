@@ -1,0 +1,35 @@
+{
+  "alphabet": "\n abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+  "dataset": "roneneldan/TinyStories TinyStoriesV2-GPT4",
+  "punctuation_constraint": "The fixed 64-symbol hardware ABI has no punctuation tokens; sentence punctuation maps to newline, other punctuation to space, and quotes/apostrophes are removed.",
+  "selection": "deterministic normalized prefix of the official train and validation files",
+  "source_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "splits": {
+    "train": {
+      "ascii_typography_after_translation": 262006,
+      "normalized_characters": 33413576,
+      "punctuation_or_symbols_mapped_to_boundaries": 1327908,
+      "selected_characters": 24000000,
+      "source": "/private/tmp/TinyStoriesV2-GPT4-train-prefix.txt",
+      "source_characters": 34985738,
+      "text": "generated/run4/tinystories-v2-gpt4-train.txt",
+      "text_sha256": "07231ee7df9ccca9ead28ea81333ef8a7fc93714e98c3fab658cf814fd8bb947",
+      "token_sha256": "21859f36283344bc9ddc95e606eab25612d2ecf65a6474ead9e358b5e83006e6",
+      "tokens": "generated/run4/tinystories-v2-gpt4-train.bin",
+      "unsupported_removed": 259136
+    },
+    "validation": {
+      "ascii_typography_after_translation": 37115,
+      "normalized_characters": 4773671,
+      "punctuation_or_symbols_mapped_to_boundaries": 189734,
+      "selected_characters": 2000000,
+      "source": "/private/tmp/TinyStoriesV2-GPT4-valid-prefix.txt",
+      "source_characters": 4997980,
+      "text": "generated/run4/tinystories-v2-gpt4-validation.txt",
+      "text_sha256": "fa0b82bcffb12e03856e056517b56cc24bfd9a347611d2a94a0d9287a47c29ad",
+      "token_sha256": "1912c5f736711de260ce8d78ed55817428826e85b5eaa4dec94f31ff993734fd",
+      "tokens": "generated/run4/tinystories-v2-gpt4-validation.bin",
+      "unsupported_removed": 36675
+    }
+  }
+}

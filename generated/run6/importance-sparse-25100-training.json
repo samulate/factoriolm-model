@@ -1,0 +1,222 @@
+{
+  "allocation": {
+    "mask": {
+      "mask_sha256": "1f502b94101478f2e276a296c23f9f342da8817e9b0b5f7940ee5a356caebdd7",
+      "per_matrix": {
+        "layers.0.ffn_down": 838,
+        "layers.0.ffn_up": 1125,
+        "layers.0.key": 256,
+        "layers.0.output": 666,
+        "layers.0.query": 256,
+        "layers.0.value": 646,
+        "layers.1.ffn_down": 1069,
+        "layers.1.ffn_up": 1351,
+        "layers.1.key": 256,
+        "layers.1.output": 622,
+        "layers.1.query": 256,
+        "layers.1.value": 586,
+        "layers.2.ffn_down": 1179,
+        "layers.2.ffn_up": 1449,
+        "layers.2.key": 256,
+        "layers.2.output": 688,
+        "layers.2.query": 256,
+        "layers.2.value": 670,
+        "layers.3.ffn_down": 1215,
+        "layers.3.ffn_up": 1460,
+        "layers.3.key": 256,
+        "layers.3.output": 641,
+        "layers.3.query": 256,
+        "layers.3.value": 624,
+        "layers.4.ffn_down": 1100,
+        "layers.4.ffn_up": 1274,
+        "layers.4.key": 256,
+        "layers.4.output": 571,
+        "layers.4.query": 256,
+        "layers.4.value": 525,
+        "layers.5.ffn_down": 812,
+        "layers.5.ffn_up": 1185,
+        "layers.5.key": 256,
+        "layers.5.output": 393,
+        "layers.5.query": 256,
+        "layers.5.value": 453,
+        "lm_head": 886
+      },
+      "per_module": {
+        "ffn_down": 6213,
+        "ffn_up": 7844,
+        "key": 1536,
+        "lm_head": 886,
+        "output": 3581,
+        "query": 1536,
+        "value": 3504
+      },
+      "total_nonzeros": 25100
+    },
+    "method": "global-abs-weight-times-gradient-with-25-to-75-percent-guards",
+    "run5_mask": {
+      "mask_sha256": "1931291c69fe1103ffe7df725ba2b2ed5cbbdadbf13565dbc2e7a658f9474708",
+      "per_matrix": {
+        "layers.0.ffn_down": 1004,
+        "layers.0.ffn_up": 1004,
+        "layers.0.key": 502,
+        "layers.0.output": 502,
+        "layers.0.query": 502,
+        "layers.0.value": 502,
+        "layers.1.ffn_down": 1004,
+        "layers.1.ffn_up": 1004,
+        "layers.1.key": 502,
+        "layers.1.output": 502,
+        "layers.1.query": 502,
+        "layers.1.value": 502,
+        "layers.2.ffn_down": 1004,
+        "layers.2.ffn_up": 1004,
+        "layers.2.key": 502,
+        "layers.2.output": 502,
+        "layers.2.query": 502,
+        "layers.2.value": 502,
+        "layers.3.ffn_down": 1004,
+        "layers.3.ffn_up": 1004,
+        "layers.3.key": 502,
+        "layers.3.output": 502,
+        "layers.3.query": 502,
+        "layers.3.value": 502,
+        "layers.4.ffn_down": 1004,
+        "layers.4.ffn_up": 1004,
+        "layers.4.key": 502,
+        "layers.4.output": 502,
+        "layers.4.query": 502,
+        "layers.4.value": 502,
+        "layers.5.ffn_down": 1004,
+        "layers.5.ffn_up": 1004,
+        "layers.5.key": 502,
+        "layers.5.output": 502,
+        "layers.5.query": 502,
+        "layers.5.value": 502,
+        "lm_head": 1004
+      },
+      "per_module": {
+        "ffn_down": 6024,
+        "ffn_up": 6024,
+        "key": 3012,
+        "lm_head": 1004,
+        "output": 3012,
+        "query": 3012,
+        "value": 3012
+      },
+      "total_nonzeros": 25100
+    },
+    "saliency_batch_size": 32,
+    "saliency_batches": 24,
+    "saliency_mean_cross_entropy": 1.155084068576495,
+    "score_checkpoint": "generated/run6/importance-scores.pt",
+    "target_metrics_before_recovery": {
+      "accuracy": 0.036376953125,
+      "characters": 16384,
+      "cross_entropy": 50.691508293151855,
+      "optimization_cross_entropy": 50.691508293151855,
+      "optimization_temperature": 1.0,
+      "perplexity": 1.035243067822856e+22
+    }
+  },
+  "candidate": "importance-sparse-25100",
+  "checkpoint": "generated/run6/factorio-lm-sparse-importance-25100.pt",
+  "configuration": {
+    "batch_size": 64,
+    "device": "cpu",
+    "distillation_weight": 0.25,
+    "evaluation_characters": 16384,
+    "evaluation_interval": 250,
+    "generation_length": 256,
+    "gradient_clip": 1.0,
+    "integer_logit_temperature": 1.25,
+    "integer_qat_learning_rate": 0.002,
+    "integer_qat_steps": 2000,
+    "mask_refresh_interval": 100000,
+    "maximum_scale_denominator": 256,
+    "nonzero_weights": 25100,
+    "seed": 4104,
+    "sequence_length": 64,
+    "sparse_float_learning_rate": 0.001,
+    "sparse_float_steps": 750,
+    "warmup_steps": 250,
+    "weight_decay": 0.01,
+    "weight_limit": 7
+  },
+  "training": {
+    "best_step": 750,
+    "checkpoint": "generated/run6/factorio-lm-sparse-importance-25100.pt",
+    "elapsed_seconds": 137.56848649997846,
+    "log": [
+      {
+        "elapsed_seconds": 0.2660596249916125,
+        "gradient_norm": 166.25393676757812,
+        "learning_rate": 4e-06,
+        "objective": 50.62287521362305,
+        "step": 1,
+        "validation": {
+          "accuracy": 0.03643798828125,
+          "characters": 16384,
+          "cross_entropy": 50.648682594299316,
+          "optimization_cross_entropy": 50.648682594299316,
+          "optimization_temperature": 1.0,
+          "perplexity": 9.91843990635443e+21
+        }
+      },
+      {
+        "elapsed_seconds": 24.677808541979175,
+        "gradient_norm": 5.953845977783203,
+        "learning_rate": 0.001,
+        "objective": 1.8062487840652466,
+        "step": 250,
+        "validation": {
+          "accuracy": 0.4022216796875,
+          "characters": 16384,
+          "cross_entropy": 2.1071656346321106,
+          "optimization_cross_entropy": 2.1071656346321106,
+          "optimization_temperature": 1.0,
+          "perplexity": 8.224895855550393
+        }
+      },
+      {
+        "elapsed_seconds": 77.1303439999756,
+        "gradient_norm": 4.511055946350098,
+        "learning_rate": 0.0005514165474542244,
+        "objective": 1.5614581108093262,
+        "step": 500,
+        "validation": {
+          "accuracy": 0.47161865234375,
+          "characters": 16384,
+          "cross_entropy": 1.821839153766632,
+          "optimization_cross_entropy": 1.821839153766632,
+          "optimization_temperature": 1.0,
+          "perplexity": 6.183219891115001
+        }
+      },
+      {
+        "elapsed_seconds": 137.2550896249886,
+        "gradient_norm": 2.0804412364959717,
+        "learning_rate": 0.0001,
+        "objective": 1.4499413967132568,
+        "step": 750,
+        "validation": {
+          "accuracy": 0.48779296875,
+          "characters": 16384,
+          "cross_entropy": 1.7591440379619598,
+          "optimization_cross_entropy": 1.7591440379619598,
+          "optimization_temperature": 1.0,
+          "perplexity": 5.807464297339281
+        }
+      }
+    ],
+    "metrics": {
+      "accuracy": 0.48779296875,
+      "characters": 16384,
+      "cross_entropy": 1.7591440379619598,
+      "optimization_cross_entropy": 1.7591440379619598,
+      "optimization_temperature": 1.0,
+      "perplexity": 5.807464297339281
+    },
+    "stage": "sparse",
+    "steps": 750
+  }
+}

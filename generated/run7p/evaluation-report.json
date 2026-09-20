@@ -1,0 +1,501 @@
+{
+  "generations": {
+    "Can dogs be good friends": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feeling that a lovely day, thank you for asking.",
+      "characters": 53,
+      "generated": "I am feeling that a lovely day, thank you for asking.\nQ I am feeling that a lovely to hear is a bit coluch a bit can be a befeep",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Can dogs be good friends?\nA ",
+      "punctuation_count": 2,
+      "terminal_punctuation": true,
+      "unique_word_ratio": 1.0,
+      "words": 11
+    },
+    "How are you today": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I also feel a bit to feel a bit that and happy too, thank you for asking to calm and be a beautiful to can feel a bit can be can",
+      "characters": 128,
+      "generated": "I also feel a bit to feel a bit that and happy too, thank you for asking to calm and be a beautiful to can feel a bit can be can",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How are you today?\nA ",
+      "punctuation_count": 1,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.5806451612903226,
+      "words": 31
+    },
+    "How can I help a friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "Yes, I also feel happy too, it is a lovely day and happy today, thank you for asking a bit and beautiful day to seem the seem th",
+      "characters": 128,
+      "generated": "Yes, I also feel happy too, it is a lovely day and happy today, thank you for asking a bit and beautiful day to seem the seem th",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How can I help a friend?\nA ",
+      "punctuation_count": 3,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.8214285714285714,
+      "words": 28
+    },
+    "How do I make a new friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feeling happy too, it is a little and a befer and a bit feel a bit to calm and be some happy too, it is a lovely day, thank",
+      "characters": 128,
+      "generated": "I am feeling happy too, it is a little and a befer and a bit feel a bit to calm and be some happy too, it is a lovely day, thank",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How do I make a new friend?\nA ",
+      "punctuation_count": 3,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.6451612903225806,
+      "words": 31
+    },
+    "Should I share my toys": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy today, thank you for a love a bit that is a lovely day to feel happy today, thank you for asking.",
+      "characters": 110,
+      "generated": "I feel happy today, thank you for a love a bit that is a lovely day to feel happy today, thank you for asking.\nQ What it is a li",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Should I share my toys?\nA ",
+      "punctuation_count": 3,
+      "terminal_punctuation": true,
+      "unique_word_ratio": 0.6666666666666666,
+      "words": 24
+    },
+    "What do plants need to grow": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy today, thank you for asking.",
+      "characters": 41,
+      "generated": "I feel happy today, thank you for asking.\nQ Hello see that is a beautiful day it can be a litten that the seem that thank you fo",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What do plants need to grow?\nA ",
+      "punctuation_count": 2,
+      "terminal_punctuation": true,
+      "unique_word_ratio": 1.0,
+      "words": 8
+    },
+    "What happens when it rains": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy too, it is a lovely day, thank you feel a bit did not feeling a little and feel a bit thank you for asking.",
+      "characters": 120,
+      "generated": "I feel happy too, it is a lovely day, thank you feel a bit did not feeling a little and feel a bit thank you for asking.\nQ I am ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What happens when it rains?\nA ",
+      "punctuation_count": 3,
+      "terminal_punctuation": true,
+      "unique_word_ratio": 0.7037037037037037,
+      "words": 27
+    },
+    "What makes people happy": {
+      "adjacent_duplicate_words": 1,
+      "answer": "I am feeling a beautiful beautiful coll and a face a bit to can feel a bit can be happy today, thank you for asking that a lovel",
+      "characters": 128,
+      "generated": "I am feeling a beautiful beautiful coll and a face a bit to can feel a bit can be happy today, thank you for asking that a lovel",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What makes people happy?\nA ",
+      "punctuation_count": 1,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.75,
+      "words": 28
+    },
+    "What should I do when I feel sad": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I also feel happy today, it is a love that a little a bit to feel a lite a bit and like a bit can be a beautiful day, thank you",
+      "characters": 127,
+      "generated": "I also feel happy today, it is a love that a little a bit to feel a lite a bit and like a bit can be a beautiful day, thank you ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What should I do when I feel sad?\nA ",
+      "punctuation_count": 2,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.7096774193548387,
+      "words": 31
+    },
+    "Where do birds live": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feeling happy today, thank you for asking.",
+      "characters": 47,
+      "generated": "I am feeling happy today, thank you for asking.\nQ Hear that that the seem that is a lovely day, thank you for asking.\nQ I am all",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Where do birds live?\nA ",
+      "punctuation_count": 2,
+      "terminal_punctuation": true,
+      "unique_word_ratio": 1.0,
+      "words": 9
+    },
+    "Why do we need to sleep": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I feel happy today, thank you for a lovely day in the seems can feel a bit that a bit do feel a bit be calm and asking a litte f",
+      "characters": 128,
+      "generated": "I feel happy today, thank you for a lovely day in the seems can feel a bit that a bit do feel a bit be calm and asking a litte f",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why do we need to sleep?\nA ",
+      "punctuation_count": 1,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.7419354838709677,
+      "words": 31
+    },
+    "Why is the sky blue": {
+      "adjacent_duplicate_words": 1,
+      "answer": "I am all feeling that and and feel happiness to hear that a love and happy too, it is a bit do feel happy today, thank you for a",
+      "characters": 128,
+      "generated": "I am all feeling that and and feel happiness to hear that a love and happy too, it is a bit do feel happy today, thank you for a",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why is the sky blue?\nA ",
+      "punctuation_count": 2,
+      "terminal_punctuation": false,
+      "unique_word_ratio": 0.7586206896551724,
+      "words": 29
+    }
+  },
+  "legacy_run7_letter_space_comparison": {
+    "letter_space_answer_accuracy": {
+      "run7": 0.5340442986054142,
+      "run7p": 0.5578342904019689
+    },
+    "run7": {
+      "all_characters": {
+        "accuracy": 0.5361328125,
+        "characters": 2048,
+        "cross_entropy": 1.4823363953219852,
+        "perplexity": 4.40322133798159
+      },
+      "answer_characters": {
+        "accuracy": 0.5340442986054142,
+        "characters": 1219,
+        "cross_entropy": 1.5024058265494042,
+        "perplexity": 4.492484217308392
+      }
+    },
+    "run7p": {
+      "all_characters": {
+        "accuracy": 0.55810546875,
+        "characters": 2048,
+        "cross_entropy": 1.5887970316052753,
+        "perplexity": 4.89785342011617
+      },
+      "answer_characters": {
+        "accuracy": 0.5578342904019689,
+        "characters": 1219,
+        "cross_entropy": 1.5378652914196973,
+        "perplexity": 4.654643350778337
+      }
+    },
+    "source": "Run 7 punctuation-free validation tokens 0..53"
+  },
+  "metrics": {
+    "exact": {
+      "all_characters": {
+        "accuracy": 0.56787109375,
+        "characters": 2048,
+        "cross_entropy": 1.4654736640605333,
+        "perplexity": 4.329593527539464
+      },
+      "answer_characters": {
+        "accuracy": 0.5525114155251142,
+        "characters": 1095,
+        "cross_entropy": 1.527041465520573,
+        "perplexity": 4.604533978302331
+      },
+      "symbol_classes": {
+        "characters": {
+          "!": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "\"": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "'": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "(": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          ")": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          ",": {
+            "correct": 3,
+            "precision": 0.42857142857142855,
+            "predictions": 7,
+            "recall": 0.25,
+            "targets": 12
+          },
+          "-": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 1
+          },
+          ".": {
+            "correct": 2,
+            "precision": 0.5,
+            "predictions": 4,
+            "recall": 0.13333333333333333,
+            "targets": 15
+          },
+          ";": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "?": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          }
+        },
+        "letter_space": {
+          "accuracy": 0.5623242736644799,
+          "targets": 1067
+        },
+        "micro": {
+          "correct": 5,
+          "precision": 0.45454545454545453,
+          "predictions": 11,
+          "recall": 0.17857142857142858,
+          "targets": 28
+        }
+      }
+    },
+    "float": {
+      "all_characters": {
+        "accuracy": 0.67828369140625,
+        "characters": 16384,
+        "cross_entropy": 1.0301152467727661,
+        "perplexity": 2.8013886670991726
+      },
+      "answer_characters": {
+        "accuracy": 0.6671458586752184,
+        "characters": 9043,
+        "cross_entropy": 1.0774458986750801,
+        "perplexity": 2.9371681376614966
+      },
+      "symbol_classes": {
+        "characters": {
+          "!": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "\"": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "'": {
+            "correct": 2,
+            "precision": 1.0,
+            "predictions": 2,
+            "recall": 0.4,
+            "targets": 5
+          },
+          "(": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          ")": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          ",": {
+            "correct": 40,
+            "precision": 0.851063829787234,
+            "predictions": 47,
+            "recall": 0.46511627906976744,
+            "targets": 86
+          },
+          "-": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 1
+          },
+          ".": {
+            "correct": 20,
+            "precision": 0.5555555555555556,
+            "predictions": 36,
+            "recall": 0.1652892561983471,
+            "targets": 121
+          },
+          ";": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 4
+          },
+          "?": {
+            "correct": 2,
+            "precision": 0.4,
+            "predictions": 5,
+            "recall": 0.5,
+            "targets": 4
+          }
+        },
+        "letter_space": {
+          "accuracy": 0.6766039446837452,
+          "targets": 8822
+        },
+        "micro": {
+          "correct": 64,
+          "precision": 0.7111111111111111,
+          "predictions": 90,
+          "recall": 0.2895927601809955,
+          "targets": 221
+        }
+      },
+      "temperature": 1.0
+    },
+    "qat": {
+      "all_characters": {
+        "accuracy": 0.5762939453125,
+        "characters": 16384,
+        "cross_entropy": 1.4233940541744232,
+        "perplexity": 4.151185907127622
+      },
+      "answer_characters": {
+        "accuracy": 0.5624239743447971,
+        "characters": 9043,
+        "cross_entropy": 1.470294757080753,
+        "perplexity": 4.350517297869544
+      },
+      "symbol_classes": {
+        "characters": {
+          "!": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "\"": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          "'": {
+            "correct": 1,
+            "precision": 1.0,
+            "predictions": 1,
+            "recall": 0.2,
+            "targets": 5
+          },
+          "(": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          ")": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 0
+          },
+          ",": {
+            "correct": 37,
+            "precision": 0.6981132075471698,
+            "predictions": 53,
+            "recall": 0.43023255813953487,
+            "targets": 86
+          },
+          "-": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 1
+          },
+          ".": {
+            "correct": 8,
+            "precision": 0.2962962962962963,
+            "predictions": 27,
+            "recall": 0.06611570247933884,
+            "targets": 121
+          },
+          ";": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 4
+          },
+          "?": {
+            "correct": 0,
+            "precision": 0.0,
+            "predictions": 0,
+            "recall": 0.0,
+            "targets": 4
+          }
+        },
+        "letter_space": {
+          "accuracy": 0.5712990251643618,
+          "targets": 8822
+        },
+        "micro": {
+          "correct": 46,
+          "precision": 0.5679012345679012,
+          "predictions": 81,
+          "recall": 0.2081447963800905,
+          "targets": 221
+        }
+      },
+      "temperature": 1.125
+    }
+  },
+  "quality_gate": {
+    "exact_accuracy_within_two_points_of_run7": true,
+    "heldout_punctuation_demo_selected": true,
+    "minimum_exact_answer_accuracy": 0.5140442986054142
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "best_step": 1500,
+  "checkpoint": "generated/run5/factorio-lm-int3-qat.pt",
+  "elapsed_seconds": 0.16768708400195464,
+  "log": [],
+  "metrics": {
+    "accuracy": 0.49609375,
+    "characters": 16384,
+    "cross_entropy": 1.7158876657485962,
+    "optimization_cross_entropy": 1.7948627173900604,
+    "optimization_temperature": 2.0,
+    "perplexity": 5.561610172730279
+  },
+  "stage": "integer",
+  "steps": 1500
+}

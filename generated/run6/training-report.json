@@ -1,0 +1,245 @@
+{
+  "dataset": {
+    "alphabet": "\n abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+    "dataset": "roneneldan/TinyStories TinyStoriesV2-GPT4",
+    "punctuation_constraint": "The fixed 64-symbol hardware ABI has no punctuation tokens; sentence punctuation maps to newline, other punctuation to space, and quotes/apostrophes are removed.",
+    "selection": "deterministic normalized prefix of the official train and validation files",
+    "source_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+    "splits": {
+      "train": {
+        "ascii_typography_after_translation": 262006,
+        "normalized_characters": 33413576,
+        "punctuation_or_symbols_mapped_to_boundaries": 1327908,
+        "selected_characters": 24000000,
+        "source": "/private/tmp/TinyStoriesV2-GPT4-train-prefix.txt",
+        "source_characters": 34985738,
+        "text": "generated/run4/tinystories-v2-gpt4-train.txt",
+        "text_sha256": "07231ee7df9ccca9ead28ea81333ef8a7fc93714e98c3fab658cf814fd8bb947",
+        "token_sha256": "21859f36283344bc9ddc95e606eab25612d2ecf65a6474ead9e358b5e83006e6",
+        "tokens": "generated/run4/tinystories-v2-gpt4-train.bin",
+        "unsupported_removed": 259136
+      },
+      "validation": {
+        "ascii_typography_after_translation": 37115,
+        "normalized_characters": 4773671,
+        "punctuation_or_symbols_mapped_to_boundaries": 189734,
+        "selected_characters": 2000000,
+        "source": "/private/tmp/TinyStoriesV2-GPT4-valid-prefix.txt",
+        "source_characters": 4997980,
+        "text": "generated/run4/tinystories-v2-gpt4-validation.txt",
+        "text_sha256": "fa0b82bcffb12e03856e056517b56cc24bfd9a347611d2a94a0d9287a47c29ad",
+        "token_sha256": "1912c5f736711de260ce8d78ed55817428826e85b5eaa4dec94f31ff993734fd",
+        "tokens": "generated/run4/tinystories-v2-gpt4-validation.bin",
+        "unsupported_removed": 36675
+      }
+    }
+  },
+  "focused_search": [
+    "int4-run5-mask-training.json",
+    "importance-sparse-25100-training.json",
+    "sparse-swap-32-250-training.json",
+    "sparse-swap-64-250-training.json",
+    "sparse-swap-128-250-training.json",
+    "sparse-swap-64-750-training.json",
+    "int4-swap-64-training.json",
+    "int4-refined-training.json"
+  ],
+  "mask_search": {
+    "best_sparse_float_candidate": "64 sensitivity-aware swaps",
+    "best_sparse_float_metrics": {
+      "accuracy": 0.63092041015625,
+      "characters": 16384,
+      "cross_entropy": 1.1936993896961212,
+      "optimization_cross_entropy": 1.1936993896961212,
+      "optimization_temperature": 1.0,
+      "perplexity": 3.2992639221428925
+    },
+    "integer_result": "did not beat the original mask on calibrated CE or prose",
+    "winner_changed_mask": false
+  },
+  "measured_optimizer_elapsed_seconds": 2010.776639583928,
+  "refinement_rejected_for_repetition": true,
+  "run": 6,
+  "selected_qat_checkpoint": "generated/run6/factorio-lm-int4-run5-mask.pt",
+  "selected_training": {
+    "candidate": "scaled-int4-run5-mask",
+    "checkpoint": "generated/run6/factorio-lm-int4-run5-mask.pt",
+    "configuration": {
+      "batch_size": 64,
+      "device": "cpu",
+      "distillation_weight": 0.25,
+      "evaluation_characters": 16384,
+      "evaluation_interval": 250,
+      "generation_length": 256,
+      "gradient_clip": 1.0,
+      "integer_logit_temperature": 1.25,
+      "integer_qat_learning_rate": 0.002,
+      "integer_qat_steps": 2000,
+      "mask_refresh_interval": 100000,
+      "maximum_scale_denominator": 256,
+      "nonzero_weights": 25100,
+      "seed": 4104,
+      "sequence_length": 64,
+      "sparse_float_learning_rate": 0.001,
+      "sparse_float_steps": 750,
+      "warmup_steps": 250,
+      "weight_decay": 0.01,
+      "weight_limit": 7
+    },
+    "training": {
+      "best_step": 1500,
+      "checkpoint": "generated/run6/factorio-lm-int4-run5-mask.pt",
+      "elapsed_seconds": 658.2583114169829,
+      "log": [
+        {
+          "elapsed_seconds": 0.5395764579880051,
+          "gradient_norm": 4.833245277404785,
+          "learning_rate": 8e-06,
+          "objective": 1.984001636505127,
+          "step": 1,
+          "validation": {
+            "accuracy": 0.36865234375,
+            "characters": 16384,
+            "cross_entropy": 2.1663094758987427,
+            "optimization_cross_entropy": 2.103640615940094,
+            "optimization_temperature": 1.25,
+            "perplexity": 8.726020952873013
+          }
+        },
+        {
+          "elapsed_seconds": 79.18480204200023,
+          "gradient_norm": 2.2776668071746826,
+          "learning_rate": 0.002,
+          "objective": 1.3281238079071045,
+          "step": 250,
+          "validation": {
+            "accuracy": 0.5115966796875,
+            "characters": 16384,
+            "cross_entropy": 1.566952884197235,
+            "optimization_cross_entropy": 1.5648196339607239,
+            "optimization_temperature": 1.25,
+            "perplexity": 4.792024072117006
+          }
+        },
+        {
+          "elapsed_seconds": 161.3134137080051,
+          "gradient_norm": 2.3958330154418945,
+          "learning_rate": 0.0019114722339182856,
+          "objective": 1.2538697719573975,
+          "step": 500,
+          "validation": {
+            "accuracy": 0.521240234375,
+            "characters": 16384,
+            "cross_entropy": 1.547443300485611,
+            "optimization_cross_entropy": 1.5386599600315094,
+            "optimization_temperature": 1.25,
+            "perplexity": 4.699439754710699
+          }
+        },
+        {
+          "elapsed_seconds": 238.44010700000217,
+          "gradient_norm": 1.8461817502975464,
+          "learning_rate": 0.0016620431515480163,
+          "objective": 1.1971698999404907,
+          "step": 750,
+          "validation": {
+            "accuracy": 0.53424072265625,
+            "characters": 16384,
+            "cross_entropy": 1.5091377794742584,
+            "optimization_cross_entropy": 1.500998318195343,
+            "optimization_temperature": 1.25,
+            "perplexity": 4.522829436266079
+          }
+        },
+        {
+          "elapsed_seconds": 319.1625940829981,
+          "gradient_norm": 1.6425690650939941,
+          "learning_rate": 0.0013011693454550814,
+          "objective": 1.1908639669418335,
+          "step": 1000,
+          "validation": {
+            "accuracy": 0.53326416015625,
+            "characters": 16384,
+            "cross_entropy": 1.502340942621231,
+            "optimization_cross_entropy": 1.5154231190681458,
+            "optimization_temperature": 1.25,
+            "perplexity": 4.492192736741422
+          }
+        },
+        {
+          "elapsed_seconds": 404.11625679198187,
+          "gradient_norm": 1.4858787059783936,
+          "learning_rate": 0.0009004066766227601,
+          "objective": 1.1887407302856445,
+          "step": 1250,
+          "validation": {
+            "accuracy": 0.5408935546875,
+            "characters": 16384,
+            "cross_entropy": 1.518019199371338,
+            "optimization_cross_entropy": 1.5056523084640503,
+            "optimization_temperature": 1.25,
+            "perplexity": 4.563177492407145
+          }
+        },
+        {
+          "elapsed_seconds": 493.03725312498864,
+          "gradient_norm": 1.8344635963439941,
+          "learning_rate": 0.0005392203689993608,
+          "objective": 1.1258399486541748,
+          "step": 1500,
+          "validation": {
+            "accuracy": 0.5462646484375,
+            "characters": 16384,
+            "cross_entropy": 1.4909652769565582,
+            "optimization_cross_entropy": 1.4777335822582245,
+            "optimization_temperature": 1.25,
+            "perplexity": 4.441380612880671
+          }
+        },
+        {
+          "elapsed_seconds": 575.6308550419926,
+          "gradient_norm": 1.4239320755004883,
+          "learning_rate": 0.00028922824793269503,
+          "objective": 1.163155436515808,
+          "step": 1750,
+          "validation": {
+            "accuracy": 0.54852294921875,
+            "characters": 16384,
+            "cross_entropy": 1.488079160451889,
+            "optimization_cross_entropy": 1.4837854206562042,
+            "optimization_temperature": 1.25,
+            "perplexity": 4.428580750821775
+          }
+        },
+        {
+          "elapsed_seconds": 657.8009360419819,
+          "gradient_norm": 1.5190564393997192,
+          "learning_rate": 0.0002,
+          "objective": 1.132954716682434,
+          "step": 2000,
+          "validation": {
+            "accuracy": 0.55426025390625,
+            "characters": 16384,
+            "cross_entropy": 1.4862521588802338,
+            "optimization_cross_entropy": 1.4810882210731506,
+            "optimization_temperature": 1.25,
+            "perplexity": 4.420497113487432
+          }
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.5462646484375,
+        "characters": 16384,
+        "cross_entropy": 1.4909652769565582,
+        "optimization_cross_entropy": 1.4777335822582245,
+        "optimization_temperature": 1.25,
+        "perplexity": 4.441380612880671
+      },
+      "stage": "integer",
+      "steps": 2000
+    }
+  },
+  "source_float_checkpoint": "generated/run4/factorio-lm-quality-float.pt",
+  "source_sparse_checkpoint": "generated/run5/factorio-lm-sparse-float.pt",
+  "winning_exact_checkpoint": "generated/run6/factorio-lm-quality-exact.json"
+}

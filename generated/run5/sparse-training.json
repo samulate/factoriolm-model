@@ -1,0 +1,16 @@
+{
+  "best_step": 1500,
+  "checkpoint": "generated/run5/factorio-lm-sparse-float.pt",
+  "elapsed_seconds": 0.108115542010637,
+  "log": [],
+  "metrics": {
+    "accuracy": 0.6239013671875,
+    "characters": 16384,
+    "cross_entropy": 1.220276653766632,
+    "optimization_cross_entropy": 1.220276653766632,
+    "optimization_temperature": 1.0,
+    "perplexity": 3.3881249415011983
+  },
+  "stage": "sparse",
+  "steps": 1500
+}

@@ -1,0 +1,857 @@
+{
+  "configuration": {
+    "aligned_float_learning_rate": 0.00025,
+    "aligned_float_steps": 1000,
+    "aligned_integer_learning_rate": 0.00025,
+    "aligned_integer_steps": 2500,
+    "aligned_maximum_answer_characters": 64,
+    "answer_weight": 1.0,
+    "batch_size": 64,
+    "device": "cpu",
+    "distillation_weight": 0.35,
+    "evaluation_characters": 16384,
+    "evaluation_interval": 250,
+    "exact_evaluation_characters": 2048,
+    "float_learning_rate": 0.00075,
+    "float_steps": 2500,
+    "generation_length": 128,
+    "gradient_clip": 1.0,
+    "integer_logit_temperature": 1.125,
+    "integer_qat_learning_rate": 0.00075,
+    "integer_qat_steps": 2500,
+    "maximum_answer_characters": 120,
+    "maximum_question_characters": 59,
+    "maximum_scale_denominator": 256,
+    "minimum_answer_characters": 4,
+    "minimum_question_characters": 8,
+    "nonzero_weights": 25100,
+    "requested_source_rows": 200000,
+    "seed": 4107,
+    "sequence_length": 64,
+    "source_page_size": 100,
+    "validation_fraction": 0.08,
+    "warmup_steps": 150,
+    "weight_decay": 0.01,
+    "weight_limit": 7
+  },
+  "data": {
+    "acceptance_rate": 0.02822011066169631,
+    "accepted_examples": 24573,
+    "dataset": {
+      "bytes": 154533089,
+      "dataset": "starhopp3r/TinyChat",
+      "dataset_card": "https://huggingface.co/datasets/starhopp3r/TinyChat",
+      "license": "CC BY-NC 4.0",
+      "parquet_path": "generated/run7/tinychat-0000.parquet",
+      "parquet_sha256": "b6f660e16010c1832d3f4d459a9701e049053693c4ef7060ecbd9f2ff6e5eb7f",
+      "path": "generated/run7/tinychat-source-rows.jsonl",
+      "requested_source_rows": 200000,
+      "selected_source_rows": 200000,
+      "selection": "exact deterministic evenly spaced sample from official converted train shard 0000.parquet",
+      "sha256": "87e2ea324630a2974bf06a9c4efe6601719106f3a116f6d985dde02817427c76",
+      "source_page_size": 100,
+      "source_revision": "refs/convert/parquet",
+      "source_shard_rows": 675994,
+      "source_split": "train",
+      "total_source_rows": 1000000
+    },
+    "format": "Q question\\nA answer\\n",
+    "parsing": "Parse [INST] markers before normalization; select the final complete question from the user turn and first complete assistant sentence without character truncation.",
+    "source_conversation_pairs": 870762,
+    "splits": {
+      "train": {
+        "answer_characters": 1588701,
+        "answer_mask": "generated/run7/tinychat-train.mask.bin",
+        "characters": 2860177,
+        "examples": 22529,
+        "mask_sha256": "f2e8e9e517b2c9c9141f19147e96ee15eb90d4d611af4e3d14bf944d7e97b5b4",
+        "records": "generated/run7/tinychat-train.jsonl",
+        "text": "generated/run7/tinychat-train.txt",
+        "token_sha256": "5cfd033cccdc00eab26013e59babfec3fc07a52b80eb18e1edf494f238bf3486",
+        "tokens": "generated/run7/tinychat-train.bin"
+      },
+      "validation": {
+        "answer_characters": 145436,
+        "answer_mask": "generated/run7/tinychat-validation.mask.bin",
+        "characters": 261239,
+        "examples": 2044,
+        "mask_sha256": "b841d439599283b42a0920155ac31ec65bd0e45e121913c2c984324b4fdef205",
+        "records": "generated/run7/tinychat-validation.jsonl",
+        "text": "generated/run7/tinychat-validation.txt",
+        "token_sha256": "2ab59eab1930f655f9e88d83afebcf2c40507e11d87f42032b36bd1d82014354",
+        "tokens": "generated/run7/tinychat-validation.bin"
+      }
+    }
+  },
+  "exact_checkpoint": "generated/run7/factorio-lm-tinychat-exact.json",
+  "generations": {
+    "Can dogs be good friends": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feel a bit is a bit is a beautiful and a lovely day it is a bit can be happy too and change and can be happy today it is a",
+      "characters": 127,
+      "generated": "I am feel a bit is a bit is a beautiful and a lovely day it is a bit can be happy too and change and can be happy today it is a ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Can dogs be good friends\nA ",
+      "unique_word_ratio": 0.5151515151515151,
+      "words": 33
+    },
+    "How are you today": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I also feel happy today it is a beautiful and happy today it is a bear and a bit feel a bit feeling and a bit feeling a bit beau",
+      "characters": 128,
+      "generated": "I also feel happy today it is a beautiful and happy today it is a bear and a bit feel a bit feeling and a bit feeling a bit beau",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How are you today\nA ",
+      "unique_word_ratio": 0.4666666666666667,
+      "words": 30
+    },
+    "How can I help a friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feeling a bit is a bit but something a bit in the bear and change and happy and happy today",
+      "characters": 96,
+      "generated": "I am feeling a bit is a bit but something a bit in the bear and change and happy and happy today\nA I am feel happy today it is a",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How can I help a friend\nA ",
+      "unique_word_ratio": 0.6818181818181818,
+      "words": 22
+    },
+    "How do I make a new friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am also feel a bit in a bit but happy and a land happy today",
+      "characters": 62,
+      "generated": "I am also feel a bit in a bit but happy and a land happy today\nA Yes it is a beautiful and be but happy today it is a beautiful ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q How do I make a new friend\nA ",
+      "unique_word_ratio": 0.75,
+      "words": 16
+    },
+    "Should I share my toys": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feel happy and happy today it is a lovely day and a lovely day",
+      "characters": 67,
+      "generated": "I am feel happy and happy today it is a lovely day and a lovely day\nA I am feel happy today it is a beautiful and happy thank yo",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Should I share my toys\nA ",
+      "unique_word_ratio": 0.6875,
+      "words": 16
+    },
+    "What do plants need to grow": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feeling a bit and happy today it is a bit is a beautiful and a lovely day",
+      "characters": 78,
+      "generated": "I am feeling a bit and happy today it is a bit is a beautiful and a lovely day\nA I am feel a bit does and a bit does feel happy ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What do plants need to grow\nA ",
+      "unique_word_ratio": 0.6842105263157895,
+      "words": 19
+    },
+    "What happens when it rains": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I also feel a bit is a bit feel happy today it is a bit feel a bit feel a bit is a bit be very happy today",
+      "characters": 106,
+      "generated": "I also feel a bit is a bit feel happy today it is a bit feel a bit feel a bit is a bit be very happy today\nA I am feel a bit in ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What happens when it rains\nA ",
+      "unique_word_ratio": 0.39285714285714285,
+      "words": 28
+    },
+    "What makes people happy": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I also feel happy today it is a good and happy today it is a lovely day",
+      "characters": 71,
+      "generated": "I also feel happy today it is a good and happy today it is a lovely day\nA I have a big that see a lovely day and a lovely day an",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What makes people happy\nA ",
+      "unique_word_ratio": 0.7058823529411765,
+      "words": 17
+    },
+    "What should I do when I feel sad": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am also feel a bit in a bit is a bit face a bit in a bit beautiful",
+      "characters": 68,
+      "generated": "I am also feel a bit in a bit is a bit face a bit in a bit beautiful\nA I am feeling a bit and a bit dad and happy too thank you ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What should I do when I feel sad\nA ",
+      "unique_word_ratio": 0.5263157894736842,
+      "words": 19
+    },
+    "Where do birds live": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am all feel happy today it is a bit is a bit disges",
+      "characters": 53,
+      "generated": "I am all feel happy today it is a bit is a bit disges\nA I have to a little and happy to see that is a bit is a bit in the beauti",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Where do birds live\nA ",
+      "unique_word_ratio": 0.7857142857142857,
+      "words": 14
+    },
+    "Why do we need to sleep": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am also feel happy too as a bit and a bit feel a bit feel a bit in a bit feel a bit is a bit feel a bit and a big a beautiful",
+      "characters": 127,
+      "generated": "I am also feel happy too as a bit and a bit feel a bit feel a bit in a bit feel a bit is a bit feel a bit and a big a beautiful\n",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why do we need to sleep\nA ",
+      "unique_word_ratio": 0.4,
+      "words": 35
+    },
+    "Why is the sky blue": {
+      "adjacent_duplicate_words": 0,
+      "answer": "I am feel happy today it is a bit day is a little a bit feel a bit in the beautiful",
+      "characters": 83,
+      "generated": "I am feel happy today it is a bit day is a little a bit feel a bit in the beautiful\nA I feel happy to see a bit be a bit but it ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why is the sky blue\nA ",
+      "unique_word_ratio": 0.6666666666666666,
+      "words": 21
+    }
+  },
+  "initialization": {
+    "architecture_changed": false,
+    "float": "generated/run6d/factorio-lm-cleaned-float.pt",
+    "integer": "generated/run6d/factorio-lm-cleaned-int4.pt",
+    "mask_changed": false
+  },
+  "metrics": {
+    "exact": {
+      "all_characters": {
+        "accuracy": 0.5361328125,
+        "characters": 2048,
+        "cross_entropy": 1.4823363953219852,
+        "perplexity": 4.40322133798159
+      },
+      "answer_characters": {
+        "accuracy": 0.5340442986054142,
+        "characters": 1219,
+        "cross_entropy": 1.5024058265494042,
+        "perplexity": 4.492484217308392
+      }
+    },
+    "float": {
+      "all_characters": {
+        "accuracy": 0.660400390625,
+        "characters": 16384,
+        "cross_entropy": 1.0802188515663147,
+        "perplexity": 2.945324069321912
+      },
+      "answer_characters": {
+        "accuracy": 0.6573554788610871,
+        "characters": 9272,
+        "cross_entropy": 1.1107985041489161,
+        "perplexity": 3.036782309827387
+      },
+      "temperature": 1.0
+    },
+    "qat": {
+      "all_characters": {
+        "accuracy": 0.5537109375,
+        "characters": 16384,
+        "cross_entropy": 1.4388172924518585,
+        "perplexity": 4.21570691898059
+      },
+      "answer_characters": {
+        "accuracy": 0.5470232959447799,
+        "characters": 9272,
+        "cross_entropy": 1.470165947164514,
+        "perplexity": 4.34995694419114
+      },
+      "temperature": 1.125
+    },
+    "run6d_exact_on_chat": {
+      "all_characters": {
+        "accuracy": 0.4267578125,
+        "characters": 2048,
+        "cross_entropy": 2.089458852745733,
+        "perplexity": 8.080541218244106
+      },
+      "answer_characters": {
+        "accuracy": 0.4413453650533224,
+        "characters": 1219,
+        "cross_entropy": 1.9853838606743113,
+        "perplexity": 7.281842061840002
+      }
+    }
+  },
+  "quality_gate": {
+    "automatic_generation_gate": true,
+    "numerically_better_than_run6d_on_chat": true,
+    "total_questions": 12,
+    "usable_answers": 12
+  },
+  "range_report": "generated/run7/range-report.json",
+  "run": 7,
+  "run6d_generations": {
+    "Can dogs be good friends": {
+      "adjacent_duplicate_words": 0,
+      "answer": "was a big bug ball said I sand share the beaut because friends and have fun",
+      "characters": 75,
+      "generated": "was a big bug ball said I sand share the beaut because friends and have fun\nHe said I want for he said not but he dog came and s",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Can dogs be good friends\nA ",
+      "unique_word_ratio": 1.0,
+      "words": 16
+    },
+    "How are you today": {
+      "adjacent_duplicate_words": 1,
+      "answer": "like fin a big buan and fun and have for a big bug and said I saw a big big and said the bear and he wanted to go but it was a b",
+      "characters": 128,
+      "generated": "like fin a big buan and fun and have for a big bug and said I saw a big big and said the bear and he wanted to go but it was a b",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 1,
+      "prompt": "Q How are you today\nA ",
+      "unique_word_ratio": 0.6764705882352942,
+      "words": 34
+    },
+    "How can I help a friend": {
+      "adjacent_duplicate_words": 0,
+      "answer": "with he wanted to play with he with the beach",
+      "characters": 45,
+      "generated": "with he wanted to play with he with the beach\nHe liked the big and like the bear and said but he looked and said not big bear fe",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 1,
+      "prompt": "Q How can I help a friend\nA ",
+      "unique_word_ratio": 0.7,
+      "words": 10
+    },
+    "How do I make a new friend": {
+      "adjacent_duplicate_words": 2,
+      "answer": "like a big but he wanted to play with the big but the bird was far and find a big find a big big big bird",
+      "characters": 105,
+      "generated": "like a big but he wanted to play with the big but the bird was far and find a big find a big big big bird\nHe looked and became b",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 1,
+      "prompt": "Q How do I make a new friend\nA ",
+      "unique_word_ratio": 0.5769230769230769,
+      "words": 26
+    },
+    "Should I share my toys": {
+      "adjacent_duplicate_words": 1,
+      "answer": "like the bird was very far a big bug and have for find find a big but and dad was a big bear and said not but he walk but he cou",
+      "characters": 128,
+      "generated": "like the bird was very far a big bug and have for find find a big but and dad was a big bear and said not but he walk but he cou",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 1,
+      "prompt": "Q Should I share my toys\nA ",
+      "unique_word_ratio": 0.65625,
+      "words": 32
+    },
+    "What do plants need to grow": {
+      "adjacent_duplicate_words": 0,
+      "answer": "big bear friend was a big but he liked the big wanted to help but was share and bear with the bird and said the bear",
+      "characters": 116,
+      "generated": "big bear friend was a big but he liked the big wanted to help but was share and bear with the bird and said the bear\nHe was very",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 1,
+      "prompt": "Q What do plants need to grow\nA ",
+      "unique_word_ratio": 0.6538461538461539,
+      "words": 26
+    },
+    "What happens when it rains": {
+      "adjacent_duplicate_words": 1,
+      "answer": "with his friends and had a big bull was a big big firsh found a big fing",
+      "characters": 72,
+      "generated": "with his friends and had a big bull was a big big firsh found a big fing\nHe wanted to play with the beaut but he looked and said",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What happens when it rains\nA ",
+      "unique_word_ratio": 0.7058823529411765,
+      "words": 17
+    },
+    "What makes people happy": {
+      "adjacent_duplicate_words": 1,
+      "answer": "big but he want to play with him was a big box with his bean with a big big but was a big but was a big but was a big bear but w",
+      "characters": 128,
+      "generated": "big but he want to play with him was a big box with his bean with a big big but was a big but was a big but was a big bear but w",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 1,
+      "prompt": "Q What makes people happy\nA ",
+      "unique_word_ratio": 0.4411764705882353,
+      "words": 34
+    },
+    "What should I do when I feel sad": {
+      "adjacent_duplicate_words": 0,
+      "answer": "big bear and said I said I said Yes far you beaut bear fin felt and became but he was a bear and said kettent food was a big bea",
+      "characters": 128,
+      "generated": "big bear and said I said I said Yes far you beaut bear fin felt and became but he was a bear and said kettent food was a big bea",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q What should I do when I feel sad\nA ",
+      "unique_word_ratio": 0.6333333333333333,
+      "words": 30
+    },
+    "Where do birds live": {
+      "adjacent_duplicate_words": 0,
+      "answer": "had a big bear beaut but was the big bird was a big find with a big ball bear friend",
+      "characters": 84,
+      "generated": "had a big bear beaut but was the big bird was a big find with a big ball bear friend\nThe bird was said but he look you but him w",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Where do birds live\nA ",
+      "unique_word_ratio": 0.65,
+      "words": 20
+    },
+    "Why do we need to sleep": {
+      "adjacent_duplicate_words": 0,
+      "answer": "big said the bird and said He wanted the big bear and can said you but he looked and said not but he wanted to have you and can",
+      "characters": 127,
+      "generated": "big said the bird and said He wanted the big bear and can said you but he looked and said not but he wanted to have you and can ",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why do we need to sleep\nA ",
+      "unique_word_ratio": 0.5172413793103449,
+      "words": 29
+    },
+    "Why is the sky blue": {
+      "adjacent_duplicate_words": 0,
+      "answer": "big bear and said the bird and said the big bird and said He look you be fun",
+      "characters": 76,
+      "generated": "big bear and said the bird and said the big bird and said He look you be fun\nHe was very happy and had a big flooke a big big bi",
+      "has_sentence_boundary": false,
+      "maximum_character_run": 2,
+      "prompt": "Q Why is the sky blue\nA ",
+      "unique_word_ratio": 0.6111111111111112,
+      "words": 18
+    }
+  },
+  "sparsity": {
+    "mask_sha256": "1931291c69fe1103ffe7df725ba2b2ed5cbbdadbf13565dbc2e7a658f9474708",
+    "per_matrix": {
+      "layers.0.ffn_down": 1004,
+      "layers.0.ffn_up": 1004,
+      "layers.0.key": 502,
+      "layers.0.output": 502,
+      "layers.0.query": 502,
+      "layers.0.value": 502,
+      "layers.1.ffn_down": 1004,
+      "layers.1.ffn_up": 1004,
+      "layers.1.key": 502,
+      "layers.1.output": 502,
+      "layers.1.query": 502,
+      "layers.1.value": 502,
+      "layers.2.ffn_down": 1004,
+      "layers.2.ffn_up": 1004,
+      "layers.2.key": 502,
+      "layers.2.output": 502,
+      "layers.2.query": 502,
+      "layers.2.value": 502,
+      "layers.3.ffn_down": 1004,
+      "layers.3.ffn_up": 1004,
+      "layers.3.key": 502,
+      "layers.3.output": 502,
+      "layers.3.query": 502,
+      "layers.3.value": 502,
+      "layers.4.ffn_down": 1004,
+      "layers.4.ffn_up": 1004,
+      "layers.4.key": 502,
+      "layers.4.output": 502,
+      "layers.4.query": 502,
+      "layers.4.value": 502,
+      "layers.5.ffn_down": 1004,
+      "layers.5.ffn_up": 1004,
+      "layers.5.key": 502,
+      "layers.5.output": 502,
+      "layers.5.query": 502,
+      "layers.5.value": 502,
+      "lm_head": 1004
+    },
+    "per_module": {
+      "ffn_down": 6024,
+      "ffn_up": 6024,
+      "key": 3012,
+      "lm_head": 1004,
+      "output": 3012,
+      "query": 3012,
+      "value": 3012
+    },
+    "total_nonzeros": 25100
+  },
+  "targeted_correction": {
+    "float": {
+      "checkpoint": "generated/run7/factorio-lm-tinychat-float.pt",
+      "decision": "Use the saved float teacher for int4 refinement.",
+      "metrics": {
+        "accuracy": 0.68804931640625,
+        "characters": 16384,
+        "cross_entropy": 1.0360577798945414,
+        "perplexity": 2.8180855738653525,
+        "temperature": 1.0
+      },
+      "stage": "aligned-float-audit",
+      "steps": 0
+    },
+    "integer": {
+      "best_step": 2500,
+      "checkpoint": "generated/run7/factorio-lm-tinychat-aligned-int4.pt",
+      "elapsed_seconds": 1170.0705925840011,
+      "log": [
+        {
+          "elapsed_seconds": 27.63117841699568,
+          "gradient_norm": 8.458354949951172,
+          "learning_rate": 1.6666666666666667e-06,
+          "objective": 0.8833689093589783,
+          "step": 1,
+          "validation": {
+            "accuracy": 0.588134765625,
+            "characters": 16384,
+            "cross_entropy": 1.3610288769964427,
+            "perplexity": 3.9002040683960604,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 126.97045058400545,
+          "gradient_norm": 7.961427688598633,
+          "learning_rate": 0.00024901532690654025,
+          "objective": 1.1970921754837036,
+          "step": 250,
+          "validation": {
+            "accuracy": 0.58453369140625,
+            "characters": 16384,
+            "cross_entropy": 1.347816380657605,
+            "perplexity": 3.849011571481622,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 227.45993979199557,
+          "gradient_norm": 7.810628414154053,
+          "learning_rate": 0.00023796605608144845,
+          "objective": 1.0492660999298096,
+          "step": 500,
+          "validation": {
+            "accuracy": 0.59228515625,
+            "characters": 16384,
+            "cross_entropy": 1.3167842717376743,
+            "perplexity": 3.7314028857983854,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 323.8467797500052,
+          "gradient_norm": 6.862869739532471,
+          "learning_rate": 0.00021578964937055988,
+          "objective": 1.0700803995132446,
+          "step": 750,
+          "validation": {
+            "accuracy": 0.57769775390625,
+            "characters": 16384,
+            "cross_entropy": 1.3255895279364722,
+            "perplexity": 3.7644039222583046,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 428.8317794169998,
+          "gradient_norm": 6.343545913696289,
+          "learning_rate": 0.0001849422586380495,
+          "objective": 0.6995879411697388,
+          "step": 1000,
+          "validation": {
+            "accuracy": 0.59283447265625,
+            "characters": 16384,
+            "cross_entropy": 1.307494815907944,
+            "perplexity": 3.6969006849539094,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 533.4417132499948,
+          "gradient_norm": 8.398651123046875,
+          "learning_rate": 0.0001488403921235225,
+          "objective": 1.3432222604751587,
+          "step": 1250,
+          "validation": {
+            "accuracy": 0.596923828125,
+            "characters": 16384,
+            "cross_entropy": 1.2978833767508604,
+            "perplexity": 3.6615383625854694,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 658.2465050000028,
+          "gradient_norm": 6.901612758636475,
+          "learning_rate": 0.00011148251846510651,
+          "objective": 1.0891070365905762,
+          "step": 1500,
+          "validation": {
+            "accuracy": 0.60406494140625,
+            "characters": 16384,
+            "cross_entropy": 1.2857758266723067,
+            "perplexity": 3.6174734011585903,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 785.5272669590049,
+          "gradient_norm": 7.50303316116333,
+          "learning_rate": 7.700621559523889e-05,
+          "objective": 0.6244303584098816,
+          "step": 1750,
+          "validation": {
+            "accuracy": 0.60235595703125,
+            "characters": 16384,
+            "cross_entropy": 1.2787368373442405,
+            "perplexity": 3.5920994527369627,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 886.5175869170052,
+          "gradient_norm": 7.543396949768066,
+          "learning_rate": 4.922991256185503e-05,
+          "objective": 0.930163562297821,
+          "step": 2000,
+          "validation": {
+            "accuracy": 0.60076904296875,
+            "characters": 16384,
+            "cross_entropy": 1.2723735274523165,
+            "perplexity": 3.5693143818738196,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 989.0947792499937,
+          "gradient_norm": 8.941683769226074,
+          "learning_rate": 3.122997874096545e-05,
+          "objective": 0.9332172274589539,
+          "step": 2250,
+          "validation": {
+            "accuracy": 0.60650634765625,
+            "characters": 16384,
+            "cross_entropy": 1.2664200121754448,
+            "perplexity": 3.5481275448318,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 1115.3556737089966,
+          "gradient_norm": 4.91553258895874,
+          "learning_rate": 2.5e-05,
+          "objective": 0.8016101121902466,
+          "step": 2500,
+          "validation": {
+            "accuracy": 0.60821533203125,
+            "characters": 16384,
+            "cross_entropy": 1.2596901277637471,
+            "perplexity": 3.524329226364778,
+            "temperature": 1.125
+          }
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.60821533203125,
+        "characters": 16384,
+        "cross_entropy": 1.2596901277637471,
+        "perplexity": 3.524329226364778,
+        "temperature": 1.125
+      },
+      "stage": "aligned-integer",
+      "steps": 2500
+    },
+    "maximum_answer_characters": 64,
+    "reason": "Align answer targets with their questions and weight the first 32 characters.",
+    "train_examples": 6358,
+    "validation_examples": 545,
+    "weighted_train_targets": 984461,
+    "weighted_validation_targets": 84895
+  },
+  "training": {
+    "float": {
+      "checkpoint": "generated/run7/factorio-lm-tinychat-float.pt",
+      "decision": "Use the saved float teacher for int4 refinement.",
+      "metrics": {
+        "accuracy": 0.68804931640625,
+        "characters": 16384,
+        "cross_entropy": 1.0360577798945414,
+        "perplexity": 2.8180855738653525,
+        "temperature": 1.0
+      },
+      "stage": "aligned-float-audit",
+      "steps": 0
+    },
+    "integer_qat": {
+      "best_step": 2500,
+      "checkpoint": "generated/run7/factorio-lm-tinychat-aligned-int4.pt",
+      "elapsed_seconds": 1170.0705925840011,
+      "log": [
+        {
+          "elapsed_seconds": 27.63117841699568,
+          "gradient_norm": 8.458354949951172,
+          "learning_rate": 1.6666666666666667e-06,
+          "objective": 0.8833689093589783,
+          "step": 1,
+          "validation": {
+            "accuracy": 0.588134765625,
+            "characters": 16384,
+            "cross_entropy": 1.3610288769964427,
+            "perplexity": 3.9002040683960604,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 126.97045058400545,
+          "gradient_norm": 7.961427688598633,
+          "learning_rate": 0.00024901532690654025,
+          "objective": 1.1970921754837036,
+          "step": 250,
+          "validation": {
+            "accuracy": 0.58453369140625,
+            "characters": 16384,
+            "cross_entropy": 1.347816380657605,
+            "perplexity": 3.849011571481622,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 227.45993979199557,
+          "gradient_norm": 7.810628414154053,
+          "learning_rate": 0.00023796605608144845,
+          "objective": 1.0492660999298096,
+          "step": 500,
+          "validation": {
+            "accuracy": 0.59228515625,
+            "characters": 16384,
+            "cross_entropy": 1.3167842717376743,
+            "perplexity": 3.7314028857983854,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 323.8467797500052,
+          "gradient_norm": 6.862869739532471,
+          "learning_rate": 0.00021578964937055988,
+          "objective": 1.0700803995132446,
+          "step": 750,
+          "validation": {
+            "accuracy": 0.57769775390625,
+            "characters": 16384,
+            "cross_entropy": 1.3255895279364722,
+            "perplexity": 3.7644039222583046,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 428.8317794169998,
+          "gradient_norm": 6.343545913696289,
+          "learning_rate": 0.0001849422586380495,
+          "objective": 0.6995879411697388,
+          "step": 1000,
+          "validation": {
+            "accuracy": 0.59283447265625,
+            "characters": 16384,
+            "cross_entropy": 1.307494815907944,
+            "perplexity": 3.6969006849539094,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 533.4417132499948,
+          "gradient_norm": 8.398651123046875,
+          "learning_rate": 0.0001488403921235225,
+          "objective": 1.3432222604751587,
+          "step": 1250,
+          "validation": {
+            "accuracy": 0.596923828125,
+            "characters": 16384,
+            "cross_entropy": 1.2978833767508604,
+            "perplexity": 3.6615383625854694,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 658.2465050000028,
+          "gradient_norm": 6.901612758636475,
+          "learning_rate": 0.00011148251846510651,
+          "objective": 1.0891070365905762,
+          "step": 1500,
+          "validation": {
+            "accuracy": 0.60406494140625,
+            "characters": 16384,
+            "cross_entropy": 1.2857758266723067,
+            "perplexity": 3.6174734011585903,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 785.5272669590049,
+          "gradient_norm": 7.50303316116333,
+          "learning_rate": 7.700621559523889e-05,
+          "objective": 0.6244303584098816,
+          "step": 1750,
+          "validation": {
+            "accuracy": 0.60235595703125,
+            "characters": 16384,
+            "cross_entropy": 1.2787368373442405,
+            "perplexity": 3.5920994527369627,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 886.5175869170052,
+          "gradient_norm": 7.543396949768066,
+          "learning_rate": 4.922991256185503e-05,
+          "objective": 0.930163562297821,
+          "step": 2000,
+          "validation": {
+            "accuracy": 0.60076904296875,
+            "characters": 16384,
+            "cross_entropy": 1.2723735274523165,
+            "perplexity": 3.5693143818738196,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 989.0947792499937,
+          "gradient_norm": 8.941683769226074,
+          "learning_rate": 3.122997874096545e-05,
+          "objective": 0.9332172274589539,
+          "step": 2250,
+          "validation": {
+            "accuracy": 0.60650634765625,
+            "characters": 16384,
+            "cross_entropy": 1.2664200121754448,
+            "perplexity": 3.5481275448318,
+            "temperature": 1.125
+          }
+        },
+        {
+          "elapsed_seconds": 1115.3556737089966,
+          "gradient_norm": 4.91553258895874,
+          "learning_rate": 2.5e-05,
+          "objective": 0.8016101121902466,
+          "step": 2500,
+          "validation": {
+            "accuracy": 0.60821533203125,
+            "characters": 16384,
+            "cross_entropy": 1.2596901277637471,
+            "perplexity": 3.524329226364778,
+            "temperature": 1.125
+          }
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.60821533203125,
+        "characters": 16384,
+        "cross_entropy": 1.2596901277637471,
+        "perplexity": 3.524329226364778,
+        "temperature": 1.125
+      },
+      "stage": "aligned-integer",
+      "steps": 2500
+    }
+  }
+}

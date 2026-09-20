@@ -1,0 +1,63 @@
+{
+  "accepted_examples": 20451,
+  "alphabet": "\n abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,?!;'\"-()",
+  "digit_policy": "reject the complete question/answer example before normalization",
+  "digit_rejected_examples": 0,
+  "format": "Q question-with-punctuation\\nA answer-with-punctuation\\n",
+  "run": "7P",
+  "source": {
+    "path": "generated/run7/tinychat-source-rows.jsonl",
+    "rows": 200000,
+    "selection": "deterministic 200000-row Run 7 TinyChat sample",
+    "sha256": "87e2ea324630a2974bf06a9c4efe6601719106f3a116f6d985dde02817427c76"
+  },
+  "source_conversation_pairs": 870762,
+  "splits": {
+    "train": {
+      "answer_characters": 1356585,
+      "answer_mask": "generated/run7p/tinychat-punctuation-train.mask.bin",
+      "characters": 2413445,
+      "examples": 18822,
+      "mask_sha256": "3846c9777d28108292a8acc4b5179b63159c92a26740a819e0652e07369536d9",
+      "punctuation_counts": {
+        "!": 35,
+        "\"": 6,
+        "'": 1950,
+        "(": 0,
+        ")": 0,
+        ",": 20417,
+        "-": 135,
+        ".": 18104,
+        ";": 998,
+        "?": 19505
+      },
+      "records": "generated/run7p/tinychat-punctuation-train.jsonl",
+      "text": "generated/run7p/tinychat-punctuation-train.txt",
+      "token_sha256": "d3db2381595c5a7179776de23c0ec8d006d56e4b818d3d8cc32a40b7cc175f77",
+      "tokens": "generated/run7p/tinychat-punctuation-train.bin"
+    },
+    "validation": {
+      "answer_characters": 117352,
+      "answer_mask": "generated/run7p/tinychat-punctuation-validation.mask.bin",
+      "characters": 209601,
+      "examples": 1629,
+      "mask_sha256": "fa7fa0c3d5043b439947063537111bcda664cee61c60ef42ee83965adc83b0e8",
+      "punctuation_counts": {
+        "!": 3,
+        "\"": 0,
+        "'": 163,
+        "(": 0,
+        ")": 0,
+        ",": 1731,
+        "-": 13,
+        ".": 1574,
+        ";": 81,
+        "?": 1681
+      },
+      "records": "generated/run7p/tinychat-punctuation-validation.jsonl",
+      "text": "generated/run7p/tinychat-punctuation-validation.txt",
+      "token_sha256": "7c5038409e9ac9a3022643e21d73d47d1029e6cbb4b51247f5c1529248d2019e",
+      "tokens": "generated/run7p/tinychat-punctuation-validation.bin"
+    }
+  }
+}

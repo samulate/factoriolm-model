@@ -1,0 +1,37 @@
+{
+  "alphabet": "\n abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+  "dataset": "roneneldan/TinyStories TinyStoriesV2-GPT4",
+  "punctuation_constraint": "The fixed 64-symbol hardware ABI has no punctuation tokens; sentence punctuation maps to newline, other punctuation to space, and quotes/apostrophes are removed.",
+  "selection": "deterministic normalized prefix of the official train and validation files",
+  "source_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "splits": {
+    "train": {
+      "ascii_typography_after_translation": 262006,
+      "document_separators_mapped_to_boundaries": 42710,
+      "normalized_characters": 32943766,
+      "punctuation_or_symbols_mapped_to_boundaries": 1157068,
+      "selected_characters": 24000000,
+      "source": "/private/tmp/TinyStoriesV2-GPT4-train-prefix.txt",
+      "source_characters": 34985695,
+      "text": "generated/run6d/tinystories-v2-gpt4-train.txt",
+      "text_sha256": "99c7ee5b98b97f2cbb285eae6a6f0e6a6d9eef2f1b14ad658dde49e4a414310a",
+      "token_sha256": "61dc243f8b87f24867344ae36d4600636a12c9fad57220213e4c3f7feac3163c",
+      "tokens": "generated/run6d/tinystories-v2-gpt4-train.bin",
+      "unsupported_removed": 259136
+    },
+    "validation": {
+      "ascii_typography_after_translation": 37115,
+      "document_separators_mapped_to_boundaries": 6156,
+      "normalized_characters": 4705955,
+      "punctuation_or_symbols_mapped_to_boundaries": 165110,
+      "selected_characters": 2000000,
+      "source": "/private/tmp/TinyStoriesV2-GPT4-valid-prefix.txt",
+      "source_characters": 4997978,
+      "text": "generated/run6d/tinystories-v2-gpt4-validation.txt",
+      "text_sha256": "f7c35a8826d3ded1a85288ff4f79a1a8328ade250489f4b999f1605169a74435",
+      "token_sha256": "4e849db6f0ff8f1bd650874e545b5437ca51b79b91c47c8a321a81e7f25accca",
+      "tokens": "generated/run6d/tinystories-v2-gpt4-validation.bin",
+      "unsupported_removed": 36675
+    }
+  }
+}

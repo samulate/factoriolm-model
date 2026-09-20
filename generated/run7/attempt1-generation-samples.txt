@@ -1,0 +1,67 @@
+QUESTION: How are you today
+PROMPT: 'Q How are you today\nA '
+RUN 7 EXACT: I am feel sea watch and happy to can be for and surprising and and face and can be feel and start and can be some for and feelin
+RUN 6D EXACT: like fin a big buan and fun and have for a big bug and said I saw a big big and said the bear and he wanted to go but it was a b
+
+QUESTION: Why is the sky blue
+PROMPT: 'Q Why is the sky blue\nA '
+RUN 7 EXACT: I feel happy today to bright something and share and bad and happy to see happy to see happy to see share and can feel happy to 
+RUN 6D EXACT: big bear and said the bird and said the big bird and said He look you be fun
+He was very happy and had a big flooke a big big bi
+
+QUESTION: Can dogs be good friends
+PROMPT: 'Q Can dogs be good friends\nA '
+RUN 7 EXACT: Yes it can be happy to see seems and because happy to see share and bring sometimes and bring and sometimes and feel sad and bri
+RUN 6D EXACT: was a big bug ball said I sand share the beaut because friends and have fun
+He said I want for he said not but he dog came and s
+
+QUESTION: What do plants need to grow
+PROMPT: 'Q What do plants need to grow\nA '
+RUN 7 EXACT: I feel happy to see happy to see a bitte sometimes and see can happy to see and happy to happy to can happy to make a bring and 
+RUN 6D EXACT: big bear friend was a big but he liked the big wanted to help but was share and bear with the bird and said the bear
+He was very
+
+QUESTION: How can I help a friend
+PROMPT: 'Q How can I help a friend\nA '
+RUN 7 EXACT: I am feel sad thank you feel happy to see happy today to see a good and sad and enjoy the see seem and sometimes and a lovely da
+RUN 6D EXACT: with he wanted to play with he with the beach
+He liked the big and like the bear and said but he looked and said not big bear fe
+
+QUESTION: What happens when it rains
+PROMPT: 'Q What happens when it rains\nA '
+RUN 7 EXACT: I feel a bit seems can be feel sear and and face and can be feel stay thank you feel fear sometimes and share and such and and b
+RUN 6D EXACT: with his friends and had a big bull was a big big firsh found a big fing
+He wanted to play with the beaut but he looked and said
+
+QUESTION: Should I share my toys
+PROMPT: 'Q Should I share my toys\nA '
+RUN 7 EXACT: I feel happy too can be happy to sea that something and share and can be feel a bit feel a bit fear and friends can be formal an
+RUN 6D EXACT: like the bird was very far a big bug and have for find find a big but and dad was a big bear and said not but he walk but he cou
+
+QUESTION: What makes people happy
+PROMPT: 'Q What makes people happy\nA '
+RUN 7 EXACT: I am feel happy to say have and happy to see and and a lovel sometimes to see see see heard and and happy to share and fact and 
+RUN 6D EXACT: big but he want to play with him was a big box with his bean with a big big but was a big but was a big but was a big bear but w
+
+QUESTION: Where do birds live
+PROMPT: 'Q Where do birds live\nA '
+RUN 7 EXACT: I am feel happy to come can be feel sometimes and sad and happy to can be some can be feel happy to see happy today thank you fo
+RUN 6D EXACT: had a big bear beaut but was the big bird was a big find with a big ball bear friend
+The bird was said but he look you but him w
+
+QUESTION: What should I do when I feel sad
+PROMPT: 'Q What should I do when I feel sad\nA '
+RUN 7 EXACT: Yes it can be happy to can and be feel happy to be seems sometimes and the sunny day and and a big and sometimes and face and fe
+RUN 6D EXACT: big bear and said I said I said Yes far you beaut bear fin felt and became but he was a bear and said kettent food was a big bea
+
+QUESTION: Why do we need to sleep
+PROMPT: 'Q Why do we need to sleep\nA '
+RUN 7 EXACT: I am feel a bit feel sometimes and about you feel happy to see simplace and and feel happy to see happy to see a bit of seart to
+RUN 6D EXACT: big said the bird and said He wanted the big bear and can said you but he looked and said not but he wanted to have you and can 
+
+QUESTION: How do I make a new friend
+PROMPT: 'Q How do I make a new friend\nA '
+RUN 7 EXACT: I feel a bit see sometimes and can be very happy to can be feel fearful and sun and share and happy to sea and be feart to see h
+RUN 6D EXACT: like a big but he wanted to play with the big but the bird was far and find a big find a big big big bird
+He looked and became b
+

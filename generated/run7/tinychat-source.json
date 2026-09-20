@@ -1,0 +1,18 @@
+{
+  "bytes": 154533089,
+  "dataset": "starhopp3r/TinyChat",
+  "dataset_card": "https://huggingface.co/datasets/starhopp3r/TinyChat",
+  "license": "CC BY-NC 4.0",
+  "parquet_path": "generated/run7/tinychat-0000.parquet",
+  "parquet_sha256": "b6f660e16010c1832d3f4d459a9701e049053693c4ef7060ecbd9f2ff6e5eb7f",
+  "path": "generated/run7/tinychat-source-rows.jsonl",
+  "requested_source_rows": 200000,
+  "selected_source_rows": 200000,
+  "selection": "exact deterministic evenly spaced sample from official converted train shard 0000.parquet",
+  "sha256": "87e2ea324630a2974bf06a9c4efe6601719106f3a116f6d985dde02817427c76",
+  "source_page_size": 100,
+  "source_revision": "refs/convert/parquet",
+  "source_shard_rows": 675994,
+  "source_split": "train",
+  "total_source_rows": 1000000
+}

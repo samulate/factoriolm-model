@@ -1,0 +1,16 @@
+{
+  "current_release_preserved": true,
+  "generated_answer": "I am feeling happy today, thank you for asking, it is a beautiful day outside.",
+  "generated_128": "I am feeling happy today, thank you for asking, it is a beautiful day outside.\nQ I am also feel happy today, thank you for askin",
+  "independent_exact_emulator_match": true,
+  "model": "generated/run7p/factorio-lm-tinychat-punctuation-exact.json",
+  "model_sha256": "7da54d490f623ed729919683e0972f34cd1e9c893403bc627471be0c94753a1a",
+  "prompt": "Q How are you feeling today on this wonderful day?\nA ",
+  "prompt_length": 53,
+  "recommendation": "Best manually reviewed held-out live-demo alternative from the complete validation split. It gives a relevant, grammatical 78-character answer with two natural commas and a terminal period.",
+  "release_selected_demo_changed": false,
+  "release_selected_demo_sha256": "5279e16ec12f87548211820c7b83de772089823c335abe352b58a26ee2d7df2a",
+  "source_row": 393283,
+  "split": "validation",
+  "turn": 0
+}

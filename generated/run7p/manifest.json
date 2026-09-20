@@ -1,0 +1,17 @@
+{
+  "checkpoint": "generated/run7p/factorio-lm-tinychat-punctuation-exact.json",
+  "dataset_report": "generated/run7p/dataset-report.json",
+  "demo_alternatives": "generated/run7p/DEMO-ALTERNATIVES.md",
+  "demo_recommendation_expanded": "generated/run7p/demo-recommendation-expanded.json",
+  "diverse_prompt_search": "generated/run7p/DIVERSE-PROMPT-SEARCH.md",
+  "demo_prompt": "Q Hi there, I feel really happy today, how about you?\nA ",
+  "evaluation_report": "generated/run7p/evaluation-report.json",
+  "generation_samples": "generated/run7p/generation-samples.txt",
+  "heldout_mining": "generated/run7p/heldout-punctuation-mining.json",
+  "prompt_mining_expanded": "generated/run7p/prompt-mining-expanded.json",
+  "prompt_mining_diverse": "generated/run7p/prompt-mining-diverse.json",
+  "prompt_mining_training_patterns": "generated/run7p/prompt-mining-training-patterns.json",
+  "run": "7P",
+  "selected_demo": "generated/run7p/selected-demo.json",
+  "training_report": "generated/run7p/training-report.json"
+}
